@@ -1,0 +1,80 @@
+# Odd History Daily — daily run
+
+Instructions for the scheduled Claude run that makes and schedules one YouTube Short per day
+for the channel **Odd History Daily** (@OddHistoryDaily-u4b), owned by Juan.
+Juan does not speak English: every message to him is in **Spanish (rioplatense)**.
+Everything in the video and on YouTube is in **English for a U.S. audience**.
+
+## 0. Setup (every run starts in a fresh workspace)
+1. This repo is attached with push access and cloned. Work inside it.
+2. `pip install --break-system-packages -q edge-tts numpy pillow` and check `ffmpeg` exists.
+3. Poppins Bold must exist at `/usr/share/fonts/truetype/google-fonts/Poppins-Bold.ttf`.
+   If not, download it from `https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-Bold.ttf`
+   into that folder (create it).
+4. If HTTPS from Python fails with a certificate error, the proxy CA bundle is at `~/.ccr/ca-bundle.crt`
+   (tts_lines.py already uses it when present).
+
+## 1. Pick today's story
+- Read `log.csv` and never repeat a story. Prefer an unused one from `backlog.md`; you may find a new one.
+- A good story: true, surprising, little-known, ideally American, explainable in 25–30 seconds,
+  with a twist or a number people will repeat. Avoid gore, graphic death detail, living private people,
+  politics/religion controversies, medical or financial advice, and anything that relies on rumor.
+- **Verify every fact in at least two independent reputable sources** (encyclopedias, museums, universities,
+  major news, government archives). If a number varies between sources, use the conservative one or "about".
+  Drop any fact you cannot verify. Never invent quotes.
+- **Images:** find 6–9 images on Wikimedia Commons that are public domain / CC0 / "No restrictions"
+  (pre-1929 works, U.S. federal government works, etc.). Use the Commons API (see `pipeline/fetch_images.py`),
+  with a pause between requests: Commons rate-limits (HTTP 429). If a story has fewer than 5 usable images, pick another story.
+  Never use photos of people under 18 as the main subject, and never use copyrighted photos.
+
+## 2. Write the script
+- 6–8 lines, **65–80 words total** (≈25–30 s). One line = one sentence; that is how scenes are timed.
+- Line 1 is the hook: 5–9 words, the most surprising fact, said straight away.
+- Last line ends mid-sentence so it flows back into line 1 when the Short loops
+  (e.g. "...long after" → "Boston was hit by a tsunami of molasses.").
+- U.S. units (feet, miles, mph, °F). Short, spoken sentences. No filler ("Did you know...?").
+- Vary the format from day to day so the channel never looks templated: alternate the card types
+  (`bars` comparison, `number` big stat), framed photos, pans across newspapers/maps.
+- Voice: `en-US-ChristopherNeural`, rate `+8%` (the channel's consistent narrator).
+
+## 3. Build
+1. Create `stories/<YYYY-MM-DD>-<slug>/story.json` (copy the structure of the newest story in `stories/`).
+   `shots[i].line` = the line where the shot starts, optional `at_word` = word index in that line.
+   Pan values `x`/`y` are 0–1 positions inside the free area of the image; `zoom` ≥ 1.0.
+2. `python3 pipeline/fetch_images.py stories/<dir>`
+3. `python3 pipeline/make_short.py stories/<dir> voice`
+4. `python3 pipeline/make_short.py stories/<dir> preview` → **open `out/preview_sheet.jpg` with the Read tool and look at it.**
+   Fix crops where faces/subjects are cut or the caption covers the key detail, re-render only those scenes
+   (`... scenes 3,5`), and look again.
+5. `python3 pipeline/make_short.py stories/<dir> final` → `out/short.mp4`. Check: 20–35 s, under 50 MB,
+   and Read 2–3 frames extracted from it.
+
+## 4. Publish (Metricool → YouTube)
+1. Commit `story.json`, `img/credits.json` and the `log.csv` line to `main` (never commit `img/*.jpg` or `out/`).
+2. Put the video on the `media` branch, replacing whatever is there (keeps the repo small):
+   ```
+   git fetch origin media || true
+   git worktree add -f /tmp/media --orphan media 2>/dev/null || git worktree add -f /tmp/media media
+   rm -rf /tmp/media/*; mkdir -p /tmp/media/videos; cp stories/<dir>/out/short.mp4 /tmp/media/videos/<dir>.mp4
+   cd /tmp/media && git add -A && git commit -m "video <dir>" && git push -f origin HEAD:media
+   ```
+   Public URL: `https://raw.githubusercontent.com/<owner>/<repo>/media/videos/<dir>.mp4`
+   — check it answers 200 with `curl -sI` before using it (it can take a minute after the push).
+3. Metricool: `getBrandSettings` → blogId and timezone; confirm a YouTube network is connected.
+   Then `createScheduledPost` with:
+   - date / publicationDate: **today 19:00 America/New_York** (if that has passed, tomorrow 19:00)
+   - providers `[{"network":"youtube"}]`, media `[<raw URL>]`, text = description
+   - youtubeData: `{"title": <title>, "type": "short", "privacy": "public", "madeForKids": false,
+     "isAiGeneratedContent": false, "category": "EDUCATION", "tags": [...]}`
+   (real archival photos + a narrator voice are not "realistic altered content"; set it to true only if a
+   video ever shows generated realistic people, events or places.)
+4. Append a line to `log.csv`: `date,slug,title,scheduled_et,status,sources` and push `main`.
+
+## 5. Tell Juan (Spanish)
+Send him, with SendUserMessage + SendUserFile (the video) and a push notification:
+- the English title and when it goes out (Argentina time and U.S. East time),
+- the Spanish translation of the narration,
+- one line on why the story was chosen,
+- that he can stop or edit it in Metricool's planner before it goes out.
+If any step failed (Metricool not connected, push refused, story not verifiable), still send the video if
+there is one and explain plainly what failed and what he needs to do. Never publish anything unverified.

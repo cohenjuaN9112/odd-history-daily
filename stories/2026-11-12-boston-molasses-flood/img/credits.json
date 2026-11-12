@@ -1,0 +1,90 @@
+{
+ "aftermath": {
+  "file": "aftermath.jpg",
+  "title": "BostonMolassesDisaster.jpg",
+  "license": "Public domain",
+  "author": "BPL",
+  "page": "https://commons.wikimedia.org/wiki/File:BostonMolassesDisaster.jpg",
+  "size": [
+   3000,
+   2388
+  ]
+ },
+ "tank": {
+  "file": "tank.jpg",
+  "title": "North End molasses tank.jpg",
+  "license": "Public domain",
+  "author": "The Bostonian Society",
+  "page": "https://commons.wikimedia.org/wiki/File:North_End_molasses_tank.jpg",
+  "size": [
+   417,
+   327
+  ]
+ },
+ "globe": {
+  "file": "globe.jpg",
+  "title": "TheBostonDailyGlobe-frontpage-1919-1-16.jpg",
+  "license": "Public domain",
+  "author": "The Boston Daily Globe",
+  "page": "https://commons.wikimedia.org/wiki/File:TheBostonDailyGlobe-frontpage-1919-1-16.jpg",
+  "size": [
+   4118,
+   6177
+  ]
+ },
+ "street": {
+  "file": "street.jpg",
+  "title": "Boston Elevated Railway after the Molasses Flood, January 1919, from the City of Boston Archives - 9800-018-023.jpg",
+  "license": "Public domain",
+  "author": "Boston Elevated Railway Company",
+  "page": "https://commons.wikimedia.org/wiki/File:Boston_Elevated_Railway_after_the_Molasses_Flood,_January_1919,_from_the_City_of_Boston_Archives_-_9800-018-023.jpg",
+  "size": [
+   5259,
+   3674
+  ]
+ },
+ "wreck": {
+  "file": "wreck.jpg",
+  "title": "Boston, Mass. Boston molasses explosion 14968a.jpg",
+  "license": "Public domain",
+  "author": "American Red Cross",
+  "page": "https://commons.wikimedia.org/wiki/File:Boston,_Mass._Boston_molasses_explosion_14968a.jpg",
+  "size": [
+   10026,
+   7253
+  ]
+ },
+ "elwreck": {
+  "file": "elwreck.jpg",
+  "title": "Boston Elevated Railway after the Molasses Flood, January 1919, from the City of Boston Archives - 9800-018-035.jpg",
+  "license": "Public domain",
+  "author": "Boston Elevated Railway Company",
+  "page": "https://commons.wikimedia.org/wiki/File:Boston_Elevated_Railway_after_the_Molasses_Flood,_January_1919,_from_the_City_of_Boston_Archives_-_9800-018-035.jpg",
+  "size": [
+   4112,
+   2908
+  ]
+ },
+ "rescuers": {
+  "file": "rescuers.jpg",
+  "title": "GreatMolassesFlood 1919-Wreckage under the elevated tracks.jpg",
+  "license": "Public domain",
+  "author": "Unknown authorUnknown author",
+  "page": "https://commons.wikimedia.org/wiki/File:GreatMolassesFlood_1919-Wreckage_under_the_elevated_tracks.jpg",
+  "size": [
+   2709,
+   1684
+  ]
+ },
+ "underel": {
+  "file": "underel.jpg",
+  "title": "Boston Elevated Railway after the Molasses Flood, January 1919, from the City of Boston Archives - 9800-018-031.jpg",
+  "license": "Public domain",
+  "author": "Boston Elevated Railway Company",
+  "page": "https://commons.wikimedia.org/wiki/File:Boston_Elevated_Railway_after_the_Molasses_Flood,_January_1919,_from_the_City_of_Boston_Archives_-_9800-018-031.jpg",
+  "size": [
+   3439,
+   2113
+  ]
+ }
+}

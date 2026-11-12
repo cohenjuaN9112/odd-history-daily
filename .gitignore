@@ -1,0 +1,6 @@
+stories/*/out/
+stories/*/img/*.jpg
+stories/*/img/*.jpeg
+stories/*/img/*.png
+stories/*/img/*.tif
+__pycache__/

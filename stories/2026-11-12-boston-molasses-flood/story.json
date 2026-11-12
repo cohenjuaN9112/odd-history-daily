@@ -1,0 +1,49 @@
+{
+  "slug": "2026-11-12-boston-molasses-flood",
+  "voice": "en-US-ChristopherNeural",
+  "rate": "+8%",
+  "gap": 0.2,
+  "tag": "BOSTON  ·  JANUARY 15, 1919",
+  "lines": [
+    "Boston was hit by a tsunami... of molasses.",
+    "In 1919, a tank holding 2.3 million gallons burst near the harbor.",
+    "The wave was about 25 feet tall, and it moved at 35 miles an hour.",
+    "That's faster than Usain Bolt.",
+    "It flattened buildings and killed 21 people.",
+    "In the winter cold, the molasses thickened like glue around anyone it caught.",
+    "And for decades, locals swore that on hot summer days, the North End still smelled sweet... long after"
+  ],
+  "images": {
+    "aftermath": "BostonMolassesDisaster.jpg",
+    "tank": "North End molasses tank.jpg",
+    "globe": "TheBostonDailyGlobe-frontpage-1919-1-16.jpg",
+    "street": "Boston Elevated Railway after the Molasses Flood, January 1919, from the City of Boston Archives - 9800-018-023.jpg",
+    "wreck": "Boston, Mass. Boston molasses explosion 14968a.jpg",
+    "elwreck": "Boston Elevated Railway after the Molasses Flood, January 1919, from the City of Boston Archives - 9800-018-035.jpg",
+    "rescuers": "GreatMolassesFlood 1919-Wreckage under the elevated tracks.jpg",
+    "underel": "Boston Elevated Railway after the Molasses Flood, January 1919, from the City of Boston Archives - 9800-018-031.jpg"
+  },
+  "shots": [
+    {"line": 0, "kind": "pan", "image": "aftermath", "zoom": 1.10, "x": [0.15, 0.45], "y": [0.55, 0.50]},
+    {"line": 1, "kind": "framed", "image": "tank", "zoom": 1.06, "x": [0.20, 0.60], "y": [0.5, 0.5]},
+    {"line": 1, "at_word": 7, "kind": "pan", "image": "globe", "zoom": 1.25, "x": [0.0, 0.85], "y": [0.0, 0.01]},
+    {"line": 2, "kind": "pan", "image": "street", "zoom": 1.05, "x": [0.10, 0.55], "y": [0.5, 0.5]},
+    {"line": 3, "kind": "bars", "title": "Top speed", "rows": [["Molasses wave", 35, "35 MPH"], ["Usain Bolt", 27.8, "~28 MPH"]]},
+    {"line": 4, "kind": "pan", "image": "wreck", "zoom": 1.25, "x": [0.20, 0.75], "y": [0.5, 0.5]},
+    {"line": 5, "kind": "pan", "image": "elwreck", "zoom": 1.05, "x": [0.30, 0.65], "y": [0.4, 0.4]},
+    {"line": 5, "at_word": 6, "kind": "pan", "image": "rescuers", "zoom": 1.08, "x": [0.55, 0.25], "y": [0.6, 0.6]},
+    {"line": 6, "kind": "pan", "image": "underel", "zoom": 1.05, "x": [0.20, 0.55], "y": [0.5, 0.5]},
+    {"line": 6, "at_word": 10, "kind": "pan", "image": "aftermath", "zoom": 1.10, "x": [0.85, 0.15], "y": [0.55, 0.55]}
+  ],
+  "youtube": {
+    "title": "Boston was hit by a tsunami... of molasses",
+    "description": "January 15, 1919: a tank holding 2.3 million gallons of molasses burst in Boston's North End. The wave moved at about 35 mph, killed 21 people and injured about 150.\n\nSources: Associated Press (2019 centennial report); Wikipedia, \"Great Molasses Flood\".\nPhotos: public domain (City of Boston Archives / Wikimedia Commons).\n\n#history #boston #shorts",
+    "tags": ["history", "boston", "molasses flood", "1919", "weird history", "true story"],
+    "category": "EDUCATION"
+  },
+  "sources": [
+    "https://www.nbcdfw.com/news/national-international/boston-100th-anniversary-great-molasses-flood-of-1919/591/",
+    "https://en.wikipedia.org/wiki/Great_Molasses_Flood"
+  ],
+  "translation_es": "Boston fue golpeada por un tsunami… de melaza. En 1919, un tanque con 2,3 millones de galones reventó cerca del puerto. La ola medía unos 25 pies y avanzaba a 35 millas por hora. Más rápido que Usain Bolt. Aplastó edificios y mató a 21 personas. Con el frío del invierno, la melaza se espesó como pegamento alrededor de todos los que atrapaba. Y durante décadas, los vecinos juraban que en los días de calor el North End todavía olía dulce… mucho después de que Boston fuera golpeada por un tsunami de melaza."
+}
