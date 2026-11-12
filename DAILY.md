@@ -66,9 +66,14 @@ Everything in the video and on YouTube is in **English for a U.S. audience**.
    `UCoZ3HTblBSzBHW9Co4JBufg` (Odd History Daily).** If it is anything else (e.g. Juan's personal channel
    `UC56op-wo9H5-OvSvAeu1yVw`) do NOT publish: tell Juan to reconnect the right channel in Metricool.
    Then `createScheduledPost` with:
-   - date / publicationDate: **the next 19:00 America/New_York slot that has no post yet** — check
-     `getScheduledPosts` (from today to +7 days) and `log.csv`; never put two Shorts on the same day.
-     19:00 New York = 21:00 Buenos Aires in the U.S. winter, 20:00 in the U.S. summer.
+   - date / publicationDate: **today at 19:00 America/New_York** (21:00 Buenos Aires in the U.S. winter,
+     20:00 in the U.S. summer). If today's slot is already taken, use the next free *posting day*.
+   - **Posting days (Metricool free plan = max 20 published posts per calendar month):** only days of the month
+     that are NOT a multiple of 3 and never the 31st (1,2,4,5,7,8,10,11,13,14,16,17,19,20,22,23,25,26,28,29).
+     Never two Shorts on the same day.
+   - **Monthly cap check before scheduling:** count this calendar month's posts in Metricool
+     (`getScheduledPosts` for the whole month with `extendedRange`, published + pending) and in `log.csv`.
+     If there are already 20, do NOT make or schedule a video; tell Juan the monthly limit is reached.
    - providers `[{"network":"youtube"}]`, media `[<raw URL>]`, text = description
    - youtubeData: `{"title": <title>, "type": "short", "privacy": "public", "madeForKids": false,
      "isAiGeneratedContent": false, "category": "EDUCATION", "tags": [...]}`
