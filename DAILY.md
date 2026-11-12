@@ -66,7 +66,9 @@ Everything in the video and on YouTube is in **English for a U.S. audience**.
    `UCoZ3HTblBSzBHW9Co4JBufg` (Odd History Daily).** If it is anything else (e.g. Juan's personal channel
    `UC56op-wo9H5-OvSvAeu1yVw`) do NOT publish: tell Juan to reconnect the right channel in Metricool.
    Then `createScheduledPost` with:
-   - date / publicationDate: **today 19:00 America/New_York** (if that has passed, tomorrow 19:00)
+   - date / publicationDate: **the next 19:00 America/New_York slot that has no post yet** — check
+     `getScheduledPosts` (from today to +7 days) and `log.csv`; never put two Shorts on the same day.
+     19:00 New York = 21:00 Buenos Aires in the U.S. winter, 20:00 in the U.S. summer.
    - providers `[{"network":"youtube"}]`, media `[<raw URL>]`, text = description
    - youtubeData: `{"title": <title>, "type": "short", "privacy": "public", "madeForKids": false,
      "isAiGeneratedContent": false, "category": "EDUCATION", "tags": [...]}`
