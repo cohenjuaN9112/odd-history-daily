@@ -28,15 +28,14 @@ Everything in the video and on YouTube is in **English for a U.S. audience**.
   Never use photos of people under 18 as the main subject, and never use copyrighted photos.
 
 ## 2. Write the script
-- 7–9 lines, **70–85 words total** (≈26–32 s). One line = one sentence; that is how scenes are timed.
-- **Call to action:** the second-to-last line asks viewers to like and/or subscribe, in at most 8 words, worded
-  differently each day (e.g. "Like and subscribe for more odd history.", "Subscribe, there's a new one tomorrow.",
-  "Hit like if you never learned this in school.", "Follow for one strange story every day.").
-  Set `"cta_line": <its index>` in story.json (it shows a LIKE · SUBSCRIBE badge). Never put it first or last:
-  the first line is the hook and the last line must still loop back into it.
+- 6–8 lines, **65–80 words total** (≈25–30 s). One line = one sentence; that is how scenes are timed.
 - Line 1 is the hook: 5–9 words, the most surprising fact, said straight away.
 - Last line ends mid-sentence so it flows back into line 1 when the Short loops
   (e.g. "...long after" → "Boston was hit by a tsunami of molasses.").
+- **No spoken call to action** (it breaks the story). Instead a red LIKE · SUBSCRIBE badge appears on screen
+  during the most surprising line: set `"badge_line": <index of that line>` in story.json (never line 0, so the
+  hook stays clean; default is the middle line). Pick a line whose scene leaves the band just above the
+  captions (58–65% of the height) empty, e.g. a framed photo, and check that frame in the preview.
 - U.S. units (feet, miles, mph, °F). Short, spoken sentences. No filler ("Did you know...?").
 - Photo credits in the description come from `img/credits.json` (author/collection as recorded there); never guess an institution.
 - Vary the format from day to day so the channel never looks templated: alternate the card types

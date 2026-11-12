@@ -72,7 +72,7 @@ class Story:
             if fh > ch * 0.62: fh = round(ch * 0.62); fw = round(w * fh / h)
             ph = im.resize((fw, fh), Image.LANCZOS); b = 18 * SS
             fr = Image.new("RGB", (fw + 2 * b, fh + 2 * b), (236, 230, 216)); fr.paste(ph, (b, b))
-            bg.paste(fr, ((cw - fr.width) // 2, round(ch * 0.40 - fr.height / 2)))
+            bg.paste(fr, ((cw - fr.width) // 2, round(ch * 0.36 - fr.height / 2)))
             im = bg
         else:
             w, h = im.size; s = max(W * SS / w, H * SS / h) * zoom
@@ -199,8 +199,9 @@ Style: Tag,Poppins,60,&H00E8F0F5,&H00FFFFFF,&H64000000,&H64000000,1,0,0,0,100,10
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """
         lines = [f"Dialogue: 1,{ts(s)},{ts(e)},Cap,,0,0,0,,{{\\pos(540,1330)}}{t}" for s, e, t in ev]
-        if self.s.get("cta_line") is not None:
-            g = self.groups[self.s["cta_line"]]
+        bl = self.s.get("badge_line", self.s.get("cta_line", len(self.groups) // 2))
+        if bl is not None and bl is not False:
+            g = self.groups[bl]
             lines.append(f"Dialogue: 2,{ts(g[0][0] - 0.1)},{ts(g[-1][1] + 0.25)},Cta,,0,0,0,,{{\\pos(540,1185)\\fad(120,120)}}LIKE  ·  SUBSCRIBE")
         if self.s.get("tag"):
             lines.append(f"Dialogue: 0,{ts(0)},{ts(3.0)},Tag,,0,0,0,,{{\\fad(0,250)}}{self.s['tag']}")

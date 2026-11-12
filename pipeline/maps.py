@@ -17,7 +17,7 @@ story.json -> "maps": {
     "type": "compare",                   # same-scale shapes side by side (equal-area), e.g. Alaska vs 3 states
     "groups": [[{"state": "Alaska", "color": "amber", "label": "ALASKA"}],
                [{"state": "Texas", "label": "TEXAS"}, {"state": "California", "label": "CALIFORNIA"},
-                {"state": "Montana", "label": "MONTANA"}]],
+                {"state": "Montana", "label": "MONTANA"}]],   # label_pos: "above" | "below" (default) ; "inside": true
     "title": "SAME SCALE"
   }
 }
@@ -135,7 +135,8 @@ def compare(spec, out):
                 ax.text(rp.x, rp.y, it["label"], fontproperties=fprop(it.get("size", 44)), color=col(it.get("label_color", "ink")),
                         ha="center", va="center")
             elif it.get("label"):
-                cx, cy = g3.centroid.x, g3.bounds[1] - 0.06 * total_h
+                above = it.get("label_pos") == "above"
+                cx, cy = g3.centroid.x, (g3.bounds[3] + 0.05 * total_h) if above else (g3.bounds[1] - 0.06 * total_h)
                 ax.text(cx, cy, it["label"], fontproperties=fprop(it.get("size", 44)), color=col(it.get("label_color", "paper")),
                         ha="center", va="center")
         cur += rh + gap * 2
