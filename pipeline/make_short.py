@@ -193,12 +193,15 @@ ScaledBorderAndShadow: yes
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Cap,Poppins,94,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,1,0,0,0,100,100,0,0,1,7,4,5,90,90,0,1
-Style: Tag,Poppins,60,&H00E8F0F5,&H00FFFFFF,&H64000000,&H64000000,1,0,0,0,100,100,4,0,3,16,0,8,80,80,240,1
+Style: Tag,Poppins,60,&H00E8F0F5,&H00FFFFFF,&H64000000,&H64000000,1,0,0,0,100,100,4,0,3,16,0,8,80,80,240,1\nStyle: Cta,Poppins,66,&H00FFFFFF,&H00FFFFFF,&H001C1CE6,&H001C1CE6,1,0,0,0,100,100,3,0,3,22,0,5,80,80,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """
         lines = [f"Dialogue: 1,{ts(s)},{ts(e)},Cap,,0,0,0,,{{\\pos(540,1330)}}{t}" for s, e, t in ev]
+        if self.s.get("cta_line") is not None:
+            g = self.groups[self.s["cta_line"]]
+            lines.append(f"Dialogue: 2,{ts(g[0][0] - 0.1)},{ts(g[-1][1] + 0.25)},Cta,,0,0,0,,{{\\pos(540,1185)\\fad(120,120)}}LIKE  ·  SUBSCRIBE")
         if self.s.get("tag"):
             lines.append(f"Dialogue: 0,{ts(0)},{ts(3.0)},Tag,,0,0,0,,{{\\fad(0,250)}}{self.s['tag']}")
         open(f"{self.out}/captions.ass", "w").write(head + "\n".join(lines) + "\n")

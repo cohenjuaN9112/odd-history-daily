@@ -11,6 +11,7 @@
     "But Alaska is bigger than Texas, California and Montana combined.",
     "It turned out to be full of gold and oil.",
     "And from one Alaskan island, Russia is just 2.4 miles away, and it's already tomorrow there.",
+    "Like and subscribe for more odd history.",
     "Not bad for land that cost just..."
   ],
   "images": {
@@ -362,7 +363,7 @@
       ]
     },
     {
-      "line": 6,
+      "line": 7,
       "kind": "kb",
       "image": "na_us",
       "from": [
@@ -397,5 +398,6 @@
     "https://earthobservatory.nasa.gov/IOTD/view.php?id=91638",
     "https://en.wikipedia.org/wiki/Diomede_Islands"
   ],
-  "translation_es": "Dos centavos por acre. Eso pagó Estados Unidos por Alaska. En 1867, Rusia se la vendió por 7,2 millones de dólares. Los críticos se burlaron y la llamaron \"la locura de Seward\" y \"la heladera de Seward\". Pero Alaska es más grande que Texas, California y Montana juntos. Resultó estar llena de oro y petróleo. Y desde una isla de Alaska, Rusia está a solo 2,4 millas, y allá ya es mañana. Nada mal para una tierra que costó solo… dos centavos por acre."
+  "translation_es": "Dos centavos por acre. Eso pagó Estados Unidos por Alaska. En 1867, Rusia se la vendió por 7,2 millones de dólares. Los críticos se burlaron y la llamaron \"la locura de Seward\" y \"la heladera de Seward\". Pero Alaska es más grande que Texas, California y Montana juntos. Resultó estar llena de oro y petróleo. Y desde una isla de Alaska, Rusia está a solo 2,4 millas, y allá ya es mañana. Dale like y suscribite para más historias raras. Nada mal para una tierra que costó solo… dos centavos por acre.",
+  "cta_line": 6
 }

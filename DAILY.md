@@ -28,7 +28,12 @@ Everything in the video and on YouTube is in **English for a U.S. audience**.
   Never use photos of people under 18 as the main subject, and never use copyrighted photos.
 
 ## 2. Write the script
-- 6–8 lines, **65–80 words total** (≈25–30 s). One line = one sentence; that is how scenes are timed.
+- 7–9 lines, **70–85 words total** (≈26–32 s). One line = one sentence; that is how scenes are timed.
+- **Call to action:** the second-to-last line asks viewers to like and/or subscribe, in at most 8 words, worded
+  differently each day (e.g. "Like and subscribe for more odd history.", "Subscribe, there's a new one tomorrow.",
+  "Hit like if you never learned this in school.", "Follow for one strange story every day.").
+  Set `"cta_line": <its index>` in story.json (it shows a LIKE · SUBSCRIBE badge). Never put it first or last:
+  the first line is the hook and the last line must still loop back into it.
 - Line 1 is the hook: 5–9 words, the most surprising fact, said straight away.
 - Last line ends mid-sentence so it flows back into line 1 when the Short loops
   (e.g. "...long after" → "Boston was hit by a tsunami of molasses.").
@@ -51,7 +56,7 @@ Everything in the video and on YouTube is in **English for a U.S. audience**.
    (map specs are documented at the top of `pipeline/maps.py`; open the PNGs with Read before using them).
    Shot kinds: `pan` and `framed` (photos), `kb` (zoom/pan: `from`/`to` = [cx, cy, crop width as fraction of image
    width]; use it for maps and to zoom into faces), `xfade` (same move, crossfade `images[0]`→`images[1]` at `at`),
-   `bars` and `number` (stat cards). Keep labels and key details out of the caption band (65–75% of the height).
+   `bars` and `number` (stat cards). Keep labels and key details out of the caption band (58–75% of the height; the LIKE · SUBSCRIBE badge sits just above the captions).
 3. `python3 pipeline/make_short.py stories/<dir> voice`
 4. `python3 pipeline/make_short.py stories/<dir> preview` → **open `out/preview_sheet.jpg` with the Read tool and look at it.**
    Fix crops where faces/subjects are cut or the caption covers the key detail, re-render only those scenes
