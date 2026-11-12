@@ -53,14 +53,18 @@ Everything in the video and on YouTube is in **English for a U.S. audience**.
 1. Commit `story.json`, `img/credits.json` and the `log.csv` line to `main` (never commit `img/*.jpg` or `out/`).
 2. Put the video on the `media` branch, replacing whatever is there (keeps the repo small):
    ```
-   git fetch origin media || true
-   git worktree add -f /tmp/media --orphan media 2>/dev/null || git worktree add -f /tmp/media media
-   rm -rf /tmp/media/*; mkdir -p /tmp/media/videos; cp stories/<dir>/out/short.mp4 /tmp/media/videos/<dir>.mp4
-   cd /tmp/media && git add -A && git commit -m "video <dir>" && git push -f origin HEAD:media
+   D=<dir>   # e.g. 2026-11-13-some-story
+   rm -rf /tmp/media && git worktree add -q --orphan -b media-$D /tmp/media
+   mkdir -p /tmp/media/videos && cp stories/$D/out/short.mp4 /tmp/media/videos/$D.mp4
+   cd /tmp/media && git add -A && git -c user.name="Odd History Daily" -c user.email="noreply@example.com" commit -qm "video $D" \
+     && git push -f origin HEAD:media && cd -
+   curl -sS -o /dev/null -w "%{http_code} %{size_download}\n" https://raw.githubusercontent.com/cohenjuaN9112/odd-history-daily/media/videos/$D.mp4
    ```
-   Public URL: `https://raw.githubusercontent.com/<owner>/<repo>/media/videos/<dir>.mp4`
-   — check it answers 200 with `curl -sI` before using it (it can take a minute after the push).
-3. Metricool: `getBrandSettings` → blogId and timezone; confirm a YouTube network is connected.
+   Public URL: `https://raw.githubusercontent.com/cohenjuaN9112/odd-history-daily/media/videos/<dir>.mp4`
+   (must answer 200 with the full size before you use it; wait a minute and retry if not).
+3. Metricool: `getBrandSettings` → blogId (8050318) and timezone. **`networksData.youtubeData` must be
+   `UCoZ3HTblBSzBHW9Co4JBufg` (Odd History Daily).** If it is anything else (e.g. Juan's personal channel
+   `UC56op-wo9H5-OvSvAeu1yVw`) do NOT publish: tell Juan to reconnect the right channel in Metricool.
    Then `createScheduledPost` with:
    - date / publicationDate: **today 19:00 America/New_York** (if that has passed, tomorrow 19:00)
    - providers `[{"network":"youtube"}]`, media `[<raw URL>]`, text = description
