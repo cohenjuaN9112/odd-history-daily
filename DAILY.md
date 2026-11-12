@@ -36,12 +36,21 @@ Everything in the video and on YouTube is in **English for a U.S. audience**.
 - Vary the format from day to day so the channel never looks templated: alternate the card types
   (`bars` comparison, `number` big stat), framed photos, pans across newspapers/maps.
 - Voice: `en-US-ChristopherNeural`, rate `+8%` (the channel's consistent narrator).
+- **Format rotation:** every 3rd Short is a **maps & numbers** story (see the `format` column in `log.csv`:
+  if neither of the last two is `maps`, today is `maps`). It is still a true history story, but told mainly with
+  generated maps (`region`), same-scale shape comparisons (`compare`), dates/time zones/borders, and number cards,
+  plus 2–3 archival photos. Good fits: territory deals, borders, "bigger than" comparisons, distances, time zones,
+  what a place used to be. Example: `stories/2026-11-13-alaska-purchase/`. Other days use format `photos`.
 
 ## 3. Build
 1. Create `stories/<YYYY-MM-DD>-<slug>/story.json` (copy the structure of the newest story in `stories/`).
    `shots[i].line` = the line where the shot starts, optional `at_word` = word index in that line.
    Pan values `x`/`y` are 0–1 positions inside the free area of the image; `zoom` ≥ 1.0.
-2. `python3 pipeline/fetch_images.py stories/<dir>`
+2. `python3 pipeline/fetch_images.py stories/<dir>` and, for maps stories, `python3 pipeline/maps.py stories/<dir>`
+   (map specs are documented at the top of `pipeline/maps.py`; open the PNGs with Read before using them).
+   Shot kinds: `pan` and `framed` (photos), `kb` (zoom/pan: `from`/`to` = [cx, cy, crop width as fraction of image
+   width]; use it for maps and to zoom into faces), `xfade` (same move, crossfade `images[0]`→`images[1]` at `at`),
+   `bars` and `number` (stat cards). Keep labels and key details out of the caption band (65–75% of the height).
 3. `python3 pipeline/make_short.py stories/<dir> voice`
 4. `python3 pipeline/make_short.py stories/<dir> preview` → **open `out/preview_sheet.jpg` with the Read tool and look at it.**
    Fix crops where faces/subjects are cut or the caption covers the key detail, re-render only those scenes
@@ -79,7 +88,7 @@ Everything in the video and on YouTube is in **English for a U.S. audience**.
      "isAiGeneratedContent": false, "category": "EDUCATION", "tags": [...]}`
    (real archival photos + a narrator voice are not "realistic altered content"; set it to true only if a
    video ever shows generated realistic people, events or places.)
-4. Append a line to `log.csv`: `date,slug,title,scheduled_et,status,sources` and push `main`.
+4. Append a line to `log.csv`: `date,slug,title,scheduled_et,status,sources,format` and push `main`.
 
 ## 5. Tell Juan (Spanish)
 Send him, with SendUserMessage + SendUserFile (the video) and a push notification:

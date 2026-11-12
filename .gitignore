@@ -4,3 +4,4 @@ stories/*/img/*.jpeg
 stories/*/img/*.png
 stories/*/img/*.tif
 __pycache__/
+pipeline/data/

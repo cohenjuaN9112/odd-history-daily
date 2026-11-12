@@ -14,7 +14,7 @@ FREE = ("public domain", "pd", "cc0", "no restrictions")
 def get(url, tries=5):
     for k in range(tries):
         try:
-            return urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": UA}), timeout=90).read()
+            return urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": UA, "Referer": "https://commons.wikimedia.org/"}), timeout=90).read()
         except urllib.error.HTTPError as e:
             if e.code == 429 and k < tries - 1:
                 time.sleep(15 * (k + 1)); continue
@@ -24,10 +24,16 @@ def main(story_dir):
     story = json.load(open(f"{story_dir}/story.json"))
     allow_by = story.get("allow_cc_by", False)
     os.makedirs(f"{story_dir}/img", exist_ok=True)
+    old = {}
+    if os.path.exists(f"{story_dir}/img/credits.json"):
+        old = json.load(open(f"{story_dir}/img/credits.json"))
     credits = {}
     for key, title in story["images"].items():
+        if key in old and old[key].get("title") != title:
+            for fn in os.listdir(f"{story_dir}/img"):
+                if os.path.splitext(fn)[0] == key: os.remove(f"{story_dir}/img/{fn}")
         q = urllib.parse.urlencode({"action": "query", "titles": "File:" + title, "prop": "imageinfo",
-                                    "iiprop": "url|size|extmetadata", "iiurlwidth": 3840, "format": "json"})
+                                    "iiprop": "url|size|extmetadata", "format": "json"})
         d = json.loads(get("https://commons.wikimedia.org/w/api.php?" + q))
         page = next(iter(d["query"]["pages"].values()))
         if "imageinfo" not in page:
@@ -38,11 +44,18 @@ def main(story_dir):
         free = any(f in lic.lower() for f in FREE)
         if not free and not (allow_by and lic.lower().startswith("cc by")):
             print("SKIP (license)", key, lic); continue
-        url = ii.get("thumburl") if ii.get("width", 0) > 3840 else ii["url"]
+        # Wikimedia only serves standard thumbnail widths without rate limits (3840/1920/1280/960...)
+        w = ii.get("width", 0); url = ii["url"]
+        std = next((s for s in (3840, 1920, 1280, 960) if w >= s), None)
+        if std and not url.lower().endswith((".svg", ".gif")):
+            path = urllib.parse.urlparse(url).path            # /wikipedia/commons/a/ab/Name.jpg
+            parts = path.split("/"); name = parts[-1]
+            url = "https://upload.wikimedia.org" + "/".join(parts[:3]) + "/thumb/" + "/".join(parts[3:]) + f"/{std}px-{name}"
+            if name.lower().endswith((".tif", ".tiff")): url += ".jpg"
         ext = os.path.splitext(urllib.parse.urlparse(url).path)[1].lower() or ".jpg"
         out = f"{story_dir}/img/{key}{ext}"
-        if not os.path.exists(out):
-            open(out, "wb").write(get(url)); time.sleep(3)
+        if not os.path.exists(out) or os.path.getsize(out) == 0:
+            data = get(url); open(out, "wb").write(data); time.sleep(3)
         time.sleep(1)
         credits[key] = {"file": os.path.basename(out), "title": title, "license": lic, "author": artist,
                         "page": ii.get("descriptionurl"), "size": [ii.get("width"), ii.get("height")]}

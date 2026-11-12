@@ -1,0 +1,401 @@
+{
+  "slug": "2026-11-13-alaska-purchase",
+  "voice": "en-US-ChristopherNeural",
+  "rate": "+8%",
+  "gap": 0.2,
+  "tag": "ALASKA  ·  1867",
+  "lines": [
+    "Two cents an acre. That's what America paid for Alaska.",
+    "In 1867, Russia sold it to the U.S. for 7.2 million dollars.",
+    "Critics mocked it as Seward's Folly and Seward's Icebox.",
+    "But Alaska is bigger than Texas, California and Montana combined.",
+    "It turned out to be full of gold and oil.",
+    "And from one Alaskan island, Russia is just 2.4 miles away, and it's already tomorrow there.",
+    "Not bad for land that cost just..."
+  ],
+  "images": {
+    "check": "Alaska Purchase (hi-res).jpg",
+    "seward": "Seward by Brady.jpg",
+    "nome": "Nome 1900.jpg",
+    "diomede": "Wfm diomede islands.jpg"
+  },
+  "maps": {
+    "na_us": {
+      "type": "region",
+      "center": [
+        -155,
+        60
+      ],
+      "width_km": 5200,
+      "y_offset": 0.0,
+      "highlight": [
+        {
+          "state": "Alaska",
+          "color": "amber"
+        }
+      ],
+      "labels": [
+        {
+          "text": "ALASKA",
+          "lonlat": [
+            -152,
+            64.8
+          ],
+          "size": 34,
+          "color": "ink"
+        },
+        {
+          "text": "RUSSIA",
+          "lonlat": [
+            -178,
+            66.8
+          ],
+          "size": 40,
+          "color": "muted"
+        },
+        {
+          "text": "CANADA",
+          "lonlat": [
+            -128,
+            60
+          ],
+          "size": 40,
+          "color": "muted"
+        }
+      ]
+    },
+    "na_ru": {
+      "type": "region",
+      "center": [
+        -155,
+        60
+      ],
+      "width_km": 5200,
+      "y_offset": 0.0,
+      "highlight": [
+        {
+          "country": "Russia",
+          "color": "red"
+        },
+        {
+          "state": "Alaska",
+          "color": "red"
+        }
+      ],
+      "labels": [
+        {
+          "text": "RUSSIAN AMERICA",
+          "lonlat": [
+            -148,
+            64.6
+          ],
+          "size": 34,
+          "color": "paper"
+        },
+        {
+          "text": "RUSSIA",
+          "lonlat": [
+            -178,
+            66.8
+          ],
+          "size": 40,
+          "color": "paper"
+        },
+        {
+          "text": "CANADA",
+          "lonlat": [
+            -128,
+            60
+          ],
+          "size": 40,
+          "color": "muted"
+        }
+      ]
+    },
+    "compare": {
+      "type": "compare",
+      "groups": [
+        [
+          {
+            "state": "Alaska",
+            "color": "amber",
+            "label": "ALASKA",
+            "inside": true,
+            "size": 50
+          }
+        ],
+        [
+          {
+            "state": "Texas",
+            "label": "TEXAS"
+          },
+          {
+            "state": "California",
+            "label": "CALIFORNIA"
+          },
+          {
+            "state": "Montana",
+            "label": "MONTANA"
+          }
+        ]
+      ],
+      "y_offset": -0.15
+    },
+    "bering": {
+      "type": "region",
+      "center": [
+        -168.95,
+        65.78
+      ],
+      "width_km": 110,
+      "fine": true,
+      "title": "THE BERING STRAIT",
+      "lines": [
+        {
+          "lonlat": [
+            [
+              -168.977,
+              65.35
+            ],
+            [
+              -168.977,
+              66.25
+            ]
+          ],
+          "color": "paper",
+          "dash": true,
+          "width": 5
+        }
+      ],
+      "dots": [
+        {
+          "lonlat": [
+            -168.92,
+            65.754
+          ],
+          "r": 16,
+          "color": "amber"
+        },
+        {
+          "lonlat": [
+            -169.058,
+            65.777
+          ],
+          "r": 22,
+          "color": "red"
+        }
+      ],
+      "labels": [
+        {
+          "text": "TODAY",
+          "lonlat": [
+            -168.55,
+            66.05
+          ],
+          "size": 50,
+          "color": "amber"
+        },
+        {
+          "text": "TOMORROW",
+          "lonlat": [
+            -169.45,
+            66.05
+          ],
+          "size": 50,
+          "color": "red"
+        },
+        {
+          "text": "2.4 MILES",
+          "lonlat": [
+            -168.99,
+            65.86
+          ],
+          "size": 38,
+          "color": "paper"
+        },
+        {
+          "text": "USA",
+          "lonlat": [
+            -168.25,
+            65.36
+          ],
+          "size": 40,
+          "color": "muted"
+        },
+        {
+          "text": "RUSSIA",
+          "lonlat": [
+            -169.7,
+            65.36
+          ],
+          "size": 40,
+          "color": "muted"
+        }
+      ],
+      "title_y": 0.84
+    }
+  },
+  "shots": [
+    {
+      "line": 0,
+      "kind": "kb",
+      "image": "na_us",
+      "from": [
+        0.5,
+        0.42,
+        1.0
+      ],
+      "to": [
+        0.45,
+        0.45,
+        0.62
+      ]
+    },
+    {
+      "line": 1,
+      "kind": "xfade",
+      "images": [
+        "na_ru",
+        "na_us"
+      ],
+      "from": [
+        0.45,
+        0.45,
+        0.62
+      ],
+      "to": [
+        0.45,
+        0.45,
+        0.55
+      ],
+      "at": 0.7
+    },
+    {
+      "line": 1,
+      "at_word": 8,
+      "kind": "kb",
+      "image": "check",
+      "from": [
+        0.25,
+        0.5,
+        0.28
+      ],
+      "to": [
+        0.6,
+        0.5,
+        0.28
+      ]
+    },
+    {
+      "line": 2,
+      "kind": "kb",
+      "image": "seward",
+      "from": [
+        0.5,
+        0.45,
+        0.9
+      ],
+      "to": [
+        0.5,
+        0.32,
+        0.45
+      ]
+    },
+    {
+      "line": 3,
+      "kind": "kb",
+      "image": "compare",
+      "from": [
+        0.5,
+        0.5,
+        0.95
+      ],
+      "to": [
+        0.5,
+        0.5,
+        0.85
+      ]
+    },
+    {
+      "line": 4,
+      "kind": "kb",
+      "image": "nome",
+      "from": [
+        0.3,
+        0.5,
+        0.37
+      ],
+      "to": [
+        0.7,
+        0.5,
+        0.37
+      ]
+    },
+    {
+      "line": 5,
+      "kind": "framed",
+      "image": "diomede",
+      "zoom": 1.06,
+      "x": [
+        0.3,
+        0.7
+      ],
+      "y": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "line": 5,
+      "at_word": 10,
+      "kind": "kb",
+      "image": "bering",
+      "from": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "to": [
+        0.5,
+        0.5,
+        0.75
+      ]
+    },
+    {
+      "line": 6,
+      "kind": "kb",
+      "image": "na_us",
+      "from": [
+        0.45,
+        0.45,
+        0.62
+      ],
+      "to": [
+        0.5,
+        0.42,
+        1.0
+      ]
+    }
+  ],
+  "youtube": {
+    "title": "The U.S. paid 2 cents an acre for this",
+    "description": "In 1867 the United States bought Alaska from Russia for $7.2 million, about 2 cents an acre. Critics called it \"Seward's Folly\". Today Alaska is bigger than Texas, California and Montana combined, and from Little Diomede Island you can see Russia's Big Diomede, 2.4 miles away and on the other side of the International Date Line.\n\nSources: Encyclopaedia Britannica, \"Alaska Purchase\"; Council on Foreign Relations, \"Remembering the Alaska Purchase\"; NASA Earth Observatory, \"Yesterday and Tomorrow Islands\".\nImages: public domain (Library of Congress, National Archives, NASA via Wikimedia Commons). Maps: Natural Earth (public domain).\n\n#history #alaska #maps #shorts",
+    "tags": [
+      "history",
+      "alaska",
+      "alaska purchase",
+      "maps",
+      "geography",
+      "1867",
+      "true story"
+    ],
+    "category": "EDUCATION"
+  },
+  "sources": [
+    "https://www.britannica.com/print/article/12326",
+    "https://www.cfr.org/article/remembering-the-alaska-purchase",
+    "https://earthobservatory.nasa.gov/IOTD/view.php?id=91638",
+    "https://en.wikipedia.org/wiki/Diomede_Islands"
+  ],
+  "translation_es": "Dos centavos por acre. Eso pagó Estados Unidos por Alaska. En 1867, Rusia se la vendió por 7,2 millones de dólares. Los críticos se burlaron y la llamaron \"la locura de Seward\" y \"la heladera de Seward\". Pero Alaska es más grande que Texas, California y Montana juntos. Resultó estar llena de oro y petróleo. Y desde una isla de Alaska, Rusia está a solo 2,4 millas, y allá ya es mañana. Nada mal para una tierra que costó solo… dos centavos por acre."
+}

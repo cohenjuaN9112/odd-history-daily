@@ -17,6 +17,7 @@ FONTDIR = os.path.dirname(FONT)
 GRADE = ("hue=s=0,colorchannelmixer=rr=1.07:gg=0.96:bb=0.80,eq=contrast=1.08,"
          "noise=alls=4:allf=t,vignette=angle=PI/5")
 INK, PAPER, AMBER = (27, 18, 11), (240, 236, 228), (255, 180, 0)
+GRADE_MAP = "noise=alls=3:allf=t,vignette=angle=PI/6"
 
 def sh(cmd): subprocess.run(cmd, check=True)
 def dur_of(p): return float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", p]).decode())
@@ -108,6 +109,37 @@ class Story:
             proc.stdin.write(im.tobytes())
         proc.stdin.close(); proc.wait(); os.replace(tmp, out)
 
+
+    def is_map(self, key): return key in self.s.get("maps", {})
+
+    def render_kb(self, shot, dur, out):
+        """kind kb: zoom/pan inside one image. kind xfade: same move, crossfading images[0] -> images[1].
+        from/to = [cx, cy, zw]: centre (0-1 of image) and crop width as a fraction of the image width."""
+        keys = shot["images"] if shot["kind"] == "xfade" else [shot["image"]]
+        ims = [Image.open(self.img_path(k)).convert("RGB") for k in keys]
+        iw, ih = ims[0].size
+        ims = [im if im.size == (iw, ih) else im.resize((iw, ih), Image.LANCZOS) for im in ims]
+        a, b = shot.get("from", [0.5, 0.5, 1.0]), shot.get("to", [0.5, 0.5, 0.8])
+        grade = GRADE_MAP if self.is_map(keys[0]) else GRADE
+        tmp = out[:-4] + ".tmp.mp4"
+        proc = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
+                                 "-vf", f"{grade},format=yuv420p", "-c:v", "libx264", "-preset", "veryfast", "-crf", "16",
+                                 "-pix_fmt", "yuv420p", tmp], stdin=subprocess.PIPE)
+        n = round(dur * FPS); at = shot.get("at", 0.5); fade = 0.35
+        for f in range(n):
+            t = f / FPS; e = 0.5 - 0.5 * math.cos(math.pi * min(t / dur, 1))
+            cx, cy, zw = [a[i] + (b[i] - a[i]) * e for i in range(3)]
+            cw = zw * iw; ch = cw * H / W
+            if ch > ih: ch = ih; cw = ch * W / H
+            x0 = min(max(cx * iw - cw / 2, 0), iw - cw); y0 = min(max(cy * ih - ch / 2, 0), ih - ch)
+            box = (x0, y0, x0 + cw, y0 + ch)
+            fr = ims[0].resize((W, H), Image.BILINEAR, box=box)
+            if len(ims) > 1:
+                m = min(max((t - at * dur) / fade + 0.5, 0), 1)
+                if m > 0: fr = Image.blend(fr, ims[1].resize((W, H), Image.BILINEAR, box=box), m)
+            proc.stdin.write(fr.tobytes())
+        proc.stdin.close(); proc.wait(); os.replace(tmp, out)
+
     def scenes(self, only=None):
         times = self.shot_times(); files = []
         for i, (shot, a, b) in enumerate(zip(self.s["shots"], times[:-1], times[1:])):
@@ -116,6 +148,8 @@ class Story:
             dur = round(b - a, 3)
             if shot["kind"] in ("bars", "number"):
                 self.card_frames(shot, dur, out); print("scene", i, shot["kind"], dur); continue
+            if shot["kind"] in ("kb", "xfade"):
+                self.render_kb(shot, dur, out); print("scene", i, shot["kind"], shot.get("image") or shot.get("images"), dur); continue
             p, (pw, ph) = self.prescale(shot, f"s{i:02d}")
             X, Y = pw - W * SS, ph - H * SS
             x0, x1 = shot.get("x", [0.3, 0.6]); y0, y1 = shot.get("y", [0.5, 0.5])

@@ -1,0 +1,46 @@
+{
+ "check": {
+  "file": "check.jpg",
+  "title": "Alaska Purchase (hi-res).jpg",
+  "license": "Public domain",
+  "author": "Edouard de Stoeckl and William H. Seward",
+  "page": "https://commons.wikimedia.org/wiki/File:Alaska_Purchase_(hi-res).jpg",
+  "size": [
+   6794,
+   3397
+  ]
+ },
+ "seward": {
+  "file": "seward.jpg",
+  "title": "Seward by Brady.jpg",
+  "license": "Public domain",
+  "author": "Brady National Photographic Art Gallery (owned by Mathew Brady)",
+  "page": "https://commons.wikimedia.org/wiki/File:Seward_by_Brady.jpg",
+  "size": [
+   4487,
+   6110
+  ]
+ },
+ "nome": {
+  "file": "nome.jpg",
+  "title": "Nome 1900.jpg",
+  "license": "Public domain",
+  "author": "Image source: Lomen Bros., Nome.\n\nTransfer; United States. Office of War Information. Overseas Picture Division. Washing",
+  "page": "https://commons.wikimedia.org/wiki/File:Nome_1900.jpg",
+  "size": [
+   3545,
+   2331
+  ]
+ },
+ "diomede": {
+  "file": "diomede.jpg",
+  "title": "Wfm diomede islands.jpg",
+  "license": "Public domain",
+  "author": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Wfm_diomede_islands.jpg",
+  "size": [
+   1280,
+   948
+  ]
+ }
+}
