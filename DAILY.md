@@ -33,6 +33,7 @@ Everything in the video and on YouTube is in **English for a U.S. audience**.
 - Last line ends mid-sentence so it flows back into line 1 when the Short loops
   (e.g. "...long after" → "Boston was hit by a tsunami of molasses.").
 - U.S. units (feet, miles, mph, °F). Short, spoken sentences. No filler ("Did you know...?").
+- Photo credits in the description come from `img/credits.json` (author/collection as recorded there); never guess an institution.
 - Vary the format from day to day so the channel never looks templated: alternate the card types
   (`bars` comparison, `number` big stat), framed photos, pans across newspapers/maps.
 - Voice: `en-US-ChristopherNeural`, rate `+8%` (the channel's consistent narrator).
