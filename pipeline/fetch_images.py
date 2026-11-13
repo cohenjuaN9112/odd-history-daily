@@ -55,7 +55,14 @@ def main(story_dir):
         ext = os.path.splitext(urllib.parse.urlparse(url).path)[1].lower() or ".jpg"
         out = f"{story_dir}/img/{key}{ext}"
         if not os.path.exists(out) or os.path.getsize(out) == 0:
-            data = get(url); open(out, "wb").write(data); time.sleep(3)
+            try:
+                data = get(url, tries=5 if std else 2)
+            except urllib.error.HTTPError as e:
+                if std or e.code != 429 or w < 500: raise
+                # originals of small files get rate limited; fall back to the 500px standard thumbnail
+                parts = urllib.parse.urlparse(url).path.split("/"); name = parts[-1]
+                data = get("https://upload.wikimedia.org" + "/".join(parts[:3]) + "/thumb/" + "/".join(parts[3:]) + f"/500px-{name}")
+            open(out, "wb").write(data); time.sleep(3)
         time.sleep(1)
         credits[key] = {"file": os.path.basename(out), "title": title, "license": lic, "author": artist,
                         "page": ii.get("descriptionurl"), "size": [ii.get("width"), ii.get("height")]}

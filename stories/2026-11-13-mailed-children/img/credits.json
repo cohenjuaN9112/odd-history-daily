@@ -1,0 +1,46 @@
+{
+ "mailbag": {
+  "file": "mailbag.jpg",
+  "title": "Uniformed Letter Carrier with Child in Mailbag.jpg",
+  "license": "Public domain",
+  "author": "Unidentified Photographer",
+  "page": "https://commons.wikimedia.org/wiki/File:Uniformed_Letter_Carrier_with_Child_in_Mailbag.jpg",
+  "size": [
+   2260,
+   3569
+  ]
+ },
+ "wagon": {
+  "file": "wagon.jpg",
+  "title": "Parcel Post Wagon in New Bedford, Massachusetts (2551250356).jpg",
+  "license": "No restrictions",
+  "author": "Smithsonian Institution from United States",
+  "page": "https://commons.wikimedia.org/wiki/File:Parcel_Post_Wagon_in_New_Bedford,_Massachusetts_(2551250356).jpg",
+  "size": [
+   6000,
+   3511
+  ]
+ },
+ "rural": {
+  "file": "rural.jpg",
+  "title": "Uniformed Rural Letter Carrier and Vehicle (2551110540).jpg",
+  "license": "No restrictions",
+  "author": "Smithsonian Institution from United States",
+  "page": "https://commons.wikimedia.org/wiki/File:Uniformed_Rural_Letter_Carrier_and_Vehicle_(2551110540).jpg",
+  "size": [
+   7594,
+   4400
+  ]
+ },
+ "stamp": {
+  "file": "stamp.jpg",
+  "title": "Parcel Post 1912-13 issues.jpg",
+  "license": "Public domain",
+  "author": "Bureau of Engraving and Printing; Composite photo and imaging by Gwillhickers",
+  "page": "https://commons.wikimedia.org/wiki/File:Parcel_Post_1912-13_issues.jpg",
+  "size": [
+   3993,
+   2035
+  ]
+ }
+}

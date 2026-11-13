@@ -1,0 +1,243 @@
+{
+  "slug": "2026-11-13-mailed-children",
+  "voice": "en-US-ChristopherNeural",
+  "rate": "+8%",
+  "gap": 0.2,
+  "tag": "STAGED PHOTO  ·  SMITHSONIAN",
+  "badge_line": 5,
+  "lines": [
+    "In 1913, Americans started mailing their kids.",
+    "The brand-new Parcel Post had a weight limit, and some parents took that literally.",
+    "In Ohio, a couple mailed their baby boy to his grandmother, a mile away.",
+    "Postage was 15 cents, and they insured him for 50 dollars.",
+    "In 1914, five-year-old May Pierstorff was mailed 73 miles across Idaho.",
+    "53 cents in stamps on her coat, and she rode in the mail car.",
+    "Officials banned it soon after. But for a short time,"
+  ],
+  "images": {
+    "mailbag": "Uniformed Letter Carrier with Child in Mailbag.jpg",
+    "wagon": "Parcel Post Wagon in New Bedford, Massachusetts (2551250356).jpg",
+    "rural": "Uniformed Rural Letter Carrier and Vehicle (2551110540).jpg",
+    "stamp": "Parcel Post 1912-13 issues.jpg"
+  },
+  "maps": {
+    "idaho": {
+      "type": "region",
+      "center": [
+        -116.57,
+        46.17
+      ],
+      "width_km": 230,
+      "fine": false,
+      "states_borders": true,
+      "highlight": [
+        {
+          "state": "Idaho",
+          "color": "#4a3a2c"
+        }
+      ],
+      "lines": [
+        {
+          "lonlat": [
+            [
+              -116.1224,
+              45.9266
+            ],
+            [
+              -117.0177,
+              46.4165
+            ]
+          ],
+          "color": "amber",
+          "dash": true,
+          "width": 7
+        }
+      ],
+      "dots": [
+        {
+          "lonlat": [
+            -116.1224,
+            45.9266
+          ],
+          "r": 18,
+          "color": "amber"
+        },
+        {
+          "lonlat": [
+            -117.0177,
+            46.4165
+          ],
+          "r": 18,
+          "color": "amber"
+        }
+      ],
+      "labels": [
+        {
+          "text": "LEWISTON",
+          "lonlat": [
+            -117.02,
+            46.55
+          ],
+          "size": 44,
+          "color": "paper"
+        },
+        {
+          "text": "GRANGEVILLE",
+          "lonlat": [
+            -116.12,
+            45.8
+          ],
+          "size": 44,
+          "color": "paper"
+        },
+        {
+          "text": "73 MILES",
+          "lonlat": [
+            -116.05,
+            46.4
+          ],
+          "size": 52,
+          "color": "amber"
+        },
+        {
+          "text": "BY MAIL TRAIN",
+          "lonlat": [
+            -116.05,
+            46.3
+          ],
+          "size": 30,
+          "color": "amber"
+        },
+        {
+          "text": "IDAHO",
+          "lonlat": [
+            -115.75,
+            46.05
+          ],
+          "size": 44,
+          "color": "muted"
+        }
+      ],
+      "y_offset": 0.08
+    }
+  },
+  "shots": [
+    {
+      "line": 0,
+      "kind": "kb",
+      "image": "mailbag",
+      "from": [
+        0.5,
+        0.45,
+        1.0
+      ],
+      "to": [
+        0.5,
+        0.55,
+        0.62
+      ]
+    },
+    {
+      "line": 1,
+      "kind": "kb",
+      "image": "wagon",
+      "from": [
+        0.3,
+        0.5,
+        0.3
+      ],
+      "to": [
+        0.62,
+        0.5,
+        0.3
+      ]
+    },
+    {
+      "line": 2,
+      "kind": "kb",
+      "image": "rural",
+      "from": [
+        0.35,
+        0.5,
+        0.3
+      ],
+      "to": [
+        0.6,
+        0.5,
+        0.3
+      ]
+    },
+    {
+      "line": 3,
+      "kind": "number",
+      "title": "Postage, 1913",
+      "value": "15¢",
+      "label": "to mail a baby"
+    },
+    {
+      "line": 4,
+      "kind": "kb",
+      "image": "idaho",
+      "from": [
+        0.5,
+        0.45,
+        1.0
+      ],
+      "to": [
+        0.5,
+        0.43,
+        0.8
+      ]
+    },
+    {
+      "line": 5,
+      "kind": "framed",
+      "image": "stamp",
+      "zoom": 1.06,
+      "x": [
+        0.3,
+        0.7
+      ],
+      "y": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "line": 6,
+      "kind": "kb",
+      "image": "mailbag",
+      "from": [
+        0.5,
+        0.55,
+        0.62
+      ],
+      "to": [
+        0.5,
+        0.45,
+        1.0
+      ]
+    }
+  ],
+  "youtube": {
+    "title": "In 1913, Americans mailed their kids",
+    "description": "When U.S. Parcel Post began in January 1913, a few parents treated it as a cheap way to send their children. In Ohio, a rural mail carrier delivered a baby boy to his grandmother about a mile away: 15 cents in postage, insured for $50. In February 1914, five-year-old May Pierstorff traveled 73 miles from Grangeville to Lewiston, Idaho, with 53 cents in parcel post stamps on her coat, riding in the railway mail car. Postal officials soon stopped the practice; the last known cases date from 1915.\n\nNote: the photo of the baby in the mailbag was staged as a joke at the time (Smithsonian National Postal Museum).\n\nSources: Smithsonian, \"Special Delivery\" (2016); Smithsonian Magazine, \"A Brief History of Children Sent Through the Mail\"; Lewiston Tribune (2000); Mystic Stamp Company, \"Mailing Children\".\nImages: public domain via Wikimedia Commons (Smithsonian National Postal Museum photos: letter carrier with a child in a mailbag, parcel post wagon in New Bedford, Massachusetts, rural letter carrier with his vehicle; 1912-13 Parcel Post stamps, Bureau of Engraving and Printing). Map: Natural Earth (public domain).\n\n#history #weirdhistory #shorts",
+    "tags": [
+      "history",
+      "weird history",
+      "parcel post",
+      "1913",
+      "mailing children",
+      "true story",
+      "american history"
+    ],
+    "category": "EDUCATION"
+  },
+  "sources": [
+    "https://dashboard.si.edu/newsdesk/snapshot/special-delivery",
+    "https://www.smithsonianmag.com/smart-news/brief-history-children-sent-through-mail-180959372/",
+    "https://lmtribune.com/northwest/mailing-miss-may-a-little-girl-and-a-railroad-became-famous-togetherd163b3e9",
+    "https://info.mysticstamp.com/wp-content/uploads/02-19-1914-Mailing-Children.pdf"
+  ],
+  "translation_es": "En 1913, los estadounidenses empezaron a mandar a sus hijos por correo. El nuevo servicio de encomiendas tenía un límite de peso, y algunos padres lo tomaron al pie de la letra. En Ohio, una pareja mandó a su bebé a la casa de la abuela, a una milla. El envío costó 15 centavos, y lo aseguraron por 50 dólares. En 1914, May Pierstorff, de cinco años, fue enviada por correo 73 millas a través de Idaho. 53 centavos en estampillas pegadas en el abrigo, y viajó en el vagón del correo. Las autoridades lo prohibieron poco después. Pero por un tiempo… en 1913, los estadounidenses mandaban a sus hijos por correo."
+}
