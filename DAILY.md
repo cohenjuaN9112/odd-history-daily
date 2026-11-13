@@ -24,7 +24,10 @@ Everything in the video and on YouTube is in **English for a U.S. audience**.
   Drop any fact you cannot verify. Never invent quotes.
 - **Images:** find 6–9 images on Wikimedia Commons that are public domain / CC0 / "No restrictions"
   (pre-1929 works, U.S. federal government works, etc.). Use the Commons API (see `pipeline/fetch_images.py`),
-  with a pause between requests: Commons rate-limits (HTTP 429). If a story has fewer than 5 usable images, pick another story.
+  with a pause between requests: Commons rate-limits (HTTP 429). If upload.wikimedia.org keeps answering 429, do not
+  retry in a loop or change user agents; take the same public-domain originals from the Library of Congress
+  (loc.gov item JSON `?fo=json` → tile.loc.gov / cdn.loc.gov files) and record them by hand in `img/credits.json`.
+  If a story has fewer than 5 usable images, pick another story.
   Never use photos of people under 18 as the main subject, and never use copyrighted photos.
 
 ## 2. Write the script
@@ -65,13 +68,15 @@ Everything in the video and on YouTube is in **English for a U.S. audience**.
 
 ## 4. Publish (Metricool → YouTube)
 1. Commit `story.json`, `img/credits.json` and the `log.csv` line to `main` (never commit `img/*.jpg` or `out/`).
-2. Put the video on the `media` branch, replacing whatever is there (keeps the repo small):
+2. Put the video on the `media` branch, replacing the previous video in the tree. Use a normal push
+   (force-pushing is blocked in the scheduled environment; Metricool keeps its own copy of older videos):
    ```
    D=<dir>   # e.g. 2026-11-13-some-story
-   rm -rf /tmp/media && git worktree add -q --orphan -b media-$D /tmp/media
-   mkdir -p /tmp/media/videos && cp stories/$D/out/short.mp4 /tmp/media/videos/$D.mp4
-   cd /tmp/media && git add -A && git -c user.name="Odd History Daily" -c user.email="noreply@example.com" commit -qm "video $D" \
-     && git push -f origin HEAD:media && cd -
+   M=<scratch dir>/media
+   git fetch -q origin media && git worktree prune && rm -rf $M && git worktree add -q -b media-$D $M origin/media
+   git -C $M rm -q -r --ignore-unmatch videos && mkdir -p $M/videos && cp stories/$D/out/short.mp4 $M/videos/$D.mp4
+   git -C $M add -A && git -C $M -c user.name="Odd History Daily" -c user.email="noreply@example.com" commit -qm "video $D" \
+     && git -C $M push origin HEAD:media
    curl -sS -o /dev/null -w "%{http_code} %{size_download}\n" https://raw.githubusercontent.com/cohenjuaN9112/odd-history-daily/media/videos/$D.mp4
    ```
    Public URL: `https://raw.githubusercontent.com/cohenjuaN9112/odd-history-daily/media/videos/<dir>.mp4`
