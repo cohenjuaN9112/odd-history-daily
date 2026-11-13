@@ -1,0 +1,68 @@
+{
+ "standing": {
+  "file": "standing.jpg",
+  "title": "Norton I Bradley & Rulofson Portrait.jpg",
+  "license": "Public domain",
+  "author": "Bradley & Rulofson (California State Library)",
+  "page": "https://commons.wikimedia.org/wiki/File:Norton_I_Bradley_%26_Rulofson_Portrait.jpg",
+  "size": [
+   4166,
+   6729
+  ]
+ },
+ "seated": {
+  "file": "seated.jpg",
+  "title": "Emperor Norton Seated Portrait.jpg",
+  "license": "Public domain",
+  "author": "Unknown author (California State Library)",
+  "page": "https://commons.wikimedia.org/wiki/File:Emperor_Norton_Seated_Portrait.jpg",
+  "size": [
+   4183,
+   6875
+  ]
+ },
+ "carriage": {
+  "file": "carriage.jpg",
+  "title": "Emperor Norton in carriage of State, 1869.jpg",
+  "license": "Public domain",
+  "author": "Hamilton Henry Dobbin (California State Library)",
+  "page": "https://commons.wikimedia.org/wiki/File:Emperor_Norton_in_carriage_of_State,_1869.jpg",
+  "size": [
+   4592,
+   6325
+  ]
+ },
+ "sf": {
+  "file": "sf.jpg",
+  "title": "Panorama of San Francisco from California Street Hill (c1877), right page crop",
+  "license": "No known restrictions on publication (Library of Congress)",
+  "author": "Eadweard Muybridge (Library of Congress)",
+  "page": "https://www.loc.gov/item/2007664634/",
+  "size": [
+   4096,
+   3231
+  ]
+ },
+ "sf_left": {
+  "file": "sf_left.jpg",
+  "title": "Panorama of San Francisco from California Street Hill (c1877), left page crop",
+  "license": "No known restrictions on publication (Library of Congress)",
+  "author": "Eadweard Muybridge (Library of Congress)",
+  "page": "https://www.loc.gov/item/2007664634/",
+  "size": [
+   4096,
+   3231
+  ]
+ },
+ "bridge": {
+  "file": "bridge.jpg",
+  "title": "HAER CAL,38-SANFRA,141--7: General view of suspension bridge, with Oakland in background",
+  "license": "Public domain (U.S. Government work, HAER)",
+  "author": "Jet Lowe, Historic American Engineering Record (Library of Congress)",
+  "page": "https://www.loc.gov/pictures/collection/hh/item/ca1352.photos.016370p/",
+  "size": [
+   5095,
+   4092
+  ]
+ }
+}
