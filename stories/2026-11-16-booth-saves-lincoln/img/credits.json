@@ -1,0 +1,79 @@
+{
+ "jwb": {
+  "file": "jwb.jpg",
+  "title": "John Wilkes Booth-portrait.jpg",
+  "license": "Public domain",
+  "author": "Alexander Gardner, c. 1865 (Library of Congress)",
+  "page": "https://commons.wikimedia.org/wiki/File:John_Wilkes_Booth-portrait.jpg",
+  "size": [
+   3122,
+   4294
+  ]
+ },
+ "robert": {
+  "file": "robert.jpg",
+  "title": "Robert Lincoln, son of Abraham, by Mathew Brady, ca. 1865.jpg",
+  "license": "Public domain",
+  "author": "Mathew Brady, c. 1865 (Library of Congress)",
+  "page": "https://commons.wikimedia.org/wiki/File:Robert_Lincoln,_son_of_Abraham,_by_Mathew_Brady,_ca._1865.jpg",
+  "size": [
+   3178,
+   4443
+  ]
+ },
+ "railroad": {
+  "file": "railroad.jpg",
+  "title": "American railroad scene- lightning express trains leaving the junction LCCN90708612.jpg",
+  "license": "Public domain",
+  "author": "Currier & Ives, 1874 (Library of Congress)",
+  "page": "https://commons.wikimedia.org/wiki/File:American_railroad_scene-_lightning_express_trains_leaving_the_junction_LCCN90708612.jpg",
+  "size": [
+   10113,
+   6958
+  ]
+ },
+ "edwin": {
+  "file": "edwin.jpg",
+  "title": "Edwin Booth, American actor and brother of John Wilkes Booth) - T.R. Burnham, photographer, 247 Washington Street, Boston LCCN2016652136.jpg",
+  "license": "Public domain",
+  "author": "T. R. Burnham, Boston, 1865 (Library of Congress)",
+  "page": "https://commons.wikimedia.org/wiki/File:Edwin_Booth,_American_actor_and_brother_of_John_Wilkes_Booth)_-_T.R._Burnham,_photographer,_247_Washington_Street,_Boston_LCCN2016652136.jpg",
+  "size": [
+   2084,
+   3135
+  ]
+ },
+ "hamlet": {
+  "file": "hamlet.jpg",
+  "title": "Edwin Booth as Hamlet LCCN96502191.jpg",
+  "license": "Public domain",
+  "author": "Bencke & Scott, 1873 (Library of Congress)",
+  "page": "https://commons.wikimedia.org/wiki/File:Edwin_Booth_as_Hamlet_LCCN96502191.jpg",
+  "size": [
+   4390,
+   5511
+  ]
+ },
+ "ford": {
+  "file": "ford.jpg",
+  "title": "The Assassination of President Lincoln at Ford's Theatre, Washington D.C., April 14th, 1865 MET DP831798.jpg",
+  "license": "CC0",
+  "author": "Currier & Ives, 1865 (The Metropolitan Museum of Art)",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Assassination_of_President_Lincoln_at_Ford%27s_Theatre,_Washington_D.C.,_April_14th,_1865_MET_DP831798.jpg",
+  "size": [
+   3669,
+   2685
+  ]
+ },
+ "garfield": {
+  "file": "garfield.jpg",
+  "title": "Washington, D.C.--The attack on the President's life--Scene in the ladies' room of the Baltimore and Ohio [sic] Railroad depot--The arrest of the assassin (Frank Leslie's Illustrated Newspaper, July 16, 1881)",
+  "license": "No known restrictions on publication (Library of Congress)",
+  "author": "A. Berghaus and C. Upham, Frank Leslie's Illustrated Newspaper (Library of Congress)",
+  "page": "https://www.loc.gov/item/96521930/",
+  "size": [
+   3840,
+   2864
+  ]
+ }
+}

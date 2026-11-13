@@ -1,0 +1,246 @@
+{
+  "slug": "2026-11-16-booth-saves-lincoln",
+  "voice": "en-US-ChristopherNeural",
+  "rate": "+8%",
+  "gap": 0.2,
+  "tag": "JERSEY CITY  ·  1860s",
+  "lines": [
+    "John Wilkes Booth's brother saved Lincoln's son.",
+    "During the Civil War, Robert Lincoln stood on a crowded platform in Jersey City.",
+    "The train started moving, and he fell into the gap by the platform.",
+    "A hand grabbed his collar and pulled him back up.",
+    "Robert knew the face: Edwin Booth, the famous actor.",
+    "In April 1865, Edwin's brother John shot President Lincoln.",
+    "Sixteen years later, Robert was nearby when President Garfield was shot.",
+    "But before all of that,"
+  ],
+  "images": {
+    "jwb": "John Wilkes Booth-portrait.jpg",
+    "robert": "Robert Lincoln, son of Abraham, by Mathew Brady, ca. 1865.jpg",
+    "railroad": "American railroad scene- lightning express trains leaving the junction LCCN90708612.jpg",
+    "edwin": "Edwin Booth, American actor and brother of John Wilkes Booth) - T.R. Burnham, photographer, 247 Washington Street, Boston LCCN2016652136.jpg",
+    "hamlet": "Edwin Booth as Hamlet LCCN96502191.jpg",
+    "ford": "The Assassination of President Lincoln at Ford's Theatre, Washington D.C., April 14th, 1865 MET DP831798.jpg"
+  },
+  "local_images": {
+    "garfield": "Library of Congress 96521930 (Frank Leslie's Illustrated Newspaper, July 16, 1881), master TIFF downscaled to 3840 px"
+  },
+  "shots": [
+    {
+      "line": 0,
+      "kind": "kb",
+      "image": "jwb",
+      "from": [
+        0.42,
+        0.3,
+        0.62
+      ],
+      "to": [
+        0.42,
+        0.3,
+        0.44
+      ]
+    },
+    {
+      "line": 0,
+      "kind": "kb",
+      "image": "robert",
+      "at_word": 4,
+      "from": [
+        0.47,
+        0.3,
+        0.52
+      ],
+      "to": [
+        0.47,
+        0.3,
+        0.44
+      ]
+    },
+    {
+      "line": 1,
+      "kind": "kb",
+      "image": "railroad",
+      "from": [
+        0.48,
+        0.47,
+        0.28
+      ],
+      "to": [
+        0.3,
+        0.47,
+        0.28
+      ]
+    },
+    {
+      "line": 1,
+      "kind": "kb",
+      "image": "railroad",
+      "at_word": 9,
+      "from": [
+        0.17,
+        0.56,
+        0.22
+      ],
+      "to": [
+        0.155,
+        0.6,
+        0.16
+      ]
+    },
+    {
+      "line": 2,
+      "kind": "kb",
+      "image": "railroad",
+      "from": [
+        0.26,
+        0.6,
+        0.2
+      ],
+      "to": [
+        0.32,
+        0.64,
+        0.15
+      ]
+    },
+    {
+      "line": 3,
+      "kind": "kb",
+      "image": "robert",
+      "from": [
+        0.47,
+        0.33,
+        0.5
+      ],
+      "to": [
+        0.46,
+        0.36,
+        0.36
+      ]
+    },
+    {
+      "line": 4,
+      "kind": "kb",
+      "image": "edwin",
+      "from": [
+        0.47,
+        0.42,
+        0.65
+      ],
+      "to": [
+        0.47,
+        0.38,
+        0.45
+      ]
+    },
+    {
+      "line": 4,
+      "kind": "kb",
+      "image": "hamlet",
+      "at_word": 6,
+      "from": [
+        0.5,
+        0.32,
+        0.6
+      ],
+      "to": [
+        0.5,
+        0.27,
+        0.42
+      ]
+    },
+    {
+      "line": 5,
+      "kind": "kb",
+      "image": "ford",
+      "from": [
+        0.5,
+        0.45,
+        0.33
+      ],
+      "to": [
+        0.7,
+        0.46,
+        0.3
+      ]
+    },
+    {
+      "line": 5,
+      "kind": "kb",
+      "image": "jwb",
+      "at_word": 4,
+      "from": [
+        0.42,
+        0.3,
+        0.6
+      ],
+      "to": [
+        0.42,
+        0.27,
+        0.45
+      ]
+    },
+    {
+      "line": 6,
+      "kind": "number",
+      "title": "Robert Lincoln was about",
+      "value": "40 FT",
+      "label": "from Garfield"
+    },
+    {
+      "line": 6,
+      "kind": "kb",
+      "image": "garfield",
+      "at_word": 5,
+      "from": [
+        0.45,
+        0.45,
+        0.4
+      ],
+      "to": [
+        0.53,
+        0.4,
+        0.27
+      ]
+    },
+    {
+      "line": 7,
+      "kind": "kb",
+      "image": "railroad",
+      "from": [
+        0.155,
+        0.6,
+        0.16
+      ],
+      "to": [
+        0.21,
+        0.5,
+        0.26
+      ]
+    }
+  ],
+  "youtube": {
+    "title": "Lincoln's son was saved by a Booth",
+    "description": "During the Civil War (Robert Lincoln later recalled 1863 or 1864), Abraham Lincoln's eldest son Robert was standing on a crowded train platform in Jersey City, New Jersey. When the train began to move, he was twisted off his feet and dropped into the open space between the car and the platform, until someone seized his coat collar and pulled him back up. He recognized his rescuer at once: Edwin Booth, one of the most famous actors in America, and the older brother of John Wilkes Booth, who shot President Lincoln at Ford's Theatre in April 1865. Sixteen years later, on July 2, 1881, Robert Lincoln, then Secretary of War, was about 40 feet away when President James Garfield was shot at the Baltimore and Potomac railroad station in Washington.\n\nSources: Jason Emerson, Civil War Times (April 2005), via HistoryNet, quoting Robert Lincoln's 1909 letter to Richard Watson Gilder in The Century Magazine; Mental Floss, \"The Time John Wilkes Booth's Brother Saved Abe Lincoln's Son\"; National Park Service, \"Robert Todd Lincoln and Presidential Assassinations\"; Benjamin T. Arrington, \"A Certain Fatality\", We're History (2015); Shapell Manuscript Foundation.\nImages: public domain. Portraits of John Wilkes Booth (Alexander Gardner, c. 1865), Robert Lincoln (Mathew Brady, c. 1865) and Edwin Booth (T. R. Burnham, 1865), and the lithograph of Edwin Booth as Hamlet (Bencke & Scott, 1873), Library of Congress via Wikimedia Commons. \"American Railroad Scene\" (Currier & Ives, 1874, used as illustration), Library of Congress via Wikimedia Commons. \"The Assassination of President Lincoln\" (Currier & Ives, 1865), The Metropolitan Museum of Art. Garfield shooting engraving, Frank Leslie's Illustrated Newspaper, July 16, 1881 (Library of Congress).\n\n#history #lincoln #shorts",
+    "tags": [
+      "history",
+      "abraham lincoln",
+      "robert todd lincoln",
+      "edwin booth",
+      "john wilkes booth",
+      "civil war",
+      "weird history",
+      "true story"
+    ],
+    "category": "EDUCATION"
+  },
+  "sources": [
+    "https://www.historynet.com/edwin-booth/",
+    "https://www.mentalfloss.com/article/56482/time-john-wilkes-booths-brother-saved-abe-lincolns-son",
+    "https://www.nps.gov/articles/000/robert-todd-lincoln-and-presidential-assassinations-not-formal-title.htm",
+    "https://werehistory.org/robert-todd-lincoln/",
+    "https://www.shapell.org/manuscript/robert-todd-lincoln-presidential-assassinations/"
+  ],
+  "translation_es": "El hermano de John Wilkes Booth le salvó la vida al hijo de Lincoln. Durante la Guerra Civil, Robert Lincoln estaba parado en un andén lleno de gente en Jersey City. El tren arrancó y él se cayó en el hueco junto al andén. Una mano lo agarró del cuello y lo subió de nuevo. Robert reconoció la cara: era Edwin Booth, el famoso actor. En abril de 1865, John, el hermano de Edwin, le disparó al presidente Lincoln. Dieciséis años después, Robert estaba cerca cuando le dispararon al presidente Garfield. Pero antes de todo eso… el hermano de John Wilkes Booth le salvó la vida al hijo de Lincoln.",
+  "badge_line": 4
+}
