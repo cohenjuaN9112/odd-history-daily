@@ -33,6 +33,15 @@ Everything in the video and on YouTube is in **English for a U.S. audience**.
 ## 2. Write the script
 - 6–8 lines, **65–80 words total** (≈25–30 s). One line = one sentence; that is how scenes are timed.
 - Line 1 is the hook: 5–9 words, the most surprising fact, said straight away.
+- **First frame (most viewers swipe away in the first second; "stayed to watch" was 44% on 2026-11-14, target 60%+):**
+  set `"hook": ["THEY MAILED", "*THEIR KIDS"]` in story.json: 2 lines, max 11 characters each, the claim in its
+  shortest form (`*` = amber line). It is drawn large over shot 0 while line 1 is spoken (`"hook_y"` moves it,
+  default 520). Shot 0 must be the single most striking image of the story, already moving at frame 0
+  (a `kb` push-in, never a card or a map), with its subject clear of the hook text. `preview` writes
+  `out/first_frame.jpg`: look at it and ask "would I stop scrolling?" before the final render.
+- **Comment question:** write one short question that invites opinions and has no right answer
+  (e.g. "Would you have mailed your kid for 15 cents?") as `"comment"` in story.json; it goes in
+  `firstCommentText` when scheduling.
 - Last line ends mid-sentence so it flows back into line 1 when the Short loops
   (e.g. "...long after" → "Boston was hit by a tsunami of molasses.").
 - **No spoken call to action** (it breaks the story). Instead a red LIKE · SUBSCRIBE badge appears on screen
@@ -93,7 +102,8 @@ Everything in the video and on YouTube is in **English for a U.S. audience**.
    - **Monthly cap check before scheduling:** count this calendar month's posts in Metricool
      (`getScheduledPosts` for the whole month with `extendedRange`, published + pending) and in `log.csv`.
      If there are already 20, do NOT make or schedule a video; tell Juan the monthly limit is reached.
-   - providers `[{"network":"youtube"}]`, media `[<raw URL>]`, text = description
+   - providers `[{"network":"youtube"}]`, media `[<raw URL>]`, text = description,
+     firstCommentText = the story's `comment` question
    - youtubeData: `{"title": <title>, "type": "short", "privacy": "public", "madeForKids": false,
      "isAiGeneratedContent": false, "category": "EDUCATION", "tags": [...]}`
    (real archival photos + a narrator voice are not "realistic altered content"; set it to true only if a

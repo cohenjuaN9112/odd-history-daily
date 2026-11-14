@@ -194,6 +194,7 @@ ScaledBorderAndShadow: yes
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Cap,Poppins,94,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,1,0,0,0,100,100,0,0,1,7,4,5,90,90,0,1
 Style: Tag,Poppins,60,&H00E8F0F5,&H00FFFFFF,&H64000000,&H64000000,1,0,0,0,100,100,4,0,3,16,0,8,80,80,240,1\nStyle: Cta,Poppins,66,&H00FFFFFF,&H00FFFFFF,&H001C1CE6,&H001C1CE6,1,0,0,0,100,100,3,0,3,22,0,5,80,80,0,1
+Style: Hook,Poppins,150,&H00FFFFFF,&H00FFFFFF,&H00000000,&HB4000000,1,0,0,0,100,100,0,0,1,10,6,5,60,60,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -203,6 +204,14 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
         if bl is not None and bl is not False:
             g = self.groups[bl]
             lines.append(f"Dialogue: 2,{ts(g[0][0] - 0.1)},{ts(g[-1][1] + 0.25)},Cta,,0,0,0,,{{\\pos(540,1185)\\fad(120,120)}}LIKE  ·  SUBSCRIBE")
+        hook = self.s.get("hook")
+        if hook:
+            # big title on the very first frame; "*" marks the amber line: ["THEY MAILED", "*THEIR KIDS"]
+            hend = min(self.groups[0][-1][1] + 0.15, 3.2); hy = self.s.get("hook_y", 520)
+            for i, x in enumerate(hook):
+                col = r"\c&H0000B4FF&" if x.startswith("*") else ""
+                fx = r"\fscx118\fscy118\t(0,160,\fscx100\fscy100)\fad(0,140)"
+                lines.append(f"Dialogue: 3,{ts(0)},{ts(hend)},Hook,,0,0,0,,{{\\pos(540,{hy + i * 170}){fx}{col}}}{x.lstrip('*').upper()}")
         if self.s.get("tag"):
             lines.append(f"Dialogue: 0,{ts(0)},{ts(3.0)},Tag,,0,0,0,,{{\\fad(0,250)}}{self.s['tag']}")
         open(f"{self.out}/captions.ass", "w").write(head + "\n".join(lines) + "\n")
@@ -241,6 +250,9 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
             t = round((a + b) / 2, 2); p = f"{self.out}/pv_{i:02d}.png"
             sh(["ffmpeg", "-v", "error", "-y", "-ss", str(t), "-i", f"{self.out}/video_noaudio.mp4", "-frames:v", "1", "-copyts",
                 "-vf", f"ass={self.out}/captions.ass:fontsdir={FONTDIR}", p]); frames.append(p)
+        # the very first frame decides whether people stay: always check it
+        sh(["ffmpeg", "-v", "error", "-y", "-ss", "0.1", "-i", f"{self.out}/video_noaudio.mp4", "-frames:v", "1", "-copyts",
+            "-vf", f"ass={self.out}/captions.ass:fontsdir={FONTDIR},scale=540:-1", f"{self.out}/first_frame.jpg"])
         tw, th = 270, 480; cols = min(len(frames), 6); rows = math.ceil(len(frames) / cols)
         sheet = Image.new("RGB", (cols * (tw + 8), rows * (th + 8)), "black")
         for k, p in enumerate(frames): sheet.paste(Image.open(p).resize((tw, th)), ((k % cols) * (tw + 8), (k // cols) * (th + 8)))
