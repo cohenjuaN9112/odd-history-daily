@@ -1,7 +1,10 @@
 # Odd History Daily — daily run
 
-Instructions for the scheduled Claude run that makes and schedules one YouTube Short per day
+Instructions for the scheduled Claude run that prepares **two YouTube Shorts per day**
 for the channel **Odd History Daily** (@OddHistoryDaily-u4b), owned by Juan.
+**Juan uploads them himself** (since 2026-11-14; Metricool's free plan only publishes 20 posts a month):
+the run builds the videos and hands him each one with its title, description and comment, ready to paste.
+The run does NOT schedule anything in Metricool.
 Juan does not speak English: every message to him is in **Spanish (rioplatense)**.
 Everything in the video and on YouTube is in **English for a U.S. audience**.
 
@@ -14,7 +17,11 @@ Everything in the video and on YouTube is in **English for a U.S. audience**.
 4. If HTTPS from Python fails with a certificate error, the proxy CA bundle is at `~/.ccr/ca-bundle.crt`
    (tts_lines.py already uses it when present).
 
-## 1. Pick today's story
+## 1. Pick today's stories
+- **How many:** two per run, minus any Short that Metricool already has pending for today
+  (`getScheduledPosts`, brand 8050318, today in America/Buenos_Aires; these are leftovers scheduled before
+  2026-11-14 and publish on their own). Do sections 1–3 fully for one story, then for the other.
+  The two stories of a day must differ in era and subject, and must not share an opening image style.
 - Read `log.csv` and never repeat a story. Prefer an unused one from `backlog.md`; you may find a new one.
 - A good story: true, surprising, little-known, ideally American, explainable in 25–30 seconds,
   with a twist or a number people will repeat. Avoid gore, graphic death detail, living private people,
@@ -75,46 +82,37 @@ Everything in the video and on YouTube is in **English for a U.S. audience**.
 5. `python3 pipeline/make_short.py stories/<dir> final` → `out/short.mp4`. Check: 20–35 s, under 50 MB,
    and Read 2–3 frames extracted from it.
 
-## 4. Publish (Metricool → YouTube)
-1. Commit `story.json`, `img/credits.json` and the `log.csv` line to `main` (never commit `img/*.jpg` or `out/`).
-2. Put the video on the `media` branch, replacing the previous video in the tree. Use a normal push
-   (force-pushing is blocked in the scheduled environment; Metricool keeps its own copy of older videos):
+## 4. Hand over (Juan uploads by hand)
+1. For each video write `stories/<dir>/upload.txt` (committed) with exactly these blocks, in English:
+   `TITLE:` (max 60 characters, no hashtags), `DESCRIPTION:` (2–4 sentences of the story, then `Sources:` and
+   `Images:` credit lines from `img/credits.json`, then `#history #shorts` plus one topical hashtag),
+   `COMMENT:` (the story's `comment` question), `TAGS:` (comma-separated).
+2. Commit `story.json`, `img/credits.json`, `upload.txt` and the `log.csv` lines to `main`
+   (never commit `img/*.jpg` or `out/`). log.csv columns: `date,slug,title,scheduled_et,status,sources,format`;
+   use the suggested upload time in `scheduled_et` and status `handed to Juan (manual upload)`.
+3. Put today's videos on the `media` branch, replacing the previous day's (normal push, never force):
    ```
-   D=<dir>   # e.g. 2026-11-13-some-story
    M=<scratch dir>/media
-   git fetch -q origin media && git worktree prune && rm -rf $M && git worktree add -q -b media-$D $M origin/media
-   git -C $M rm -q -r --ignore-unmatch videos && mkdir -p $M/videos && cp stories/$D/out/short.mp4 $M/videos/$D.mp4
-   git -C $M add -A && git -C $M -c user.name="Odd History Daily" -c user.email="noreply@example.com" commit -qm "video $D" \
+   git fetch -q origin media && git worktree prune && rm -rf $M && git worktree add -q -b media-$(date +%s) $M origin/media
+   git -C $M rm -q -r --ignore-unmatch videos && mkdir -p $M/videos
+   cp stories/<dir1>/out/short.mp4 $M/videos/<dir1>.mp4; cp stories/<dir2>/out/short.mp4 $M/videos/<dir2>.mp4
+   git -C $M add -A && git -C $M -c user.name="Odd History Daily" -c user.email="noreply@example.com" commit -qm "videos <date>" \
      && git -C $M push origin HEAD:media
-   curl -sS -o /dev/null -w "%{http_code} %{size_download}\n" https://raw.githubusercontent.com/cohenjuaN9112/odd-history-daily/media/videos/$D.mp4
    ```
-   Public URL: `https://raw.githubusercontent.com/cohenjuaN9112/odd-history-daily/media/videos/<dir>.mp4`
-   (must answer 200 with the full size before you use it; wait a minute and retry if not).
-3. Metricool: `getBrandSettings` → blogId (8050318) and timezone. **`networksData.youtubeData` must be
-   `UCoZ3HTblBSzBHW9Co4JBufg` (Odd History Daily).** If it is anything else (e.g. Juan's personal channel
-   `UC56op-wo9H5-OvSvAeu1yVw`) do NOT publish: tell Juan to reconnect the right channel in Metricool.
-   Then `createScheduledPost` with:
-   - date / publicationDate: **today at 19:00 America/New_York** (21:00 Buenos Aires in the U.S. winter,
-     20:00 in the U.S. summer). If today's slot is already taken, use the next free *posting day*.
-   - **Posting days (Metricool free plan = max 20 published posts per calendar month):** only days of the month
-     that are NOT a multiple of 3 and never the 31st (1,2,4,5,7,8,10,11,13,14,16,17,19,20,22,23,25,26,28,29).
-     Never two Shorts on the same day.
-   - **Monthly cap check before scheduling:** count this calendar month's posts in Metricool
-     (`getScheduledPosts` for the whole month with `extendedRange`, published + pending) and in `log.csv`.
-     If there are already 20, do NOT make or schedule a video; tell Juan the monthly limit is reached.
-   - providers `[{"network":"youtube"}]`, media `[<raw URL>]`, text = description,
-     firstCommentText = the story's `comment` question
-   - youtubeData: `{"title": <title>, "type": "short", "privacy": "public", "madeForKids": false,
-     "isAiGeneratedContent": false, "category": "EDUCATION", "tags": [...]}`
-   (real archival photos + a narrator voice are not "realistic altered content"; set it to true only if a
-   video ever shows generated realistic people, events or places.)
-4. Append a line to `log.csv`: `date,slug,title,scheduled_et,status,sources,format` and push `main`.
+   Download link for each: `https://raw.githubusercontent.com/cohenjuaN9112/odd-history-daily/media/videos/<dir>.mp4`
+   (check it answers 200 with the full size).
 
 ## 5. Tell Juan (Spanish)
-Send him, with SendUserMessage + SendUserFile (the video) and a push notification:
-- the English title and when it goes out (Argentina time and U.S. East time),
-- the Spanish translation of the narration,
-- one line on why the story was chosen,
-- that he can stop or edit it in Metricool's planner before it goes out.
-If any step failed (Metricool not connected, push refused, story not verifiable), still send the video if
-there is one and explain plainly what failed and what he needs to do. Never publish anything unverified.
+Send the videos with SendUserFile (file names `<date> 1 <short name>.mp4`, `<date> 2 <short name>.mp4`) and ONE
+SendUserMessage in Spanish (rioplatense), plus a push notification. For each video, in this order:
+- **Video 1 / Video 2**, the download link, and the suggested upload time in Argentina time:
+  video 1 at 12:00 America/New_York, video 2 at 19:00 America/New_York (convert to Buenos Aires time; he can
+  upload both in the morning and use "Programar" in YouTube Studio).
+- `Título`, `Descripción` and `Comentario para fijar`, each in its own code block so he can copy it
+  (English text exactly as in `upload.txt`).
+- The Spanish translation of the narration and one line on why the story was chosen.
+End with the fixed upload checklist: "No, no es contenido para niños" · contenido alterado: No · visibilidad
+Pública (o Programar) · después de publicar, pegar el comentario y fijarlo.
+If a Short was already pending in Metricool for today, say which one and that he must NOT upload that one.
+If any step failed (story not verifiable, push refused), still send what there is and explain plainly what
+failed. Never hand over anything unverified.
