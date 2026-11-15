@@ -11,7 +11,9 @@ story.json -> "maps": {
     "labels": [{"text": "RUSSIA", "lonlat": [100, 62], "size": 90, "color": "paper"}],
     "lines": [{"lonlat": [[-169, 58], [-169, 72]], "color": "paper", "dash": true, "width": 6}],
     "dots": [{"lonlat": [-168.95, 65.76], "r": 14, "color": "amber"}],
-    "title": "THE BERING STRAIT"         # optional small heading at the top
+    "title": "THE BERING STRAIT",        # optional small heading at the top
+    "lakes": true,                       # paint lakes (Great Lakes...) as water over land and highlights ("fine" -> 10m lakes)
+    "polygons": [{"lonlat": [[-84.8, 41.62], [-83.4, 41.62], [-83.4, 41.73]], "color": "amber"}]  # free-drawn areas
   },
   "<key2>": {
     "type": "compare",                   # same-scale shapes side by side (equal-area), e.g. Alaska vs 3 states
@@ -21,6 +23,8 @@ story.json -> "maps": {
     "title": "SAME SCALE"
   }
 }
+Highlight items may add "clip_box": [minlon, minlat, maxlon, maxlat] or "clip": [[lon, lat], ...] to keep only part of
+a state/country (e.g. Ohio north of a survey line, the Upper Peninsula of Michigan).
 Names: "state" = Natural Earth admin-1 name (U.S. states, provinces...), "country" = Natural Earth ADMIN name.
 Colors: amber, paper, red, blue, land, or any #hex.
 Data: Natural Earth (public domain), downloaded once into pipeline/data/.
@@ -37,7 +41,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = f"{HERE}/data"
 NE = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/"
 FILES = {"countries": "ne_50m_admin_0_countries.geojson", "states": "ne_50m_admin_1_states_provinces.geojson",
-         "countries10": "ne_10m_admin_0_countries.geojson"}
+         "countries10": "ne_10m_admin_0_countries.geojson", "lakes": "ne_50m_lakes.geojson",
+         "lakes10": "ne_10m_lakes.geojson"}
 FONT = "/usr/share/fonts/truetype/google-fonts/Poppins-Bold.ttf"
 COL = {"ink": "#1b120b", "land": "#3b2e22", "edge": "#6b5643", "amber": "#ffb400", "paper": "#f0ece4",
        "red": "#a8432f", "blue": "#3f6e9e", "sea": "#1b120b", "muted": "#8a7560"}
@@ -63,6 +68,10 @@ def feature(item):
     else:
         df = layer("countries10" if item.get("fine") else "countries"); g = df[df["ADMIN"] == item["country"]]
     if g.empty: raise ValueError(f"not found: {item}")
+    if item.get("clip_box") or item.get("clip"):
+        from shapely.geometry import Polygon, box
+        cl = box(*item["clip_box"]) if item.get("clip_box") else Polygon(item["clip"])
+        g = gpd.GeoDataFrame(geometry=[g.to_crs("EPSG:4326").geometry.union_all().intersection(cl)], crs="EPSG:4326")
     return g
 
 def fig():
@@ -82,6 +91,12 @@ def region(spec, out):
         layer("states").to_crs(crs).plot(ax=ax, color="none", edgecolor=COL["edge"], linewidth=0.5)
     for h in spec.get("highlight", []):
         feature(h).to_crs(crs).plot(ax=ax, color=col(h.get("color", "amber")), edgecolor=COL["ink"], linewidth=0.6)
+    for pg in spec.get("polygons", []):
+        from shapely.geometry import Polygon
+        gpd.GeoSeries([Polygon(pg["lonlat"])], crs="EPSG:4326").to_crs(crs).plot(
+            ax=ax, color=col(pg.get("color", "amber")), edgecolor=COL["ink"], linewidth=0.6, alpha=pg.get("alpha", 1.0))
+    if spec.get("lakes"):
+        layer("lakes10" if spec.get("fine") else "lakes").to_crs(crs).plot(ax=ax, color=COL["sea"], edgecolor=COL["edge"], linewidth=0.8)
     half_w = spec["width_km"] * 500; half_h = half_w * H / W
     yo = spec.get("y_offset", 0.0) * 2 * half_h
     ax.set_xlim(-half_w, half_w); ax.set_ylim(-half_h - yo, half_h - yo)

@@ -1,0 +1,72 @@
+{
+ "queen": {
+  "file": "queen.jpg",
+  "title": "Queen-of-the-Mist.jpg",
+  "license": "Public domain",
+  "author": "GG Bain News Service",
+  "page": "https://commons.wikimedia.org/wiki/File:Queen-of-the-Mist.jpg",
+  "size": [
+   2427,
+   3251
+  ]
+ },
+ "portrait": {
+  "file": "portrait.jpg",
+  "title": "Annie Taylor.jpg",
+  "license": "Public domain",
+  "author": "Unknown photographer, 1901",
+  "page": "https://commons.wikimedia.org/wiki/File:Annie_Taylor.jpg",
+  "size": [
+   750,
+   960
+  ]
+ },
+ "stereo": {
+  "file": "stereo.jpg",
+  "title": "Miagara [i.e. Niagara]. Mrs. Taylor the first human being to go over falls and lives",
+  "license": "No known restrictions on publication (Library of Congress)",
+  "author": "M. H. Zahner, 1901 (Library of Congress)",
+  "page": "https://www.loc.gov/item/2016647628/",
+  "source_file": "https://tile.loc.gov/storage-services/master/pnp/ds/09100/09162u.tif",
+  "size": [
+   3840,
+   2019
+  ]
+ },
+ "half": {
+  "file": "half.jpg",
+  "title": "Miagara [i.e. Niagara]. Mrs. Taylor the first human being to go over falls and lives",
+  "license": "No known restrictions on publication (Library of Congress)",
+  "author": "M. H. Zahner, 1901 (Library of Congress)",
+  "page": "https://www.loc.gov/item/2016647628/",
+  "source_file": "https://tile.loc.gov/storage-services/master/pnp/cph/3a20000/3a21000/3a21700/3a21793u.tif",
+  "size": [
+   1534,
+   1536
+  ]
+ },
+ "falls_v": {
+  "file": "falls_v.jpg",
+  "title": "The Horseshoe Falls, Niagara",
+  "license": "No known restrictions on publication (Library of Congress)",
+  "author": "Detroit Publishing Co., c. 1900 (Library of Congress)",
+  "page": "https://www.loc.gov/item/2016808170/",
+  "source_file": "https://tile.loc.gov/storage-services/master/pnp/det/4a00000/4a08000/4a08200/4a08217u.tif",
+  "size": [
+   2780,
+   3206
+  ]
+ },
+ "falls_h": {
+  "file": "falls_h.jpg",
+  "title": "Horseshoe Falls, Niagara",
+  "license": "No known restrictions on publication (Library of Congress)",
+  "author": "Detroit Publishing Co., c. 1900 (Library of Congress)",
+  "page": "https://www.loc.gov/item/2016808276/",
+  "source_file": "https://tile.loc.gov/storage-services/master/pnp/det/4a00000/4a08000/4a08300/4a08374u.tif",
+  "size": [
+   3264,
+   2479
+  ]
+ }
+}

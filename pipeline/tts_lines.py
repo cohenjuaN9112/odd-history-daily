@@ -17,8 +17,16 @@ async def one(i, text):
             elif ch["type"] == "WordBoundary": marks.append((ch["offset"]/1e7, (ch["offset"]+ch["duration"])/1e7, ch["text"]))
     return marks
 words, t, parts = [], 0.0, []
+def one_retry(i, text, tries=5):
+    # the TTS service sometimes answers "No audio was received" for a valid line; retrying usually works
+    import time
+    for k in range(tries):
+        try: return asyncio.run(one(i, text))
+        except edge_tts.exceptions.NoAudioReceived:
+            if k == tries - 1: raise
+            time.sleep(2 + 2 * k)
 for i, l in enumerate(lines):
-    m = asyncio.run(one(i, l))
+    m = one_retry(i, l)
     a = max(m[0][0] - 0.04, 0); b = m[-1][1] + 0.12
     subprocess.run(["ffmpeg","-v","error","-y","-i",f"{tmp}/{i}.mp3","-ss",f"{a:.3f}","-to",f"{b:.3f}","-ar","48000","-ac","1",f"{tmp}/{i}.wav"], check=True)
     d = float(subprocess.check_output(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",f"{tmp}/{i}.wav"]).decode())

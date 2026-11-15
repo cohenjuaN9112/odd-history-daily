@@ -1,0 +1,177 @@
+{
+  "slug": "2026-11-15-annie-taylor-niagara",
+  "voice": "en-US-ChristopherNeural",
+  "rate": "+8%",
+  "gap": 0.2,
+  "lines": [
+    "A 63-year-old teacher rode a barrel over Niagara Falls.",
+    "A widow, she needed money for old age.",
+    "Her plan: an oak barrel, a mattress, and a bicycle pump for air.",
+    "Days earlier, a cat went first, and survived.",
+    "On her birthday, she went over the 167-foot Horseshoe Falls.",
+    "She came out with just a cut on her head.",
+    "Then her manager stole the barrel, and she died broke two decades later.",
+    "She was Annie Edson Taylor, and in 1901,"
+  ],
+  "images": {
+    "queen": "Queen-of-the-Mist.jpg",
+    "portrait": "Annie Taylor.jpg"
+  },
+  "shots": [
+    {
+      "line": 0,
+      "kind": "kb",
+      "image": "queen",
+      "from": [
+        0.47,
+        0.5,
+        0.75
+      ],
+      "to": [
+        0.45,
+        0.42,
+        0.62
+      ]
+    },
+    {
+      "line": 1,
+      "kind": "kb",
+      "image": "falls_h",
+      "from": [
+        0.33,
+        0.5,
+        0.44
+      ],
+      "to": [
+        0.58,
+        0.5,
+        0.44
+      ]
+    },
+    {
+      "line": 2,
+      "kind": "kb",
+      "image": "queen",
+      "from": [
+        0.73,
+        0.62,
+        0.5
+      ],
+      "to": [
+        0.73,
+        0.45,
+        0.5
+      ]
+    },
+    {
+      "line": 3,
+      "kind": "kb",
+      "image": "queen",
+      "from": [
+        0.64,
+        0.26,
+        0.42
+      ],
+      "to": [
+        0.635,
+        0.2,
+        0.32
+      ]
+    },
+    {
+      "line": 4,
+      "kind": "kb",
+      "image": "falls_v",
+      "from": [
+        0.45,
+        0.4,
+        0.7
+      ],
+      "to": [
+        0.42,
+        0.55,
+        0.55
+      ]
+    },
+    {
+      "line": 5,
+      "kind": "kb",
+      "image": "half",
+      "from": [
+        0.5,
+        0.5,
+        0.56
+      ],
+      "to": [
+        0.5,
+        0.45,
+        0.42
+      ]
+    },
+    {
+      "line": 6,
+      "kind": "framed",
+      "image": "portrait",
+      "zoom": 1.06,
+      "x": [
+        0.4,
+        0.6
+      ],
+      "y": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "line": 7,
+      "kind": "kb",
+      "image": "stereo",
+      "from": [
+        0.63,
+        0.5,
+        0.3
+      ],
+      "to": [
+        0.75,
+        0.5,
+        0.3
+      ]
+    }
+  ],
+  "comment": "Would you ride a barrel over Niagara Falls for a million dollars?",
+  "local_images": {
+    "stereo": "Library of Congress 2016647628 (M. H. Zahner stereograph, 1901), master TIFF downscaled to 3840 px",
+    "half": "Library of Congress 2016647628, half-stereo copy (LC-USZ62-20600), master TIFF",
+    "falls_v": "Library of Congress 2016808170 (Detroit Publishing Co., c. 1900), master TIFF downscaled to 3840 px, negative border cropped",
+    "falls_h": "Library of Congress 2016808276 (Detroit Publishing Co., c. 1900), master TIFF downscaled to 3840 px, negative border cropped"
+  },
+  "hook": [
+    "AGE 63 VS.",
+    "*NIAGARA"
+  ],
+  "hook_y": 1000,
+  "badge_line": 4,
+  "youtube": {
+    "title": "At 63, she rode a barrel over Niagara Falls",
+    "description": "On October 24, 1901, her 63rd birthday, schoolteacher Annie Edson Taylor became the first person to survive a trip over Niagara Falls in a barrel. The widow hoped the stunt would pay for her old age: days after a cat survived a test run, she went over the 167-foot Horseshoe Falls in an oak-and-iron barrel padded with a mattress, with air pumped in by a bicycle pump. She came out with only a small gash on her head, but her manager, Frank M. Russell, ran off with the barrel, and she died penniless in 1921.\n\nSources: Wikipedia, \"Annie Edson Taylor\"; New York State Parks blog, \"Remembering the Queen of the Mist\" (2021); Atlas Obscura, \"Annie Edson Taylor's 1901 Retirement Plan: Go Over Niagara Falls in a Barrel\"; Guinness World Records, \"Miraculous but tragic tale of the first person to survive a drop over Niagara Falls\" (2026); Radio Canada International, \"History, Oct 24, 1901: the Queen of the Mist, daredevil woman of the falls\" (2015).\nImages: public domain. Annie Edson Taylor with her barrel and a cat (GG Bain News Service) and with her barrel (unknown photographer, 1901), via Wikimedia Commons. M. H. Zahner stereograph, 1901 (Library of Congress). Horseshoe Falls photos (Detroit Publishing Co., c. 1900, Library of Congress).\n\n#history #shorts #niagarafalls",
+    "tags": [
+      "history",
+      "annie edson taylor",
+      "niagara falls",
+      "barrel",
+      "daredevil",
+      "1901",
+      "true story",
+      "weird history"
+    ],
+    "category": "EDUCATION"
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Annie_Edson_Taylor",
+    "https://nystateparks.blog/2021/01/12/remembering-the-queen-of-the-mist/",
+    "https://atlasobscura.com/articles/annie-edson-taylors-1901-retirement-plan-go-over-niagara-falls-in-a-barrel",
+    "https://www.guinnessworldrecords.com/news/2026/4/miraculous-but-tragic-tale-of-the-first-person-to-survive-a-drop-over-niagara-falls",
+    "https://www.rcinet.ca/en/2015/10/23/history-oct-24-1901-the-queen-of-the-mist-daredevil-woman-of-the-falls"
+  ],
+  "translation_es": "Una maestra de 63 años se tiró por las cataratas del Niágara dentro de un barril. Era viuda y necesitaba plata para la vejez. Su plan: un barril de roble, un colchón y un inflador de bicicleta para el aire. Unos días antes, un gato fue primero y sobrevivió. El día de su cumpleaños, cayó por las cataratas Horseshoe, de 167 pies (unos 51 metros). Salió con apenas un corte en la cabeza. Después, su representante le robó el barril, y ella murió en la ruina dos décadas más tarde. Se llamaba Annie Edson Taylor, y en 1901… una maestra de 63 años se tiró por las cataratas del Niágara dentro de un barril."
+}

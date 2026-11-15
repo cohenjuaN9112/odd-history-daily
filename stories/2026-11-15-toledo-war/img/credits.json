@@ -1,0 +1,66 @@
+{
+ "mason": {
+  "file": "mason.jpg",
+  "title": "Thomas Mickell Burnham - Stevens Thomson Mason - 57.268 - Detroit Institute of Arts.jpg",
+  "license": "Public domain",
+  "author": "Thomas Mickell Burnham, 1837 (Detroit Institute of Arts)",
+  "page": "https://commons.wikimedia.org/wiki/File:Thomas_Mickell_Burnham_-_Stevens_Thomson_Mason_-_57.268_-_Detroit_Institute_of_Arts.jpg",
+  "size": [
+   1667,
+   2000
+  ]
+ },
+ "lucas": {
+  "file": "lucas.jpg",
+  "title": "Robert Lucas by John H. Witt.jpg",
+  "license": "Public domain",
+  "author": "John H. Witt",
+  "page": "https://commons.wikimedia.org/wiki/File:Robert_Lucas_by_John_H._Witt.jpg",
+  "size": [
+   1196,
+   1528
+  ]
+ },
+ "mitchell": {
+  "file": "mitchell.jpg",
+  "title": "Mitchell Map-06full2.jpg",
+  "license": "Public domain",
+  "author": "John Mitchell, 1755",
+  "page": "https://commons.wikimedia.org/wiki/File:Mitchell_Map-06full2.jpg",
+  "size": [
+   11686,
+   8255
+  ]
+ },
+ "quincy": {
+  "file": "quincy.jpg",
+  "title": "Shaft No. 2, Quincy [Copper] Mine, Hancock, Mich.",
+  "license": "No known restrictions on publication (Library of Congress)",
+  "author": "Detroit Publishing Co., 1906 (Library of Congress)",
+  "page": "https://www.loc.gov/item/2016805820/",
+  "source_file": "https://tile.loc.gov/storage-services/master/pnp/det/4a10000/4a13000/4a13000/4a13091u.tif",
+  "size": [
+   3245,
+   2505
+  ]
+ },
+ "hecla": {
+  "file": "hecla.jpg",
+  "title": "Just up, Hecla [i.e. Calumet and Hecla Mine] shaft No. 2, Calumet, Mich.",
+  "license": "No known restrictions on publication (Library of Congress)",
+  "author": "Detroit Publishing Co., 1906 (Library of Congress)",
+  "page": "https://www.loc.gov/item/2016800059/",
+  "source_file": "https://tile.loc.gov/storage-services/master/pnp/det/4a10000/4a13000/4a13000/4a13086u.tif",
+  "size": [
+   2590,
+   3322
+  ]
+ },
+ "maps": {
+  "file": "strip.png, strip_oh.png, up.png",
+  "title": "Maps generated with pipeline/maps.py",
+  "license": "Public domain",
+  "author": "Natural Earth",
+  "page": "https://www.naturalearthdata.com/"
+ }
+}
