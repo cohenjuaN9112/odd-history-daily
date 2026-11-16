@@ -1,0 +1,545 @@
+{
+  "slug": "2026-11-16-state-of-franklin",
+  "voice": "en-US-ChristopherNeural",
+  "rate": "+8%",
+  "gap": 0.2,
+  "lines": [
+    "America almost had a 14th state called Franklin.",
+    "In 1784, North Carolina gave its western lands to Congress.",
+    "Settlers there declared their own state and named it after Benjamin Franklin.",
+    "But North Carolina took the land back.",
+    "It needed nine states to vote yes in Congress, and fell short.",
+    "Its governor, John Sevier, was arrested for treason.",
+    "Eight years later, he became the first governor of Tennessee.",
+    "Tennessee became state number 16, even though..."
+  ],
+  "images": {
+    "bingham": "George Caleb Bingham - Daniel Boone escorting settlers through the Cumberland Gap.jpg",
+    "franklin": "Benjamin Franklin by Joseph Duplessis 1778.jpg",
+    "sevier": "Portrait of Governor John Sevier.jpg",
+    "tnmap": "A map of the Tennessee government, formerly part of North Carolina. LOC 99446175.jpg"
+  },
+  "maps": {
+    "west": {
+      "type": "region",
+      "center": [
+        -83.2,
+        35.8
+      ],
+      "width_km": 1520,
+      "y_offset": 0.03,
+      "states_borders": true,
+      "highlight": [
+        {
+          "state": "North Carolina",
+          "color": "red"
+        },
+        {
+          "state": "Tennessee",
+          "color": "amber"
+        }
+      ],
+      "labels": [
+        {
+          "text": "NORTH CAROLINA",
+          "lonlat": [
+            -78.9,
+            35.45
+          ],
+          "size": 34,
+          "color": "paper"
+        },
+        {
+          "text": "ITS WESTERN LANDS",
+          "lonlat": [
+            -86.4,
+            37.15
+          ],
+          "size": 46,
+          "color": "amber"
+        }
+      ],
+      "title": "NORTH CAROLINA, 1784"
+    },
+    "fr": {
+      "type": "region",
+      "center": [
+        -83.1,
+        36.0
+      ],
+      "width_km": 500,
+      "y_offset": 0.04,
+      "states_borders": true,
+      "dots": [
+        {
+          "lonlat": [
+            -82.47,
+            36.29
+          ],
+          "r": 12,
+          "color": "paper"
+        }
+      ],
+      "highlight": [
+        {
+          "state": "North Carolina",
+          "color": "red"
+        },
+        {
+          "state": "Tennessee",
+          "color": "amber",
+          "clip": [
+            [
+              -84.35,
+              34.9
+            ],
+            [
+              -84.35,
+              35.55
+            ],
+            [
+              -83.65,
+              36.05
+            ],
+            [
+              -83.0,
+              36.7
+            ],
+            [
+              -81.4,
+              36.7
+            ],
+            [
+              -81.4,
+              34.9
+            ]
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "text": "NORTH CAROLINA",
+          "lonlat": [
+            -81.92,
+            35.55
+          ],
+          "size": 34,
+          "color": "paper"
+        },
+        {
+          "text": "VIRGINIA",
+          "lonlat": [
+            -81.6,
+            37.35
+          ],
+          "size": 38,
+          "color": "muted"
+        },
+        {
+          "text": "KENTUCKY",
+          "lonlat": [
+            -84.7,
+            37.55
+          ],
+          "size": 38,
+          "color": "muted"
+        },
+        {
+          "text": "JONESBOROUGH",
+          "lonlat": [
+            -82.47,
+            36.42
+          ],
+          "size": 26,
+          "color": "paper"
+        },
+        {
+          "text": "FRANKLIN",
+          "lonlat": [
+            -83.75,
+            36.92
+          ],
+          "size": 66,
+          "color": "amber"
+        }
+      ],
+      "title": "THE STATE OF FRANKLIN"
+    },
+    "fr_nc": {
+      "type": "region",
+      "center": [
+        -83.1,
+        36.0
+      ],
+      "width_km": 500,
+      "y_offset": 0.04,
+      "states_borders": true,
+      "dots": [
+        {
+          "lonlat": [
+            -82.47,
+            36.29
+          ],
+          "r": 12,
+          "color": "paper"
+        }
+      ],
+      "highlight": [
+        {
+          "state": "North Carolina",
+          "color": "red"
+        },
+        {
+          "state": "Tennessee",
+          "color": "red",
+          "clip": [
+            [
+              -84.35,
+              34.9
+            ],
+            [
+              -84.35,
+              35.55
+            ],
+            [
+              -83.65,
+              36.05
+            ],
+            [
+              -83.0,
+              36.7
+            ],
+            [
+              -81.4,
+              36.7
+            ],
+            [
+              -81.4,
+              34.9
+            ]
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "text": "NORTH CAROLINA",
+          "lonlat": [
+            -81.92,
+            35.55
+          ],
+          "size": 34,
+          "color": "paper"
+        },
+        {
+          "text": "VIRGINIA",
+          "lonlat": [
+            -81.6,
+            37.35
+          ],
+          "size": 38,
+          "color": "muted"
+        },
+        {
+          "text": "KENTUCKY",
+          "lonlat": [
+            -84.7,
+            37.55
+          ],
+          "size": 38,
+          "color": "muted"
+        },
+        {
+          "text": "JONESBOROUGH",
+          "lonlat": [
+            -82.47,
+            36.42
+          ],
+          "size": 26,
+          "color": "paper"
+        },
+        {
+          "text": "BACK TO N.C.",
+          "lonlat": [
+            -83.75,
+            36.92
+          ],
+          "size": 66,
+          "color": "paper"
+        }
+      ],
+      "title": "THE STATE OF FRANKLIN"
+    },
+    "us16": {
+      "type": "region",
+      "center": [
+        -82.0,
+        38.3
+      ],
+      "width_km": 2300,
+      "y_offset": 0.1,
+      "states_borders": true,
+      "lakes": true,
+      "highlight": [
+        {
+          "state": "Delaware",
+          "color": "blue"
+        },
+        {
+          "state": "Pennsylvania",
+          "color": "blue"
+        },
+        {
+          "state": "New Jersey",
+          "color": "blue"
+        },
+        {
+          "state": "Georgia",
+          "color": "blue"
+        },
+        {
+          "state": "Connecticut",
+          "color": "blue"
+        },
+        {
+          "state": "Massachusetts",
+          "color": "blue"
+        },
+        {
+          "state": "Maryland",
+          "color": "blue"
+        },
+        {
+          "state": "South Carolina",
+          "color": "blue"
+        },
+        {
+          "state": "New Hampshire",
+          "color": "blue"
+        },
+        {
+          "state": "Virginia",
+          "color": "blue"
+        },
+        {
+          "state": "New York",
+          "color": "blue"
+        },
+        {
+          "state": "North Carolina",
+          "color": "blue"
+        },
+        {
+          "state": "Rhode Island",
+          "color": "blue"
+        },
+        {
+          "state": "Vermont",
+          "color": "blue"
+        },
+        {
+          "state": "Kentucky",
+          "color": "blue"
+        },
+        {
+          "state": "Maine",
+          "color": "blue"
+        },
+        {
+          "state": "West Virginia",
+          "color": "blue"
+        },
+        {
+          "state": "Tennessee",
+          "color": "amber"
+        }
+      ],
+      "labels": [
+        {
+          "text": "TENNESSEE",
+          "lonlat": [
+            -89.3,
+            34.55
+          ],
+          "size": 40,
+          "color": "amber"
+        },
+        {
+          "text": "STATE #16",
+          "lonlat": [
+            -89.3,
+            33.6
+          ],
+          "size": 48,
+          "color": "amber"
+        }
+      ],
+      "title": "THE UNION IN 1796"
+    }
+  },
+  "shots": [
+    {
+      "line": 0,
+      "kind": "kb",
+      "image": "bingham",
+      "from": [
+        0.45,
+        0.5,
+        0.41
+      ],
+      "to": [
+        0.45,
+        0.43,
+        0.34
+      ]
+    },
+    {
+      "line": 1,
+      "kind": "kb",
+      "image": "west",
+      "from": [
+        0.5,
+        0.47,
+        1.0
+      ],
+      "to": [
+        0.47,
+        0.47,
+        0.9
+      ]
+    },
+    {
+      "line": 2,
+      "kind": "kb",
+      "image": "fr",
+      "from": [
+        0.5,
+        0.47,
+        1.0
+      ],
+      "to": [
+        0.5,
+        0.45,
+        0.9
+      ]
+    },
+    {
+      "line": 2,
+      "at_word": 7,
+      "kind": "kb",
+      "image": "franklin",
+      "from": [
+        0.5,
+        0.45,
+        0.69
+      ],
+      "to": [
+        0.52,
+        0.38,
+        0.5
+      ]
+    },
+    {
+      "line": 3,
+      "kind": "xfade",
+      "images": [
+        "fr",
+        "fr_nc"
+      ],
+      "from": [
+        0.5,
+        0.45,
+        0.9
+      ],
+      "to": [
+        0.5,
+        0.45,
+        0.85
+      ],
+      "at": 0.5
+    },
+    {
+      "line": 4,
+      "kind": "number",
+      "title": "To join, Franklin needed",
+      "value": "9 of 13",
+      "label": "states to vote yes"
+    },
+    {
+      "line": 5,
+      "kind": "kb",
+      "image": "sevier",
+      "from": [
+        0.5,
+        0.4,
+        0.86
+      ],
+      "to": [
+        0.52,
+        0.3,
+        0.7
+      ]
+    },
+    {
+      "line": 6,
+      "kind": "framed",
+      "image": "tnmap",
+      "zoom": 1.06,
+      "x": [
+        0.35,
+        0.65
+      ],
+      "y": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "line": 7,
+      "kind": "kb",
+      "image": "us16",
+      "from": [
+        0.42,
+        0.45,
+        0.8
+      ],
+      "to": [
+        0.5,
+        0.47,
+        1.0
+      ]
+    }
+  ],
+  "hook": [
+    "THE LOST",
+    "*14TH STATE"
+  ],
+  "hook_y": 360,
+  "badge_line": 6,
+  "comment": "Would you have voted to make Franklin the 14th state?",
+  "youtube": {
+    "title": "America almost had a 14th state called Franklin",
+    "description": "In 1784, North Carolina offered its lands west of the Appalachians to Congress. Settlers in what is now East Tennessee met at Jonesborough, declared their own state and named it Franklin, after Benjamin Franklin, hoping to become the 14th state. North Carolina repealed the cession and reclaimed the land, and Franklin's bid for statehood fell short of the nine states needed under the Articles of Confederation. Its governor, John Sevier, was arrested for treason in 1788 but never tried; in 1796 he became the first governor of Tennessee, the 16th state.\n\nSources: Wikipedia, \"State of Franklin\"; Tennessee Encyclopedia (Tennessee Historical Society), \"State of Franklin\" and \"John Sevier\"; NCpedia, \"Franklin, State of\"; North Carolina History Project, \"State of Franklin\"; Jackson Kuhl, \"The First Free State Project\", Reason (2004); Tennessee Department of State, \"State Facts\".\nImages: public domain. \"Daniel Boone Escorting Settlers through the Cumberland Gap\" (George Caleb Bingham, 1851-52, used as illustration), portraits of Benjamin Franklin (Joseph-Siffred Duplessis, National Portrait Gallery) and John Sevier (Charles Willson Peale, c. 1792), and John Reid's 1795 map of the Tennessee government (Library of Congress), via Wikimedia Commons. Maps: Natural Earth (public domain); Franklin's area is approximate.\n\n#history #shorts #tennessee",
+    "tags": [
+      "history",
+      "state of franklin",
+      "tennessee",
+      "north carolina",
+      "john sevier",
+      "benjamin franklin",
+      "lost state",
+      "maps",
+      "true story"
+    ],
+    "category": "EDUCATION"
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/State_of_Franklin",
+    "https://tennesseeencyclopedia.net/entries/state-of-franklin/",
+    "https://tennesseeencyclopedia.net/entries/john-sevier/",
+    "https://www.ncpedia.org/franklin-state",
+    "https://northcarolinahistory.org/encyclopedia/state-of-franklin/",
+    "https://reason.com/2004/12/01/the-first-free-state-project-2/",
+    "https://sharetngov.s3.amazonaws.com/sos/symbols/facts.htm"
+  ],
+  "translation_es": "Estados Unidos casi tuvo un estado número 14 llamado Franklin. En 1784, Carolina del Norte le cedió al Congreso sus tierras del oeste. Los colonos de ahí declararon su propio estado y le pusieron el nombre de Benjamin Franklin. Pero Carolina del Norte recuperó esas tierras. Necesitaba que nueve estados votaran que sí en el Congreso, y no le alcanzó. Su gobernador, John Sevier, fue arrestado por traición. Ocho años después, se convirtió en el primer gobernador de Tennessee. Tennessee pasó a ser el estado número 16, aunque… Estados Unidos casi tuvo un estado número 14 llamado Franklin."
+}

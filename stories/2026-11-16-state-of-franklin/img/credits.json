@@ -1,0 +1,53 @@
+{
+ "bingham": {
+  "file": "bingham.jpg",
+  "title": "George Caleb Bingham - Daniel Boone escorting settlers through the Cumberland Gap.jpg",
+  "license": "Public domain",
+  "author": "George Caleb Bingham, 1851-52 (used as illustration)",
+  "page": "https://commons.wikimedia.org/wiki/File:George_Caleb_Bingham_-_Daniel_Boone_escorting_settlers_through_the_Cumberland_Gap.jpg",
+  "size": [
+   2000,
+   1464
+  ]
+ },
+ "franklin": {
+  "file": "franklin.jpg",
+  "title": "Benjamin Franklin by Joseph Duplessis 1778.jpg",
+  "license": "Public domain",
+  "author": "Joseph-Siffred Duplessis (National Portrait Gallery, per Commons source npg.si.edu NPG.87.43)",
+  "page": "https://commons.wikimedia.org/wiki/File:Benjamin_Franklin_by_Joseph_Duplessis_1778.jpg",
+  "size": [
+   5679,
+   6992
+  ]
+ },
+ "sevier": {
+  "file": "sevier.jpg",
+  "title": "Portrait of Governor John Sevier.jpg",
+  "license": "Public domain",
+  "author": "Charles Willson Peale, c. 1792",
+  "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Governor_John_Sevier.jpg",
+  "size": [
+   825,
+   1261
+  ]
+ },
+ "tnmap": {
+  "file": "tnmap.jpg",
+  "title": "A map of the Tennessee government, formerly part of North Carolina. LOC 99446175.jpg",
+  "license": "Public domain",
+  "author": "John Reid, 1795 (Library of Congress 99446175)",
+  "page": "https://commons.wikimedia.org/wiki/File:A_map_of_the_Tennessee_government,_formerly_part_of_North_Carolina._LOC_99446175.jpg",
+  "size": [
+   6691,
+   4031
+  ]
+ },
+ "maps": {
+  "file": "west.png, fr.png, fr_nc.png, us16.png",
+  "title": "Generated with pipeline/maps.py",
+  "license": "Public domain (Natural Earth data)",
+  "author": "Natural Earth; Franklin's area drawn approximately",
+  "page": "https://www.naturalearthdata.com/"
+ }
+}
