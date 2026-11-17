@@ -1,0 +1,87 @@
+{
+ "frontis": {
+  "file": "frontis.jpg",
+  "title": "Frontispiece to Frankenstein 1831.jpg",
+  "license": "Public domain",
+  "author": "Theodor von Holst",
+  "page": "https://commons.wikimedia.org/wiki/File:Frontispiece_to_Frankenstein_1831.jpg",
+  "size": [
+   2816,
+   3636
+  ]
+ },
+ "caldera": {
+  "file": "caldera.jpg",
+  "title": "Mount Tambora Volcano, Sumbawa Island, Indonesia.jpg",
+  "license": "Public domain",
+  "author": "NASA Expedition 20 crew (photo taken 2009-03-06)",
+  "page": "https://commons.wikimedia.org/wiki/File:Mount_Tambora_Volcano,_Sumbawa_Island,_Indonesia.jpg",
+  "size": [
+   4256,
+   2828
+  ]
+ },
+ "diodati": {
+  "file": "diodati.jpg",
+  "title": "Meyers Universum Band 02 20.jpg",
+  "license": "Public domain",
+  "author": "Meyer's Universum, vol. 2 (1835)",
+  "page": "https://commons.wikimedia.org/wiki/File:Meyers_Universum_Band_02_20.jpg",
+  "size": [
+   3560,
+   2664
+  ]
+ },
+ "byron": {
+  "file": "byron.jpg",
+  "title": "Byron 1813 by Phillips.jpg",
+  "license": "Public domain",
+  "author": "Thomas Phillips",
+  "page": "https://commons.wikimedia.org/wiki/File:Byron_1813_by_Phillips.jpg",
+  "size": [
+   733,
+   944
+  ]
+ },
+ "mary": {
+  "file": "mary.jpg",
+  "title": "Mary Wollstonecraft Shelley Rothwell.tif",
+  "license": "Public domain",
+  "author": "Richard Rothwell",
+  "page": "https://commons.wikimedia.org/wiki/File:Mary_Wollstonecraft_Shelley_Rothwell.tif",
+  "size": [
+   1733,
+   2109
+  ],
+  "collection": "National Portrait Gallery, London (NPG 1235)"
+ },
+ "polidori": {
+  "file": "polidori.jpg",
+  "title": "John William Polidori by F.G. Gainsford.jpg",
+  "license": "Public domain; PDM",
+  "author": "F. G. Gainsford",
+  "page": "https://commons.wikimedia.org/wiki/File:John_William_Polidori_by_F.G._Gainsford.jpg",
+  "size": [
+   2400,
+   2957
+  ]
+ },
+ "titlepage": {
+  "file": "titlepage.jpg",
+  "title": "Frankenstein 1818 edition title page.jpg",
+  "license": "Public domain; PDM",
+  "author": "Mary Shelley; Lackington, Hughes, Harding, Mavor & Jones, London, 1818",
+  "page": "https://commons.wikimedia.org/wiki/File:Frankenstein_1818_edition_title_page.jpg",
+  "size": [
+   1800,
+   3200
+  ]
+ },
+ "maps": {
+  "file": "sumbawa.png, newengland.png, distance.png",
+  "title": "Generated with pipeline/maps.py",
+  "license": "Public domain (Natural Earth data)",
+  "author": "Natural Earth; Tambora-Lake Geneva line is the great-circle route (about 12,340 km / 7,670 miles)",
+  "page": "https://www.naturalearthdata.com/"
+ }
+}

@@ -23,6 +23,8 @@ story.json -> "maps": {
     "title": "SAME SCALE"
   }
 }
+Keep the antipode of "center" in the sea: a country containing it fills the whole map (center [117, -9.5] has its antipode
+in Venezuela; [117, -12] is fine).
 Highlight items may add "clip_box": [minlon, minlat, maxlon, maxlat] or "clip": [[lon, lat], ...] to keep only part of
 a state/country (e.g. Ohio north of a survey line, the Upper Peninsula of Michigan).
 Names: "state" = Natural Earth admin-1 name (U.S. states, provinces...), "country" = Natural Earth ADMIN name.

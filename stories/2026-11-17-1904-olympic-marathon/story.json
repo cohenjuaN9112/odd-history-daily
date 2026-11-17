@@ -1,0 +1,56 @@
+{
+  "slug": "2026-11-17-1904-olympic-marathon",
+  "voice": "en-US-ChristopherNeural",
+  "rate": "+8%",
+  "gap": 0.2,
+  "lines": [
+    "An Olympic marathon was won with rat poison.",
+    "It was St. Louis, 1904, over 90 degrees, on dusty roads.",
+    "Fred Lorz crossed the finish line first, to huge cheers.",
+    "But he had ridden about 11 miles in a car.",
+    "So the gold went to Thomas Hicks, whose trainers fed him strychnine, egg whites and brandy.",
+    "Strychnine is a rat poison.",
+    "Only 14 of the 32 runners finished.",
+    "Which is how, in 1904..."
+  ],
+  "images": {
+    "hicks_help": "T.J. Hicks of Cambridge, Massachusetts. Winner of Marathon Foot-Race being sponged by attendants. 1904 Olympics.jpg",
+    "start": "Start of the 1904 Olympic Marathon Race. David R. Francis firing the starting gun.jpg",
+    "leaving": "First runners leaving the stadium during the 1904 Olympic Marathon Race. (Mellor and Spring in front of referees' automobile).jpg",
+    "lorz": "Frederick Lorz 1904 olympics.jpg",
+    "cartoon": "Fred Lorz Cartoon.png",
+    "trophy": "Saint-Louis 1904 - athletics - HICKS Thomas (USA) 1st and the winner's trophy.jpg",
+    "hicks": "Thomas J. Hicks of Cambridge, Massachusetts YMCA winner of the 1904 Olympic Marathon Race.jpg",
+    "following": "Following the Marathon Race (The Olympic Games 1904, 1905).jpg"
+  },
+  "shots": [
+    {"line": 0, "kind": "kb", "image": "hicks_help", "from": [0.46, 0.5, 0.34], "to": [0.44, 0.44, 0.25]},
+    {"line": 1, "kind": "kb", "image": "start", "from": [0.3, 0.5, 0.388], "to": [0.42, 0.5, 0.32]},
+    {"line": 1, "at_word": 6, "kind": "kb", "image": "leaving", "from": [0.52, 0.5, 0.455], "to": [0.56, 0.56, 0.38]},
+    {"line": 2, "kind": "framed", "image": "lorz", "zoom": 1.06, "x": [0.5, 0.5], "y": [0.45, 0.55]},
+    {"line": 3, "kind": "kb", "image": "cartoon", "from": [0.62, 0.5, 0.373], "to": [0.58, 0.45, 0.3]},
+    {"line": 4, "kind": "kb", "image": "trophy", "from": [0.5, 0.5, 0.85], "to": [0.42, 0.33, 0.6]},
+    {"line": 4, "at_word": 11, "kind": "kb", "image": "hicks_help", "from": [0.4, 0.45, 0.3], "to": [0.42, 0.4, 0.22]},
+    {"line": 5, "kind": "framed", "image": "hicks", "zoom": 1.06, "x": [0.4, 0.6], "y": [0.5, 0.5]},
+    {"line": 6, "kind": "number", "title": "Out of 32 starters", "value": "14", "label": "finished"},
+    {"line": 7, "kind": "kb", "image": "following", "from": [0.5, 0.5, 0.33], "to": [0.6, 0.5, 0.28]}
+  ],
+  "hook": ["WON WITH", "*RAT POISON"],
+  "hook_y": 300,
+  "badge_line": 5,
+  "comment": "Car ride or rat poison: who deserved the gold?",
+  "youtube": {
+    "title": "An Olympic marathon was won with rat poison",
+    "description": "At the 1904 Olympics in St. Louis, the marathon was run on August 30 in heat above 90 degrees, on dusty roads, with only one official water stop. Fred Lorz crossed the finish line first, but he had ridden about 11 miles in a car after cramping at mile 9, and he was banned for life by the AAU. The gold went to Thomas Hicks, whose handlers kept him going with strychnine (today best known as a rat poison, then used in small doses as a stimulant), egg whites and brandy; he had to be held up to cross the line. Only 14 of the 32 starters finished.\n\nSources: Smithsonian Magazine, \"How the 1904 Marathon Became One of the Weirdest Olympic Events of All Time\"; Olympics.com (IOC), \"The strange case of the St Louis 1904 marathon\"; Popular Science, \"At the 1904 Olympics, a marathoner took rat poison to win gold\"; St. Louis Magazine, \"What happened at the 1904 Olympic marathon?\"; Wikipedia, \"Frederick Lorz\".\nImages: public domain, via Wikimedia Commons. Photos of the 1904 Olympic marathon from the Missouri History Museum (including one by Jessie Tarbox Beals); Fred Lorz, 1904; 1904 cartoon of Lorz (private archive of Karl Lennartz); Thomas Hicks with the winner's trophy, 1904 (IOC); \"Following the Marathon Race\", from Charles J. P. Lucas, The Olympic Games 1904 (1905).\n\n#history #shorts #olympics",
+    "tags": ["history", "1904 olympics", "olympic marathon", "st louis", "thomas hicks", "fred lorz", "strychnine", "weird history", "true story"],
+    "category": "EDUCATION"
+  },
+  "sources": [
+    "https://www.smithsonianmag.com/history/how-the-1904-marathon-became-one-of-the-weirdest-olympic-events-of-all-time-14910747/",
+    "https://www.olympics.com/ioc/news/the-strange-case-of-the-st-louis-1904-marathon",
+    "https://www.popsci.com/health/olympic-runner-rat-poison-thomas-hicks/",
+    "https://www.stlmag.com/history/what-happened-at-the-1904-olympic-marathon/",
+    "https://en.wikipedia.org/wiki/Frederick_Lorz"
+  ],
+  "translation_es": "Una maratón olímpica se ganó con veneno para ratas. Fue en St. Louis, en 1904, con más de 32 grados y caminos de tierra llenos de polvo. Fred Lorz cruzó primero la meta, entre grandes aplausos. Pero había hecho unos 18 kilómetros en auto. Así que el oro fue para Thomas Hicks, a quien sus entrenadores le dieron estricnina, claras de huevo y brandy. La estricnina es un veneno para ratas. Solo 14 de los 32 corredores terminaron. Y así fue como, en 1904… una maratón olímpica se ganó con veneno para ratas."
+}

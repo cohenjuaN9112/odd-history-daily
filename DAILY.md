@@ -34,6 +34,8 @@ Everything in the video and on YouTube is in **English for a U.S. audience**.
   with a pause between requests: Commons rate-limits (HTTP 429). If upload.wikimedia.org keeps answering 429, do not
   retry in a loop or change user agents; take the same public-domain originals from the Library of Congress
   (loc.gov item JSON `?fo=json` → tile.loc.gov / cdn.loc.gov files) and record them by hand in `img/credits.json`.
+  If the Commons API itself answers 429, `fetch_images.py` reads the same license/author/size from the file pages
+  (commons.wikimedia.org/wiki/File:...) and falls back to smaller standard thumbnail widths when one is refused.
   If a story has fewer than 5 usable images, pick another story.
   Never use photos of people under 18 as the main subject, and never use copyrighted photos.
 

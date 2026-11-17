@@ -1,0 +1,450 @@
+{
+  "slug": "2026-11-17-tambora-frankenstein",
+  "voice": "en-US-ChristopherNeural",
+  "rate": "+8%",
+  "gap": 0.2,
+  "lines": [
+    "A volcano in Indonesia helped create Frankenstein.",
+    "In April 1815, Mount Tambora erupted, the largest eruption in recorded history.",
+    "Its ash cooled the planet, and 1816 became the year without a summer.",
+    "Snow fell in New England in June.",
+    "About 7,700 miles away, at Lake Geneva, a cold, rainy summer kept a group of writers indoors.",
+    "Lord Byron challenged them to write ghost stories.",
+    "18-year-old Mary Shelley started Frankenstein, and John Polidori wrote The Vampyre.",
+    "So, in a way..."
+  ],
+  "images": {
+    "frontis": "Frontispiece to Frankenstein 1831.jpg",
+    "caldera": "Mount Tambora Volcano, Sumbawa Island, Indonesia.jpg",
+    "diodati": "Meyers Universum Band 02 20.jpg",
+    "byron": "Byron 1813 by Phillips.jpg",
+    "mary": "Mary Wollstonecraft Shelley Rothwell.tif",
+    "polidori": "John William Polidori by F.G. Gainsford.jpg",
+    "titlepage": "Frankenstein 1818 edition title page.jpg"
+  },
+  "maps": {
+    "sumbawa": {
+      "type": "region",
+      "center": [
+        117.0,
+        -12.0
+      ],
+      "width_km": 2400,
+      "dots": [
+        {
+          "lonlat": [
+            118.0,
+            -8.25
+          ],
+          "r": 22,
+          "color": "red"
+        }
+      ],
+      "labels": [
+        {
+          "text": "TAMBORA",
+          "lonlat": [
+            118.0,
+            -6.75
+          ],
+          "size": 56,
+          "color": "amber"
+        },
+        {
+          "text": "JAVA",
+          "lonlat": [
+            110.4,
+            -7.4
+          ],
+          "size": 36,
+          "color": "muted"
+        },
+        {
+          "text": "BORNEO",
+          "lonlat": [
+            113.8,
+            -1.5
+          ],
+          "size": 40,
+          "color": "muted"
+        }
+      ],
+      "title": "INDONESIA, APRIL 1815"
+    },
+    "newengland": {
+      "type": "region",
+      "center": [
+        -71.0,
+        43.6
+      ],
+      "width_km": 1100,
+      "y_offset": 0.1,
+      "states_borders": true,
+      "lakes": true,
+      "highlight": [
+        {
+          "state": "Maine",
+          "color": "paper"
+        },
+        {
+          "state": "New Hampshire",
+          "color": "paper"
+        },
+        {
+          "state": "Vermont",
+          "color": "paper"
+        },
+        {
+          "state": "Massachusetts",
+          "color": "paper"
+        },
+        {
+          "state": "Connecticut",
+          "color": "paper"
+        },
+        {
+          "state": "Rhode Island",
+          "color": "paper"
+        }
+      ],
+      "labels": [
+        {
+          "text": "NEW ENGLAND",
+          "lonlat": [
+            -72.6,
+            47.15
+          ],
+          "size": 40,
+          "color": "amber"
+        }
+      ],
+      "title": "JUNE 1816: SNOW"
+    },
+    "distance": {
+      "type": "region",
+      "center": [
+        62.0,
+        20.0
+      ],
+      "width_km": 15000,
+      "y_offset": 0.08,
+      "highlight": [
+        {
+          "country": "Indonesia",
+          "color": "red"
+        },
+        {
+          "country": "Switzerland",
+          "color": "amber"
+        }
+      ],
+      "lines": [
+        {
+          "lonlat": [
+            [
+              6.18,
+              46.22
+            ],
+            [
+              19.61,
+              47.09
+            ],
+            [
+              33.08,
+              46.37
+            ],
+            [
+              45.85,
+              44.14
+            ],
+            [
+              57.43,
+              40.6
+            ],
+            [
+              67.7,
+              36.04
+            ],
+            [
+              76.75,
+              30.7
+            ],
+            [
+              84.81,
+              24.81
+            ],
+            [
+              92.11,
+              18.52
+            ],
+            [
+              98.89,
+              11.97
+            ],
+            [
+              105.34,
+              5.27
+            ],
+            [
+              111.65,
+              -1.5
+            ],
+            [
+              118.0,
+              -8.25
+            ]
+          ],
+          "color": "amber",
+          "dash": true,
+          "width": 6
+        }
+      ],
+      "dots": [
+        {
+          "lonlat": [
+            118.0,
+            -8.25
+          ],
+          "r": 18,
+          "color": "red"
+        },
+        {
+          "lonlat": [
+            6.18,
+            46.22
+          ],
+          "r": 18,
+          "color": "paper"
+        }
+      ],
+      "labels": [
+        {
+          "text": "LAKE GENEVA",
+          "lonlat": [
+            8.0,
+            53.5
+          ],
+          "size": 44,
+          "color": "paper"
+        },
+        {
+          "text": "TAMBORA",
+          "lonlat": [
+            100.0,
+            -16.5
+          ],
+          "size": 44,
+          "color": "paper"
+        },
+        {
+          "text": "7,700 MILES",
+          "lonlat": [
+            40.0,
+            24.0
+          ],
+          "size": 50,
+          "color": "amber"
+        }
+      ],
+      "title": "1816"
+    }
+  },
+  "shots": [
+    {
+      "line": 0,
+      "kind": "kb",
+      "image": "frontis",
+      "from": [
+        0.42,
+        0.6,
+        0.72
+      ],
+      "to": [
+        0.4,
+        0.62,
+        0.56
+      ]
+    },
+    {
+      "line": 1,
+      "kind": "kb",
+      "image": "sumbawa",
+      "from": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "to": [
+        0.52,
+        0.48,
+        0.85
+      ]
+    },
+    {
+      "line": 1,
+      "at_word": 6,
+      "kind": "kb",
+      "image": "caldera",
+      "from": [
+        0.52,
+        0.47,
+        0.374
+      ],
+      "to": [
+        0.52,
+        0.47,
+        0.28
+      ]
+    },
+    {
+      "line": 2,
+      "kind": "number",
+      "title": "After the eruption",
+      "value": "1816",
+      "label": "the year without a summer"
+    },
+    {
+      "line": 3,
+      "kind": "kb",
+      "image": "newengland",
+      "from": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "to": [
+        0.5,
+        0.45,
+        0.88
+      ]
+    },
+    {
+      "line": 4,
+      "kind": "kb",
+      "image": "distance",
+      "from": [
+        0.5,
+        0.48,
+        0.92
+      ],
+      "to": [
+        0.5,
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "line": 4,
+      "at_word": 6,
+      "kind": "kb",
+      "image": "diodati",
+      "from": [
+        0.33,
+        0.5,
+        0.421
+      ],
+      "to": [
+        0.32,
+        0.45,
+        0.33
+      ]
+    },
+    {
+      "line": 5,
+      "kind": "framed",
+      "image": "byron",
+      "zoom": 1.06,
+      "x": [
+        0.5,
+        0.5
+      ],
+      "y": [
+        0.45,
+        0.55
+      ]
+    },
+    {
+      "line": 6,
+      "kind": "kb",
+      "image": "mary",
+      "from": [
+        0.5,
+        0.45,
+        0.684
+      ],
+      "to": [
+        0.5,
+        0.32,
+        0.52
+      ]
+    },
+    {
+      "line": 6,
+      "at_word": 6,
+      "kind": "kb",
+      "image": "polidori",
+      "from": [
+        0.5,
+        0.42,
+        0.69
+      ],
+      "to": [
+        0.52,
+        0.3,
+        0.52
+      ]
+    },
+    {
+      "line": 7,
+      "kind": "kb",
+      "image": "titlepage",
+      "from": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "to": [
+        0.5,
+        0.3,
+        0.7
+      ]
+    }
+  ],
+  "hook": [
+    "BORN FROM",
+    "*A VOLCANO"
+  ],
+  "hook_y": 300,
+  "badge_line": 3,
+  "comment": "Which monster is scarier: Frankenstein's creature or the vampire?",
+  "youtube": {
+    "title": "A volcano in Indonesia helped create Frankenstein",
+    "description": "In April 1815, Mount Tambora on the island of Sumbawa, in today's Indonesia, exploded in the largest volcanic eruption in recorded history. Its ash and sulfur haze cooled the climate, and 1816 became known as the year without a summer: snow fell in New England in June. About 7,700 miles from the volcano, at Lake Geneva, a cold, wet summer kept Lord Byron, Percy Shelley, 18-year-old Mary Shelley (then Mary Godwin) and John Polidori indoors, and Byron challenged them to write ghost stories. Mary began Frankenstein, published in 1818, and Polidori wrote The Vampyre, published in 1819.\n\nSources: Encyclopaedia Britannica, \"Mount Tambora\"; National Park Service, \"1816: The Year Without Summer\"; New England Historical Society, \"1816: The Year Without a Summer\"; Smithsonian Magazine, \"Blast From the Past\"; The Conversation, \"How a volcano in Indonesia led to the creation of Frankenstein\"; National Geographic, \"How a teenage girl became the mother of horror\"; U.S. National Library of Medicine, Frankenstein exhibition; University of Iowa Special Collections, \"Frankenstein's Cousin: The Vampyre\"; EarthDate, \"The Year Without Summer\". Distance: great-circle distance from Tambora to Lake Geneva.\nImages: public domain, via Wikimedia Commons. Frontispiece to the 1831 edition of Frankenstein (Theodor von Holst); Mount Tambora's caldera photographed by the NASA Expedition 20 crew (2009); Villa Diodati engraving from Meyer's Universum (1835); portraits of Lord Byron (Thomas Phillips, 1813), Mary Shelley (Richard Rothwell, National Portrait Gallery) and John Polidori (F. G. Gainsford); title page of the 1818 first edition. Maps: Natural Earth (public domain).\n\n#history #shorts #frankenstein",
+    "tags": [
+      "history",
+      "frankenstein",
+      "mary shelley",
+      "mount tambora",
+      "year without a summer",
+      "1816",
+      "lord byron",
+      "the vampyre",
+      "volcano",
+      "maps",
+      "true story"
+    ],
+    "category": "EDUCATION"
+  },
+  "sources": [
+    "https://www.britannica.com/place/Mount-Tambora",
+    "https://www.nps.gov/articles/000/1816-the-year-without-summer.htm",
+    "https://newenglandhistoricalsociety.com/1816-year-without-a-summer/",
+    "https://www.smithsonianmag.com/history/blast-from-the-past-65102374/",
+    "https://theconversation.com/how-a-volcano-in-indonesia-led-to-the-creation-of-frankenstein-65293",
+    "https://www.nationalgeographic.com/history/world-history-magazine/article/birth_of_Frankenstein_Mary_Shelley",
+    "https://www.nlm.nih.gov/frankenstein/exhibition1.html",
+    "https://blog.lib.uiowa.edu/speccoll/2012/09/21/frankensteins-cousin-the-vampyre/",
+    "https://www.earthdate.org/the-year-without-summer"
+  ],
+  "translation_es": "Un volcán en Indonesia ayudó a crear a Frankenstein. En abril de 1815 entró en erupción el monte Tambora, la erupción más grande de la historia registrada. Su ceniza enfrió el planeta, y 1816 pasó a ser el año sin verano. Nevó en Nueva Inglaterra en junio. A unos 12.400 kilómetros, en el lago de Ginebra, un verano frío y lluvioso dejó encerrado a un grupo de escritores. Lord Byron los desafió a escribir historias de fantasmas. Mary Shelley, de 18 años, empezó Frankenstein, y John Polidori escribió El vampiro. Así que, de alguna manera… un volcán en Indonesia ayudó a crear a Frankenstein."
+}
