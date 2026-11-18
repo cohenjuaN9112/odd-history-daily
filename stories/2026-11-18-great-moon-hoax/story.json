@@ -1,0 +1,184 @@
+{
+  "slug": "2026-11-18-great-moon-hoax",
+  "voice": "en-US-ChristopherNeural",
+  "rate": "+8%",
+  "gap": 0.2,
+  "lines": [
+    "A newspaper convinced readers the moon had bat people.",
+    "In August 1835, the New York Sun ran six astonishing reports.",
+    "They claimed astronomer John Herschel saw the moon through a seven-ton lens.",
+    "Supposedly, he found unicorns, two-legged beavers, and furry winged humans.",
+    "The real Herschel, working in South Africa, knew nothing about it.",
+    "Sales shot up before the Sun admitted it was invented.",
+    "Which is how, for three weeks in 1835..."
+  ],
+  "images": {
+    "litho": "Great Moon Hoax.jpg",
+    "paper": "Great Moon Hoax - Day 4.jpg",
+    "herschel": "John Herschel by Jula Margaret Cameron, Abril 1867.jpg",
+    "welsh": "The Inhabitants of the Moon, 1836, Welsh edition.png",
+    "naples": "1836 the-great-moon-hoax-new-inhabitants-of-the-moon.png",
+    "cape": "John Herschel South African expedition.png"
+  },
+  "shots": [
+    {
+      "line": 0,
+      "kind": "kb",
+      "image": "naples",
+      "from": [
+        0.5,
+        0.5,
+        0.69
+      ],
+      "to": [
+        0.5,
+        0.44,
+        0.58
+      ]
+    },
+    {
+      "line": 1,
+      "kind": "kb",
+      "image": "litho",
+      "from": [
+        0.33,
+        0.48,
+        0.44
+      ],
+      "to": [
+        0.62,
+        0.48,
+        0.44
+      ]
+    },
+    {
+      "line": 2,
+      "kind": "framed",
+      "image": "herschel",
+      "zoom": 1.06,
+      "x": [
+        0.5,
+        0.5
+      ],
+      "y": [
+        0.45,
+        0.55
+      ]
+    },
+    {
+      "line": 2,
+      "at_word": 8,
+      "kind": "number",
+      "title": "The fake telescope lens",
+      "value": "7 TONS",
+      "label": "supposedly"
+    },
+    {
+      "line": 3,
+      "kind": "kb",
+      "image": "paper",
+      "from": [
+        0.74,
+        0.62,
+        0.34
+      ],
+      "to": [
+        0.8,
+        0.66,
+        0.27
+      ]
+    },
+    {
+      "line": 3,
+      "at_word": 7,
+      "kind": "kb",
+      "image": "litho",
+      "from": [
+        0.52,
+        0.55,
+        0.3
+      ],
+      "to": [
+        0.53,
+        0.6,
+        0.24
+      ]
+    },
+    {
+      "line": 4,
+      "kind": "framed",
+      "image": "cape",
+      "zoom": 1.06,
+      "x": [
+        0.5,
+        0.5
+      ],
+      "y": [
+        0.45,
+        0.55
+      ]
+    },
+    {
+      "line": 5,
+      "kind": "kb",
+      "image": "welsh",
+      "from": [
+        0.3,
+        0.55,
+        0.5
+      ],
+      "to": [
+        0.55,
+        0.55,
+        0.42
+      ]
+    },
+    {
+      "line": 6,
+      "kind": "kb",
+      "image": "naples",
+      "from": [
+        0.5,
+        0.42,
+        0.56
+      ],
+      "to": [
+        0.5,
+        0.5,
+        0.69
+      ]
+    }
+  ],
+  "hook": [
+    "BAT PEOPLE",
+    "*ON THE MOON"
+  ],
+  "hook_y": 900,
+  "badge_line": 3,
+  "comment": "Would you have believed the moon people in 1835?",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Great_Moon_Hoax",
+    "https://www.history.com/this-day-in-history/august-25/the-great-moon-hoax",
+    "https://www.sciencefocus.com/space/batman-on-the-moon-the-extraordinary-hoax-that-fooled-the-world",
+    "https://blog.hmns.org/2019/06/the-real-moon-hoax-that-you-havent-heard-of/",
+    "https://earthsky.org/human-world/great-moon-hoax-august-25-1835/",
+    "https://www.britannica.com/biography/John-Herschel"
+  ],
+  "youtube": {
+    "title": "A newspaper convinced readers the moon had bat people",
+    "description": "On August 25, 1835, The Sun of New York began a series of six articles claiming that astronomer Sir John Herschel had observed life on the moon through a giant telescope with a seven-ton lens: unicorns, two-legged beavers and furry winged humans known as man-bats. The real Herschel was working at the Cape of Good Hope in South Africa and had nothing to do with the story. The paper's sales shot up, and on September 16, 1835, The Sun admitted the articles were fabricated. They are generally attributed to reporter Richard Adams Locke.\n\nSources: Wikipedia, \"Great Moon Hoax\"; History.com, \"The Great Moon Hoax\"; BBC Science Focus, \"Batman on the Moon\"; Houston Museum of Natural Science, \"The Real Moon Hoax That You Haven't Heard Of\"; EarthSky, \"The Great Moon Hoax\"; Britannica, \"Sir John Herschel\".\nImages: public domain, via Wikimedia Commons. Lithographs of the 1835 moon hoax (The Sun, New York; Thierry Frères, Paris); \"New inhabitants of the moon\", Naples, 1836; woodcut from the Welsh edition, Hanes y Lleuad, 1836; John Herschel photographed by Julia Margaret Cameron, 1867; engraved portrait of John Herschel.\n\n#history #shorts #moon",
+    "tags": [
+      "history",
+      "great moon hoax",
+      "1835",
+      "new york sun",
+      "john herschel",
+      "moon",
+      "hoax",
+      "weird history",
+      "true story"
+    ],
+    "category": "EDUCATION"
+  },
+  "translation_es": "Un diario convenció a sus lectores de que en la Luna había gente murciélago. En agosto de 1835, el New York Sun publicó seis informes asombrosos. Decían que el astrónomo John Herschel había visto la Luna a través de una lente de siete toneladas. Supuestamente, encontró unicornios, castores que caminaban en dos patas y humanos peludos con alas. El verdadero Herschel, que trabajaba en Sudáfrica, no sabía nada de todo esto. Las ventas se dispararon antes de que el Sun admitiera que era todo inventado. Y así fue como, durante tres semanas de 1835… un diario convenció a sus lectores de que en la Luna había gente murciélago."
+}

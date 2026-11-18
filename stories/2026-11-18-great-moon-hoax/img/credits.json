@@ -1,0 +1,68 @@
+{
+ "litho": {
+  "file": "litho.jpg",
+  "title": "Great Moon Hoax.jpg",
+  "license": "Public domain",
+  "author": "Lith. de Thierry Fr\u00e8res.",
+  "page": "https://commons.wikimedia.org/wiki/File:Great_Moon_Hoax.jpg",
+  "size": [
+   3000,
+   2400
+  ]
+ },
+ "paper": {
+  "file": "paper.jpg",
+  "title": "Great Moon Hoax - Day 4.jpg",
+  "license": "Public domain; PDM",
+  "author": "Benjamin Henry Day (1810-1889)",
+  "page": "https://commons.wikimedia.org/wiki/File:Great_Moon_Hoax_-_Day_4.jpg",
+  "size": [
+   6190,
+   4421
+  ]
+ },
+ "herschel": {
+  "file": "herschel.jpg",
+  "title": "John Herschel by Jula Margaret Cameron, Abril 1867.jpg",
+  "license": "Public domain; PDM",
+  "author": "Julia Margaret Cameron \u00a0(1815\u20131879)",
+  "page": "https://commons.wikimedia.org/wiki/File:John_Herschel_by_Jula_Margaret_Cameron%2C_Abril_1867.jpg",
+  "size": [
+   3727,
+   4793
+  ]
+ },
+ "welsh": {
+  "file": "welsh.png",
+  "title": "The Inhabitants of the Moon, 1836, Welsh edition.png",
+  "license": "Public domain",
+  "author": "Hanes y Lleuad",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Inhabitants_of_the_Moon,_1836,_Welsh_edition.png",
+  "size": [
+   1393,
+   1083
+  ]
+ },
+ "naples": {
+  "file": "naples.png",
+  "title": "1836 the-great-moon-hoax-new-inhabitants-of-the-moon.png",
+  "license": "Public domain",
+  "author": "Lock (?) Naples",
+  "page": "https://commons.wikimedia.org/wiki/File:1836_the-great-moon-hoax-new-inhabitants-of-the-moon.png",
+  "size": [
+   1153,
+   1423
+  ]
+ },
+ "cape": {
+  "file": "cape.png",
+  "title": "John Herschel South African expedition.png",
+  "license": "Public domain",
+  "author": "Unknown authorUnknown author",
+  "page": "https://commons.wikimedia.org/wiki/File:John_Herschel_South_African_expedition.png",
+  "size": [
+   1150,
+   1427
+  ]
+ }
+}

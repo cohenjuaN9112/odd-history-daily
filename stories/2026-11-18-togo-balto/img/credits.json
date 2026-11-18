@@ -1,0 +1,45 @@
+{
+ "statue": {
+  "file": "statue.jpg",
+  "title": "Balto east hazy day jeh.jpg",
+  "license": "Public domain; CC0",
+  "author": "Jim.henderson",
+  "page": "https://commons.wikimedia.org/wiki/File:Balto_east_hazy_day_jeh.jpg",
+  "size": [
+   1867,
+   1969
+  ]
+ },
+ "loc_corwin": {
+  "file": "loc_corwin.jpg",
+  "title": "People with dog teams meeting the S.S. Corwin at 11 P.M.",
+  "license": "No known restrictions on publication (Library of Congress)",
+  "author": "Lomen Bros., Nome",
+  "page": "https://www.loc.gov/item/99614336/",
+  "collection": "Frank and Frances Carpenter collection, Library of Congress, 1914"
+ },
+ "loc_sweepstakes": {
+  "file": "loc_sweepstakes.jpg",
+  "title": "Dog team at Seventh All Alaska Sweepstakes, April 13, 1914",
+  "license": "No known restrictions on publication (Library of Congress)",
+  "author": "Unknown",
+  "page": "https://www.loc.gov/item/99615002/",
+  "collection": "Frank and Frances Carpenter collection, Library of Congress, 1914"
+ },
+ "loc_seward": {
+  "file": "loc_seward.jpg",
+  "title": "First dog team to go from Nome to Seward",
+  "license": "No known restrictions on publication (Library of Congress)",
+  "author": "S. Sexton",
+  "page": "https://www.loc.gov/item/99614327/",
+  "collection": "Frank and Frances Carpenter collection, Library of Congress"
+ },
+ "loc_range": {
+  "file": "loc_range.jpg",
+  "title": "Dog sled teams moving up the south side of the Alaskian Range to a lumber camp",
+  "license": "No known restrictions on publication (Library of Congress)",
+  "author": "Belmore Browne",
+  "page": "https://www.loc.gov/item/99614398/",
+  "collection": "Frank and Frances Carpenter collection, Library of Congress"
+ }
+}

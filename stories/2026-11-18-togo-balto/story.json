@@ -1,0 +1,324 @@
+{
+  "slug": "2026-11-18-togo-balto",
+  "voice": "en-US-ChristopherNeural",
+  "rate": "+8%",
+  "gap": 0.2,
+  "lines": [
+    "America gave the statue to the wrong dog.",
+    "In 1925, diphtheria struck Nome, Alaska, and serum had to cross 674 frozen miles.",
+    "Twenty mushers relayed it by dog sled in about five days.",
+    "Balto ran the last 53 miles and became a national hero.",
+    "Within a year, he had a statue in Central Park.",
+    "But Togo's team ran 261 miles, across the most dangerous stretch.",
+    "Togo got a statue in 2001, and no plaque until 2020, because in 1925..."
+  ],
+  "images": {
+    "statue": "Balto east hazy day jeh.jpg"
+  },
+  "shots": [
+    {
+      "line": 0,
+      "kind": "kb",
+      "image": "statue",
+      "from": [
+        0.58,
+        0.56,
+        0.59
+      ],
+      "to": [
+        0.64,
+        0.44,
+        0.46
+      ]
+    },
+    {
+      "line": 1,
+      "kind": "kb",
+      "image": "loc_corwin",
+      "from": [
+        0.38,
+        0.42,
+        0.36
+      ],
+      "to": [
+        0.5,
+        0.42,
+        0.34
+      ]
+    },
+    {
+      "line": 1,
+      "at_word": 8,
+      "kind": "kb",
+      "image": "route",
+      "from": [
+        0.5,
+        0.5,
+        0.95
+      ],
+      "to": [
+        0.5,
+        0.5,
+        0.78
+      ]
+    },
+    {
+      "line": 2,
+      "kind": "kb",
+      "image": "loc_sweepstakes",
+      "from": [
+        0.3,
+        0.5,
+        0.3
+      ],
+      "to": [
+        0.62,
+        0.5,
+        0.3
+      ]
+    },
+    {
+      "line": 3,
+      "kind": "kb",
+      "image": "loc_seward",
+      "from": [
+        0.28,
+        0.52,
+        0.29
+      ],
+      "to": [
+        0.4,
+        0.52,
+        0.27
+      ]
+    },
+    {
+      "line": 4,
+      "kind": "kb",
+      "image": "statue",
+      "from": [
+        0.64,
+        0.4,
+        0.42
+      ],
+      "to": [
+        0.58,
+        0.55,
+        0.59
+      ]
+    },
+    {
+      "line": 5,
+      "kind": "bars",
+      "title": "Miles run by each team",
+      "rows": [
+        [
+          "Togo",
+          261,
+          "261"
+        ],
+        [
+          "Balto",
+          53,
+          "53"
+        ]
+      ]
+    },
+    {
+      "line": 5,
+      "at_word": 6,
+      "kind": "kb",
+      "image": "loc_range",
+      "from": [
+        0.35,
+        0.58,
+        0.29
+      ],
+      "to": [
+        0.5,
+        0.6,
+        0.27
+      ]
+    },
+    {
+      "line": 6,
+      "kind": "kb",
+      "image": "loc_seward",
+      "from": [
+        0.45,
+        0.5,
+        0.29
+      ],
+      "to": [
+        0.35,
+        0.5,
+        0.29
+      ]
+    },
+    {
+      "line": 6,
+      "at_word": 11,
+      "kind": "kb",
+      "image": "statue",
+      "from": [
+        0.64,
+        0.44,
+        0.46
+      ],
+      "to": [
+        0.58,
+        0.56,
+        0.59
+      ]
+    }
+  ],
+  "hook": [
+    "STATUE FOR",
+    "*WRONG DOG"
+  ],
+  "hook_y": 300,
+  "badge_line": 3,
+  "comment": "Balto or Togo: who really deserved the statue?",
+  "maps": {
+    "route": {
+      "type": "region",
+      "center": [
+        -157,
+        64.5
+      ],
+      "width_km": 1500,
+      "y_offset": 0.0,
+      "highlight": [
+        {
+          "state": "Alaska",
+          "color": "land"
+        }
+      ],
+      "lines": [
+        {
+          "lonlat": [
+            [
+              -149.09,
+              64.56
+            ],
+            [
+              -152.08,
+              65.17
+            ],
+            [
+              -155.49,
+              64.74
+            ],
+            [
+              -156.93,
+              64.74
+            ],
+            [
+              -158.1,
+              64.72
+            ],
+            [
+              -158.72,
+              64.33
+            ],
+            [
+              -160.79,
+              63.87
+            ],
+            [
+              -161.15,
+              64.33
+            ],
+            [
+              -161.16,
+              64.93
+            ],
+            [
+              -163.03,
+              64.54
+            ],
+            [
+              -165.41,
+              64.5
+            ]
+          ],
+          "color": "amber",
+          "width": 10
+        }
+      ],
+      "dots": [
+        {
+          "lonlat": [
+            -149.09,
+            64.56
+          ],
+          "r": 20,
+          "color": "paper"
+        },
+        {
+          "lonlat": [
+            -165.41,
+            64.5
+          ],
+          "r": 26,
+          "color": "amber"
+        }
+      ],
+      "labels": [
+        {
+          "text": "NENANA",
+          "lonlat": [
+            -149.9,
+            65.45
+          ],
+          "size": 70,
+          "color": "paper"
+        },
+        {
+          "text": "NOME",
+          "lonlat": [
+            -164.9,
+            65.25
+          ],
+          "size": 90,
+          "color": "amber"
+        },
+        {
+          "text": "674 MILES",
+          "lonlat": [
+            -156.5,
+            63.0
+          ],
+          "size": 110,
+          "color": "amber"
+        }
+      ]
+    }
+  },
+  "sources": [
+    "https://www.britannica.com/topic/Balto-dog",
+    "https://www.neh.gov/humanities/2013/novemberdecember/feature/dog-vs-airplane",
+    "https://www.mentalfloss.com/history/1925-nome-serum-run-facts-history",
+    "https://www.akc.org/expert-advice/lifestyle/balto/",
+    "https://en.wikipedia.org/wiki/1925_serum_run_to_Nome",
+    "https://www.thelodownny.com/leslog/2020/07/official-bronze-plaque-installed-for-togo-the-sled-dog-in-seward-park.html",
+    "https://prd1.nycgovparks.org/parks/seward-park/pressrelease/21742"
+  ],
+  "youtube": {
+    "title": "America gave the statue to the wrong dog",
+    "description": "In early 1925, a diphtheria outbreak in Nome, Alaska, set off a relay of 20 mushers and about 150 sled dogs that carried antitoxin serum 674 miles from Nenana in about five days (127.5 hours). Balto led Gunnar Kaasen's team on the final 53-mile leg, became a national celebrity, and had a statue in New York's Central Park by December 1925. Leonhard Seppala's team, led by Togo, ran about 261 miles, including the most dangerous stretch of the route. A bronze statue of Togo, sculpted in 2001, stands in Seward Park in New York City and received its plaque only in 2020. The archival photos show Alaska dog teams of the era, not the 1925 relay itself.\n\nSources: Britannica, \"Balto\"; NEH Humanities, \"Dog vs. Airplane\"; Mental Floss, \"10 Things You Need to Know About the 1925 Serum Run to Nome\"; American Kennel Club, \"The Real Story of Balto\"; Wikipedia, \"1925 serum run to Nome\"; The Lo-Down, \"Official Bronze Plaque Installed for Togo the Sled Dog in Seward Park\" (2020); NYC Parks press release, January 16, 2020.\nImages: Balto statue in Central Park by Jim.henderson (CC0, via Wikimedia Commons). Alaska dog teams from the Frank and Frances Carpenter Collection, Library of Congress (Lomen Bros.; S. Sexton; Belmore Browne), no known restrictions on publication. Map drawn with Natural Earth data (public domain).\n\n#history #shorts #alaska",
+    "tags": [
+      "history",
+      "balto",
+      "togo",
+      "serum run",
+      "nome alaska",
+      "sled dogs",
+      "1925",
+      "leonhard seppala",
+      "true story"
+    ],
+    "category": "EDUCATION"
+  },
+  "translation_es": "Estados Unidos le dio la estatua al perro equivocado. En 1925, la difteria golpeó a Nome, en Alaska, y el suero tuvo que cruzar 1.085 kilómetros congelados. Veinte conductores de trineo lo llevaron en relevos en unos cinco días. Balto corrió los últimos 85 kilómetros y se convirtió en héroe nacional. En menos de un año ya tenía una estatua en el Central Park. Pero el equipo de Togo corrió 420 kilómetros, por el tramo más peligroso. Togo recién tuvo su estatua en 2001, y sin placa hasta 2020, porque en 1925… Estados Unidos le dio la estatua al perro equivocado."
+}
