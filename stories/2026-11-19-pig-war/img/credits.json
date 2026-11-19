@@ -1,0 +1,57 @@
+{
+ "pig": {
+  "file": "pig.jpg",
+  "title": "William Shiels (1783-1857) - A Berkshire Pig - H.OD 100 - National Museum of Rural Life.jpg",
+  "license": "Public domain",
+  "author": "William Shiels",
+  "page": "https://commons.wikimedia.org/wiki/File:William_Shiels_(1783-1857)_-_A_Berkshire_Pig_-_H.OD_100_-_National_Museum_of_Rural_Life.jpg",
+  "size": [
+   1200,
+   899
+  ]
+ },
+ "pig2": {
+  "file": "pig2.jpg",
+  "title": "Berkshire Pig • p182• Brett's Colonist's Guide 1883.tif",
+  "license": "Public domain; PDM",
+  "author": "Unknown author",
+  "page": "https://commons.wikimedia.org/wiki/File:Berkshire_Pig_%E2%80%A2_p182%E2%80%A2_Brett%27s_Colonist%27s_Guide_1883.tif",
+  "size": [
+   4970,
+   3283
+  ]
+ },
+ "amcamp": {
+  "file": "amcamp.jpg",
+  "title": "American Camp, San Juan Island, July 4, 1867.jpg",
+  "license": "Public domain",
+  "author": "Unknown authorUnknown author",
+  "page": "https://commons.wikimedia.org/wiki/File:American_Camp,_San_Juan_Island,_July_4,_1867.jpg",
+  "size": [
+   11456,
+   6876
+  ]
+ },
+ "kaiser": {
+  "file": "kaiser.jpg",
+  "title": "Wilhelm, Deutsche Kaiser und König von Preussen, in der Uniform des Kaiserl. Königl. Oesterreichischen Infanterie-Regiments No. 34, mit dem St. Stephan-Orden. 1872 (NYPL b14896507-90669).tiff",
+  "license": "Public domain",
+  "author": "Scan by NYPL",
+  "page": "https://commons.wikimedia.org/wiki/File:Wilhelm,_Deutsche_Kaiser_und_K%C3%B6nig_von_Preussen,_in_der_Uniform_des_Kaiserl._K%C3%B6nigl._Oesterreichischen_Infanterie-Regiments_No._34,_mit_dem_St._Stephan-Orden._1872_(NYPL_b14896507-90669).tiff",
+  "size": [
+   2422,
+   3432
+  ]
+ },
+ "evacuate": {
+  "file": "evacuate.jpg",
+  "title": "British troops evacuate San Juan Island, Washington Terr, 1872 - Restored.jpg",
+  "license": "Public domain",
+  "author": "Unknown authorUnknown author",
+  "page": "https://commons.wikimedia.org/wiki/File:British_troops_evacuate_San_Juan_Island,_Washington_Terr,_1872_-_Restored.jpg",
+  "size": [
+   1478,
+   1182
+  ]
+ }
+}

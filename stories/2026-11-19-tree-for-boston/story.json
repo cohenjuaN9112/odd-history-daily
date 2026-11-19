@@ -1,0 +1,163 @@
+{
+ "slug": "2026-11-19-tree-for-boston",
+ "voice": "en-US-ChristopherNeural",
+ "rate": "+8%",
+ "gap": 0.2,
+ "lines": [
+  "Boston's Christmas tree is a thank-you gift from Canada.",
+  "In 1917, a ship full of explosives blew up in Halifax Harbor.",
+  "It was the biggest man-made blast before the atomic bomb.",
+  "Nearly 2,000 people were killed.",
+  "That night, Boston sent a relief train through a blizzard.",
+  "In 1918, Nova Scotia sent Boston a Christmas tree to say thanks.",
+  "Since 1971, it has sent one every year, this year a 46-foot spruce.",
+  "So when Boston lights it up, remember..."
+ ],
+ "images": {
+  "cloud": "Halifax Explosion blast cloud restored.jpg",
+  "cloud2": "Blast cloud from the Halifax Explosion, December 6, 1917.jpg",
+  "harbour": "Halifax Explosion - harbour view - restored.jpg",
+  "globe": "19171208 Halifax explosion with map - The Boston Daily Globe.jpg",
+  "treeup": "Setting up Christmas tree, Boston Common - DPLA - b4680b7b5c679d3659bec0974726d5dd.jpg",
+  "longwalk": "The Long Walk, Boston Common, Boston, Mass (NYPL b12647398-73845).tiff"
+ },
+ "shots": [
+  {
+   "line": 0,
+   "kind": "kb",
+   "image": "cloud",
+   "from": [
+    0.5,
+    0.5,
+    0.89
+   ],
+   "to": [
+    0.5,
+    0.42,
+    0.72
+   ]
+  },
+  {
+   "line": 1,
+   "kind": "kb",
+   "image": "cloud2",
+   "from": [
+    0.55,
+    0.5,
+    0.337
+   ],
+   "to": [
+    0.6,
+    0.45,
+    0.3
+   ]
+  },
+  {
+   "line": 2,
+   "kind": "kb",
+   "image": "harbour",
+   "from": [
+    0.3,
+    0.5,
+    0.357
+   ],
+   "to": [
+    0.68,
+    0.5,
+    0.357
+   ]
+  },
+  {
+   "line": 3,
+   "kind": "number",
+   "title": "Nearly",
+   "value": "2,000",
+   "label": "people killed"
+  },
+  {
+   "line": 4,
+   "kind": "kb",
+   "image": "globe",
+   "from": [
+    0.3,
+    0.4,
+    0.55
+   ],
+   "to": [
+    0.7,
+    0.4,
+    0.55
+   ]
+  },
+  {
+   "line": 5,
+   "kind": "framed",
+   "image": "treeup",
+   "zoom": 1.06,
+   "x": [
+    0.45,
+    0.55
+   ],
+   "y": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "line": 6,
+   "kind": "number",
+   "title": "Every year since",
+   "value": "1971",
+   "label": "this year: a 46-ft spruce"
+  },
+  {
+   "line": 7,
+   "kind": "kb",
+   "image": "longwalk",
+   "from": [
+    0.5,
+    0.5,
+    0.34
+   ],
+   "to": [
+    0.5,
+    0.5,
+    0.28
+   ]
+  }
+ ],
+ "hook": [
+  "A TREE FOR",
+  "*A RESCUE"
+ ],
+ "hook_y": 300,
+ "badge_line": 5,
+ "comment": "Can you think of a better thank-you gift than this?",
+ "youtube": {
+  "title": "Why Canada sends Boston a Christmas tree every year",
+  "description": "On December 6, 1917, the French munitions ship Mont-Blanc collided with the Norwegian ship Imo in Halifax Harbour, Nova Scotia, and exploded in what is described as the largest man-made explosion before the atomic bomb, killing nearly 2,000 people. That night, Boston sent a relief train with medical help and supplies; a blizzard delayed it, and it reached Halifax on the morning of December 8. In 1918, Nova Scotia sent Boston a Christmas tree as a thank-you, and since 1971 it has sent one every year to be lit on Boston Common. This year's tree, a 46-foot white spruce from East Amherst, Nova Scotia, was cut on November 18, 2026.\n\nSources: Government of Nova Scotia, \"Tree for Boston: About the Tradition\" and news release \"Tree for Boston Cutting Ceremony 2026\" (November 18, 2026); Encyclopaedia Britannica, \"Halifax explosion\"; Parks Canada, \"Halifax Explosion National Historic Event\"; The Christian Science Monitor, \"In Boston, a Christmas tree symbolizes a cross-border friendship\" (2017); Haligonia, \"Nova Scotia's 2026 Tree for Boston cut in East Amherst and on its way\"; Wikipedia, \"Boston Christmas Tree\".\nImages: via Wikimedia Commons. Halifax Explosion blast cloud photos (1917) and harbour view after the explosion (William James), public domain; front page of The Boston Daily Globe, December 8, 1917, public domain; \"Setting up Christmas tree, Boston Common\" (between 1929 and 1955) by John B. Sanromá, Boston Public Library, No Copyright - United States; \"The Long Walk, Boston Common\" postcard (New York Public Library), public domain. The archival tree photo does not show the 1918 tree.\n\n#history #shorts #boston",
+  "tags": [
+   "history",
+   "halifax explosion",
+   "boston",
+   "christmas tree",
+   "nova scotia",
+   "boston common",
+   "1917",
+   "tree for boston",
+   "christmas",
+   "true story"
+  ],
+  "category": "EDUCATION"
+ },
+ "sources": [
+  "https://novascotia.ca/treeforboston/history.asp",
+  "https://news.novascotia.ca/en/2026/11/18/tree-boston-cutting-ceremony-2026",
+  "https://www.britannica.com/event/Halifax-explosion",
+  "https://parks.canada.ca/culture/designation/evenement-event/halifax-explosion",
+  "https://csmonitor.com/USA/2017/1221/In-Boston-a-Christmas-tree-symbolizes-a-cross-border-friendship",
+  "https://haligonia.ca/tree-for-boston-2026-east-amherst-324345/",
+  "https://en.wikipedia.org/wiki/Boston_Christmas_Tree"
+ ],
+ "translation_es": "El árbol de Navidad de Boston es un regalo de agradecimiento de Canadá. En 1917, un barco lleno de explosivos voló por los aires en el puerto de Halifax. Fue la explosión más grande hecha por el hombre antes de la bomba atómica. Murieron casi 2.000 personas. Esa misma noche, Boston mandó un tren de auxilio en medio de una tormenta de nieve. En 1918, Nueva Escocia le mandó a Boston un árbol de Navidad para darle las gracias. Desde 1971 le manda uno todos los años; este año, una pícea de 14 metros. Así que cuando Boston lo encienda, acordate… el árbol de Navidad de Boston es un regalo de agradecimiento de Canadá."
+}

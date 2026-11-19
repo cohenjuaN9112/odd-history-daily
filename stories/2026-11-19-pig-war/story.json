@@ -1,0 +1,434 @@
+{
+ "slug": "2026-11-19-pig-war",
+ "voice": "en-US-ChristopherNeural",
+ "rate": "+8%",
+ "gap": 0.2,
+ "lines": [
+  "One pig nearly started a war with Britain.",
+  "In 1846, a treaty ran the border down a channel.",
+  "But there were two, and both nations claimed the islands in between.",
+  "In 1859, an American settler shot a British pig eating his potatoes.",
+  "Soon, 461 U.S. soldiers faced British warships.",
+  "Britain's admiral refused to fight over a pig.",
+  "They shared the island for 12 years, until Germany's Kaiser chose America.",
+  "The only casualty was the pig, and that's how..."
+ ],
+ "images": {
+  "pig": "William Shiels (1783-1857) - A Berkshire Pig - H.OD 100 - National Museum of Rural Life.jpg",
+  "pig2": "Berkshire Pig • p182• Brett's Colonist's Guide 1883.tif",
+  "amcamp": "American Camp, San Juan Island, July 4, 1867.jpg",
+  "kaiser": "Wilhelm, Deutsche Kaiser und König von Preussen, in der Uniform des Kaiserl. Königl. Oesterreichischen Infanterie-Regiments No. 34, mit dem St. Stephan-Orden. 1872 (NYPL b14896507-90669).tiff",
+  "evacuate": "British troops evacuate San Juan Island, Washington Terr, 1872 - Restored.jpg"
+ },
+ "shots": [
+  {
+   "line": 0,
+   "kind": "kb",
+   "image": "pig",
+   "from": [
+    0.22,
+    0.45,
+    0.42
+   ],
+   "to": [
+    0.15,
+    0.4,
+    0.32
+   ]
+  },
+  {
+   "line": 1,
+   "kind": "kb",
+   "image": "border",
+   "from": [
+    0.5,
+    0.45,
+    1.0
+   ],
+   "to": [
+    0.52,
+    0.43,
+    0.92
+   ]
+  },
+  {
+   "line": 2,
+   "kind": "kb",
+   "image": "channels",
+   "from": [
+    0.5,
+    0.42,
+    1.0
+   ],
+   "to": [
+    0.53,
+    0.4,
+    0.93
+   ]
+  },
+  {
+   "line": 3,
+   "kind": "kb",
+   "image": "pig2",
+   "from": [
+    0.62,
+    0.5,
+    0.37
+   ],
+   "to": [
+    0.8,
+    0.5,
+    0.34
+   ]
+  },
+  {
+   "line": 4,
+   "kind": "number",
+   "title": "August 1859",
+   "value": "461",
+   "label": "U.S. soldiers vs. 5 warships"
+  },
+  {
+   "line": 5,
+   "kind": "framed",
+   "image": "evacuate",
+   "zoom": 1.06,
+   "x": [
+    0.45,
+    0.55
+   ],
+   "y": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "line": 6,
+   "kind": "kb",
+   "image": "amcamp",
+   "from": [
+    0.2,
+    0.5,
+    0.337
+   ],
+   "to": [
+    0.55,
+    0.55,
+    0.32
+   ]
+  },
+  {
+   "line": 6,
+   "at_word": 7,
+   "kind": "kb",
+   "image": "kaiser",
+   "from": [
+    0.48,
+    0.45,
+    0.42
+   ],
+   "to": [
+    0.48,
+    0.38,
+    0.3
+   ]
+  },
+  {
+   "line": 7,
+   "kind": "number",
+   "title": "Casualties of the Pig War",
+   "value": "1",
+   "label": "the pig"
+  },
+  {
+   "line": 7,
+   "at_word": 6,
+   "kind": "kb",
+   "image": "pig",
+   "from": [
+    0.15,
+    0.4,
+    0.32
+   ],
+   "to": [
+    0.22,
+    0.45,
+    0.42
+   ]
+  }
+ ],
+ "hook": [
+  "WAR OVER",
+  "*ONE PIG"
+ ],
+ "hook_y": 250,
+ "badge_line": 5,
+ "comment": "Who was in the wrong: the farmer or the pig's owner?",
+ "maps": {
+  "border": {
+   "type": "region",
+   "center": [
+    -123.0,
+    48.9
+   ],
+   "width_km": 620,
+   "y_offset": 0.1,
+   "fine": true,
+   "highlight": [
+    {
+     "country": "United States of America",
+     "color": "#56432f"
+    }
+   ],
+   "lines": [
+    {
+     "lonlat": [
+      [
+       -116.0,
+       49.0
+      ],
+      [
+       -123.32,
+       49.0
+      ]
+     ],
+     "color": "amber",
+     "width": 9
+    },
+    {
+     "lonlat": [
+      [
+       -123.32,
+       49.0
+      ],
+      [
+       -123.1,
+       48.6
+      ],
+      [
+       -123.3,
+       48.3
+      ],
+      [
+       -124.7,
+       48.45
+      ]
+     ],
+     "color": "amber",
+     "dash": true,
+     "width": 6
+    }
+   ],
+   "labels": [
+    {
+     "text": "BRITISH",
+     "lonlat": [
+      -121.0,
+      50.25
+     ],
+     "size": 70,
+     "color": "paper"
+    },
+    {
+     "text": "U.S.",
+     "lonlat": [
+      -120.6,
+      47.95
+     ],
+     "size": 70,
+     "color": "paper"
+    },
+    {
+     "text": "49°N",
+     "lonlat": [
+      -120.9,
+      49.3
+     ],
+     "size": 60,
+     "color": "amber"
+    },
+    {
+     "text": "VANCOUVER",
+     "lonlat": [
+      -125.25,
+      50.05
+     ],
+     "size": 44,
+     "color": "muted"
+    },
+    {
+     "text": "ISLAND",
+     "lonlat": [
+      -125.25,
+      49.8
+     ],
+     "size": 44,
+     "color": "muted"
+    }
+   ],
+   "title": "THE 1846 TREATY"
+  },
+  "channels": {
+   "type": "region",
+   "center": [
+    -122.98,
+    48.6
+   ],
+   "width_km": 130,
+   "y_offset": 0.12,
+   "fine": true,
+   "highlight": [
+    {
+     "country": "United States of America",
+     "color": "#56432f"
+    },
+    {
+     "country": "United States of America",
+     "color": "amber",
+     "clip_box": [
+      -123.33,
+      48.38,
+      -122.71,
+      48.82
+     ]
+    }
+   ],
+   "lines": [
+    {
+     "lonlat": [
+      [
+       -123.32,
+       49.0
+      ],
+      [
+       -123.02,
+       48.83
+      ],
+      [
+       -123.12,
+       48.77
+      ],
+      [
+       -123.21,
+       48.71
+      ],
+      [
+       -123.26,
+       48.6
+      ],
+      [
+       -123.23,
+       48.48
+      ],
+      [
+       -123.15,
+       48.38
+      ],
+      [
+       -123.12,
+       48.28
+      ]
+     ],
+     "color": "paper",
+     "dash": true,
+     "width": 7
+    },
+    {
+     "lonlat": [
+      [
+       -123.32,
+       49.0
+      ],
+      [
+       -122.98,
+       48.86
+      ],
+      [
+       -122.8,
+       48.76
+      ],
+      [
+       -122.69,
+       48.66
+      ],
+      [
+       -122.7,
+       48.5
+      ],
+      [
+       -122.76,
+       48.3
+      ]
+     ],
+     "color": "red",
+     "dash": true,
+     "width": 7
+    }
+   ],
+   "labels": [
+    {
+     "text": "HARO",
+     "lonlat": [
+      -123.47,
+      48.66
+     ],
+     "size": 52,
+     "color": "paper"
+    },
+    {
+     "text": "STRAIT",
+     "lonlat": [
+      -123.47,
+      48.585
+     ],
+     "size": 52,
+     "color": "paper"
+    },
+    {
+     "text": "ROSARIO",
+     "lonlat": [
+      -122.42,
+      48.66
+     ],
+     "size": 52,
+     "color": "red"
+    },
+    {
+     "text": "STRAIT",
+     "lonlat": [
+      -122.42,
+      48.585
+     ],
+     "size": 52,
+     "color": "red"
+    }
+   ],
+   "title": "TWO CHANNELS"
+  }
+ },
+ "youtube": {
+  "title": "America and Britain nearly went to war over a pig",
+  "description": "The 1846 Oregon Treaty ran the U.S.-British border through the middle of the channel separating the continent from Vancouver Island, but there were two channels, Haro Strait and Rosario Strait, and both nations claimed the San Juan Islands between them. On June 15, 1859, American settler Lyman Cutlar shot a Hudson's Bay Company pig that was rooting for potatoes in his garden on San Juan Island. By the end of August, 461 U.S. soldiers with 14 cannons faced British warships, but Rear Admiral Robert L. Baynes refused to start a war over a pig. The two sides shared the island under joint military occupation for 12 years, until an arbitration under Germany's Kaiser Wilhelm I gave the islands to the United States in October 1872, and the only casualty of the Pig War was the pig.\n\nSources: National Park Service, \"The Pig War\" (San Juan Island National Historical Park); HistoryLink.org, Essay 5037 on the Pig War; The Canadian Encyclopedia, \"The Pig War\"; National Park Service, San Juan Island National Historical Park brochure (2012); Historic UK, \"The Pig War\".\nImages: public domain, via Wikimedia Commons. \"A Berkshire Pig\" by William Shiels (National Museum of Rural Life), an illustration, not the actual pig; Berkshire pig engraving from Brett's Colonist's Guide (1883); British troops evacuating English Camp, San Juan Island (1872); July 4, 1867 at American Camp, San Juan Island (unknown artist); Emperor Wilhelm I of Germany, 1872 print (New York Public Library). Maps drawn with Natural Earth data (public domain); claim lines are approximate.\n\n#history #shorts #pigwar",
+  "tags": [
+   "history",
+   "pig war",
+   "san juan island",
+   "1859",
+   "oregon treaty",
+   "british empire",
+   "kaiser wilhelm",
+   "pacific northwest",
+   "maps",
+   "true story"
+  ],
+  "category": "EDUCATION"
+ },
+ "sources": [
+  "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm",
+  "https://www.historylink.org/File/5037",
+  "https://www.thecanadianencyclopedia.ca/en/article/pig-war",
+  "https://www.npshistory.com/publications/sajh/brochures/2012.pdf",
+  "https://www.historic-uk.com/HistoryUK/HistoryofBritain/The-Pig-War/"
+ ],
+ "translation_es": "Un cerdo casi desata una guerra con Gran Bretaña. En 1846, un tratado trazó la frontera por el medio de un canal. Pero había dos, y los dos países reclamaban las islas del medio. En 1859, un colono estadounidense mató a un cerdo británico que se estaba comiendo sus papas. Al poco tiempo, 461 soldados estadounidenses enfrentaban a buques de guerra británicos. El almirante británico se negó a pelear por un cerdo. Compartieron la isla durante 12 años, hasta que el káiser de Alemania eligió a Estados Unidos. La única víctima fue el cerdo, y así es como… un cerdo casi desata una guerra con Gran Bretaña."
+}

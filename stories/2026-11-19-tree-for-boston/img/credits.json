@@ -1,0 +1,68 @@
+{
+ "cloud": {
+  "file": "cloud.jpg",
+  "title": "Halifax Explosion blast cloud restored.jpg",
+  "license": "Public domain",
+  "author": "Unknown authorUnknown author",
+  "page": "https://commons.wikimedia.org/wiki/File:Halifax_Explosion_blast_cloud_restored.jpg",
+  "size": [
+   1200,
+   1905
+  ]
+ },
+ "cloud2": {
+  "file": "cloud2.jpg",
+  "title": "Blast cloud from the Halifax Explosion, December 6, 1917.jpg",
+  "license": "Public domain; PD-1923",
+  "author": "Unknown author",
+  "page": "https://commons.wikimedia.org/wiki/File:Blast_cloud_from_the_Halifax_Explosion%2C_December_6%2C_1917.jpg",
+  "size": [
+   1558,
+   933
+  ]
+ },
+ "harbour": {
+  "file": "harbour.jpg",
+  "title": "Halifax Explosion - harbour view - restored.jpg",
+  "license": "Public domain",
+  "author": "William James (Toronto)",
+  "page": "https://commons.wikimedia.org/wiki/File:Halifax_Explosion_-_harbour_view_-_restored.jpg",
+  "size": [
+   2254,
+   1432
+  ]
+ },
+ "globe": {
+  "file": "globe.jpg",
+  "title": "19171208 Halifax explosion with map - The Boston Daily Globe.jpg",
+  "license": "Public domain; PD-1923",
+  "author": "The Boston Daily Globe (newspaper of Boston, Massachusetts, U.S., 1917)",
+  "page": "https://commons.wikimedia.org/wiki/File:19171208_Halifax_explosion_with_map_-_The_Boston_Daily_Globe.jpg",
+  "size": [
+   3300,
+   3650
+  ]
+ },
+ "treeup": {
+  "file": "treeup.jpg",
+  "title": "Setting up Christmas tree, Boston Common - DPLA - b4680b7b5c679d3659bec0974726d5dd.jpg",
+  "license": "Public domain",
+  "author": "Sanromá, John B., 1900-1997",
+  "page": "https://commons.wikimedia.org/wiki/File:Setting_up_Christmas_tree%2C_Boston_Common_-_DPLA_-_b4680b7b5c679d3659bec0974726d5dd.jpg",
+  "size": [
+   6323,
+   4413
+  ]
+ },
+ "longwalk": {
+  "file": "longwalk.jpg",
+  "title": "The Long Walk, Boston Common, Boston, Mass (NYPL b12647398-73845).tiff",
+  "license": "Public domain",
+  "author": "Scan by NYPL",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Long_Walk,_Boston_Common,_Boston,_Mass_(NYPL_b12647398-73845).tiff",
+  "size": [
+   2360,
+   1610
+  ]
+ }
+}
