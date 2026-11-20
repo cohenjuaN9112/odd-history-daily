@@ -1,0 +1,187 @@
+{
+ "slug": "2026-11-20-phineas-gage",
+ "voice": "en-US-ChristopherNeural",
+ "rate": "+8%",
+ "gap": 0.2,
+ "lines": [
+  "This 13-pound iron rod shot through his skull.",
+  "In 1848, Phineas Gage was blasting rock for a Vermont railroad.",
+  "His tamping iron struck a spark, and the powder exploded.",
+  "It went in under his cheekbone and out the top of his head.",
+  "Moments later, he was awake and talking.",
+  "But his friends said he was \"no longer Gage.\"",
+  "He later moved to Chile and drove stagecoaches for about seven years.",
+  "Today, his skull sits at Harvard, next to..."
+ ],
+ "images": {
+  "portrait": "Phineas Gage GageMillerPhoto2010-02-17 Unretouched Color.jpg",
+  "iron": "Phineas Gage GageMillerPhoto2010-02-17 Unretouched Color CroppedEmphasizingIron.jpg",
+  "post": "PhineasGage BostonPostStory.jpg",
+  "bigelow": "AmJMedicalSciences 1850July BigelowHenryJ DrHarlow'sCase PhineasGage frontispiece FrontView.jpg",
+  "warren": "JacksonJBS A descriptive catalogue of the Warren Anatomical Museum 1870 frontispiece 623x1024.jpg",
+  "valpo": "14085-2 17 At Valparaíso coming in from Santiago (cropped).jpg",
+  "valpo2": "Daguerrotipo Valparaíso, 1852 aproximadamente, atribuido a Carleton E. Watkins - The Paul J. Getty Museum.jpg",
+  "map1855": "CavendishVermont Doton1855.jpg"
+ },
+ "shots": [
+  {
+   "line": 0,
+   "kind": "kb",
+   "image": "portrait",
+   "from": [
+    0.5,
+    0.375,
+    0.6
+   ],
+   "to": [
+    0.5,
+    0.37,
+    0.5
+   ]
+  },
+  {
+   "line": 1,
+   "kind": "kb",
+   "image": "map1855",
+   "from": [
+    0.25,
+    0.5,
+    0.3
+   ],
+   "to": [
+    0.5,
+    0.5,
+    0.3
+   ]
+  },
+  {
+   "line": 2,
+   "kind": "number",
+   "title": "The tamping iron",
+   "value": "3 ft 7 in",
+   "label": "13 lb of solid iron"
+  },
+  {
+   "line": 3,
+   "kind": "kb",
+   "image": "bigelow",
+   "from": [
+    0.5,
+    0.55,
+    1.0
+   ],
+   "to": [
+    0.5,
+    0.45,
+    0.8
+   ]
+  },
+  {
+   "line": 4,
+   "kind": "framed",
+   "image": "post",
+   "zoom": 1.06,
+   "x": [
+    0.45,
+    0.55
+   ],
+   "y": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "line": 5,
+   "kind": "kb",
+   "image": "iron",
+   "from": [
+    0.5,
+    0.3,
+    0.9
+   ],
+   "to": [
+    0.5,
+    0.22,
+    0.6
+   ]
+  },
+  {
+   "line": 6,
+   "kind": "kb",
+   "image": "valpo2",
+   "from": [
+    0.5,
+    0.77,
+    0.55
+   ],
+   "to": [
+    0.45,
+    0.77,
+    0.45
+   ]
+  },
+  {
+   "line": 6,
+   "at_word": 6,
+   "kind": "kb",
+   "image": "valpo",
+   "from": [
+    0.3,
+    0.5,
+    0.418
+   ],
+   "to": [
+    0.62,
+    0.5,
+    0.418
+   ]
+  },
+  {
+   "line": 7,
+   "kind": "kb",
+   "image": "warren",
+   "from": [
+    0.76,
+    0.7,
+    0.42
+   ],
+   "to": [
+    0.8,
+    0.8,
+    0.38
+   ]
+  }
+ ],
+ "hook": [
+  "ROD IN HEAD",
+  "*HE LIVED"
+ ],
+ "hook_y": 300,
+ "badge_line": 4,
+ "comment": "Would you keep the rod that went through your head?",
+ "youtube": {
+  "title": "An iron rod shot through his skull, and he lived",
+  "description": "On September 13, 1848, near Cavendish, Vermont, railroad construction foreman Phineas Gage was preparing a blast when his tamping iron struck a spark and set off the powder. The 13-pound iron, 3 feet 7 inches long, went in under his left cheekbone, came out through the top of his head and landed about 80 feet away, yet he was conscious and able to speak moments later. His personality changed so much that his friends said he was \"no longer Gage\"; he later drove stagecoaches in Chile for about seven years and died in California in 1860, nearly 12 years after the accident. His skull and the tamping iron are on display at Harvard Medical School's Warren Anatomical Museum.\n\nSources: The University of Akron, \"The Phineas Gage story\" (Malcolm Macmillan); Encyclopaedia Britannica, \"Phineas Gage\"; NPR, \"Why Brain Scientists Are Still Obsessed With The Curious Case Of Phineas Gage\" (2017); Harvard Medical School, \"One of History's Most Famous Head Injuries Gets Examined Again\"; Smithsonian Magazine, \"Phineas Gage: Neuroscience's Most Famous Patient\".\nImages: public domain, via Wikimedia Commons. Daguerreotype portrait of Phineas Gage holding the tamping iron (photographer unknown); 1855 map of Cavendish by Hosea Doton; newspaper report of the accident (Boston Post); drawing of Gage's skull by Henry Jacob Bigelow (American Journal of the Medical Sciences, 1850); daguerreotype of Valparaíso, about 1852, attributed to Carleton E. Watkins (J. Paul Getty Museum); \"At Valparaíso, coming in from Santiago\" by Marcus Lowther; photographs of Gage's skull and tamping iron from J.B.S. Jackson's 1870 catalogue of the Warren Anatomical Museum.\n\n#history #shorts #phineasgage",
+  "tags": [
+   "history",
+   "phineas gage",
+   "brain",
+   "neuroscience",
+   "vermont",
+   "1848",
+   "railroad",
+   "harvard",
+   "medical history",
+   "true story"
+  ],
+  "category": "EDUCATION"
+ },
+ "sources": [
+  "https://uakron.edu/gage/story.dot",
+  "https://www.britannica.com/print/article/1940849",
+  "https://www.npr.org/sections/health-shots/2017/05/21/528966102/why-brain-scientists-are-still-obsessed-with-the-curious-case-of-phineas-gage",
+  "https://hms.harvard.edu/news/one-historys-most-famous-head-injuries-gets-examined-again",
+  "https://www.smithsonianmag.com/history/phineas-gage-neurosciences-most-famous-patient-11390067/"
+ ],
+ "translation_es": "Esta barra de hierro de casi 6 kilos le atravesó el cráneo. En 1848, Phineas Gage estaba volando roca para un ferrocarril en Vermont. Su barra de atacar la pólvora hizo una chispa y la pólvora explotó. Le entró por debajo del pómulo y le salió por arriba de la cabeza. Momentos después, estaba despierto y hablando. Pero sus amigos decían que ya \"no era Gage\". Más tarde se fue a Chile y manejó diligencias durante unos siete años. Hoy su cráneo está en Harvard, al lado de… esta barra de hierro de casi 6 kilos que le atravesó el cráneo."
+}

@@ -1,0 +1,90 @@
+{
+ "portrait": {
+  "file": "portrait.jpg",
+  "title": "Phineas Gage GageMillerPhoto2010-02-17 Unretouched Color.jpg",
+  "license": "Public domain; PDM",
+  "author": "Author of underlying work unknown.",
+  "page": "https://commons.wikimedia.org/wiki/File:Phineas_Gage_GageMillerPhoto2010-02-17_Unretouched_Color.jpg",
+  "size": [
+   2720,
+   4112
+  ]
+ },
+ "iron": {
+  "file": "iron.jpg",
+  "title": "Phineas Gage GageMillerPhoto2010-02-17 Unretouched Color CroppedEmphasizingIron.jpg",
+  "license": "Public domain",
+  "author": "Author of underlying work unknown.",
+  "page": "https://commons.wikimedia.org/wiki/File:Phineas_Gage_GageMillerPhoto2010-02-17_Unretouched_Color_CroppedEmphasizingIron.jpg",
+  "size": [
+   1062,
+   2421
+  ]
+ },
+ "post": {
+  "file": "post.jpg",
+  "title": "PhineasGage BostonPostStory.jpg",
+  "license": "Public domain",
+  "author": "Boston Post Story",
+  "page": "https://commons.wikimedia.org/wiki/File:PhineasGage_BostonPostStory.jpg",
+  "size": [
+   803,
+   478
+  ]
+ },
+ "bigelow": {
+  "file": "bigelow.jpg",
+  "title": "AmJMedicalSciences 1850July BigelowHenryJ DrHarlow'sCase PhineasGage frontispiece FrontView.jpg",
+  "license": "Public domain",
+  "author": "Henry Jacob Bigelow",
+  "page": "https://commons.wikimedia.org/wiki/File:AmJMedicalSciences_1850July_BigelowHenryJ_DrHarlow%27sCase_PhineasGage_frontispiece_FrontView.jpg",
+  "size": [
+   406,
+   639
+  ]
+ },
+ "warren": {
+  "file": "warren.jpg",
+  "title": "JacksonJBS A descriptive catalogue of the Warren Anatomical Museum 1870 frontispiece 623x1024.jpg",
+  "license": "Public domain",
+  "author": "J.B.S. Jackson, MD",
+  "page": "https://commons.wikimedia.org/wiki/File:JacksonJBS_A_descriptive_catalogue_of_the_Warren_Anatomical_Museum_1870_frontispiece_623x1024.jpg",
+  "size": [
+   2160,
+   3738
+  ]
+ },
+ "valpo": {
+  "file": "valpo.jpg",
+  "title": "14085-2 17 At Valpara\u00edso coming in from Santiago (cropped).jpg",
+  "license": "Public domain; PDM",
+  "author": "Marcus Lowther \u00a0(1820\u20131908)\u00a0 \u00a0 \u00a0 Description naval officer",
+  "page": "https://commons.wikimedia.org/wiki/File:14085-2_17_At_Valpara%C3%ADso_coming_in_from_Santiago_%28cropped%29.jpg",
+  "size": [
+   1983,
+   1474
+  ]
+ },
+ "valpo2": {
+  "file": "valpo2.jpg",
+  "title": "Daguerrotipo Valpara\u00edso, 1852 aproximadamente, atribuido a Carleton E. Watkins - The Paul J. Getty Museum.jpg",
+  "license": "Public domain",
+  "author": "atribuido a Carleton E. Watkins",
+  "page": "https://commons.wikimedia.org/wiki/File:Daguerrotipo_Valpara%C3%ADso,_1852_aproximadamente,_atribuido_a_Carleton_E._Watkins_-_The_Paul_J._Getty_Museum.jpg",
+  "size": [
+   3001,
+   4665
+  ]
+ },
+ "map1855": {
+  "file": "map1855.jpg",
+  "title": "CavendishVermont Doton1855.jpg",
+  "license": "Public domain",
+  "author": "Doton, Hosea, 1809-1886",
+  "page": "https://commons.wikimedia.org/wiki/File:CavendishVermont_Doton1855.jpg",
+  "size": [
+   1699,
+   905
+  ]
+ }
+}
