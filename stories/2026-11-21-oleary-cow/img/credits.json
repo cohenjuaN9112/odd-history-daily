@@ -1,0 +1,98 @@
+{
+ "flames": {
+  "file": "flames.jpg",
+  "title": "Chicago in flames: Scene at Randolph Street Bridge",
+  "license": "No known restrictions on publication (Library of Congress)",
+  "author": "Currier & Ives, between 1872 and 1874 (Library of Congress)",
+  "page": "https://www.loc.gov/item/90715935/",
+  "source_file": "https://tile.loc.gov/storage-services/master/pnp/pga/06500/06548u.tif",
+  "size": [
+   3200,
+   2572
+  ]
+ },
+ "greatfire": {
+  "file": "greatfire.jpg",
+  "title": "The great fire at Chicago, Octr. 8th 1871",
+  "license": "No known restrictions on publication (Library of Congress)",
+  "author": "Currier & Ives, 1871 (Library of Congress)",
+  "page": "https://www.loc.gov/item/2001704271/",
+  "source_file": "https://tile.loc.gov/storage-services/master/pnp/pga/00700/00762u.tif",
+  "size": [
+   3200,
+   2568
+  ]
+ },
+ "ruins": {
+  "file": "ruins.jpg",
+  "title": "Chicago fire ruins (stereograph, left half)",
+  "license": "No known restrictions on publication (Library of Congress)",
+  "author": "P.B. Greene, photographer, 1871 (Library of Congress)",
+  "page": "https://www.loc.gov/item/2022648563/",
+  "source_file": "https://tile.loc.gov/storage-services/master/pnp/stereo/1s40000/1s41000/1s41300/1s41365u.tif",
+  "size": [
+   1408,
+   1484
+  ]
+ },
+ "origin": {
+  "file": "origin.jpg",
+  "title": "Origin of the Chicago fire, Oct. 9th, 1871",
+  "license": "Public domain (published 1871; Library of Congress)",
+  "author": "Reproduction of a painting by L.V.H. Crosby, 1871 (Library of Congress)",
+  "page": "https://www.loc.gov/item/2023640474/",
+  "source_file": "https://tile.loc.gov/storage-services/master/pnp/cph/3a40000/3a41000/3a41300/3a41313u.tif",
+  "size": [
+   1536,
+   1105
+  ]
+ },
+ "paper": {
+  "file": "paper.jpg",
+  "title": "Daily Kennebec Journal (Augusta, Me.), October 31, 1871, page 1, \"Mrs. Leary's Cow\" (crop)",
+  "license": "Public domain (published 1871; Chronicling America, Library of Congress)",
+  "author": "Daily Kennebec Journal, 1871 (Chronicling America, Library of Congress)",
+  "page": "https://www.loc.gov/resource/sn82014248/1871-10-31/ed-1/?sp=1",
+  "source_file": "https://tile.loc.gov/image-services/iiif/service:ndnp:me:batch_me_dyerbrook_ver01:data:sn82014248:00332895175:1871103101:1084/3300,4900,1650,2400/full/0/default.jpg",
+  "size": [
+   1254,
+   730
+  ]
+ },
+ "cityhall": {
+  "file": "cityhall.jpg",
+  "title": "Chicago City Hall, 121 North LaSalle Street (HABS IL-1128-1)",
+  "license": "Public domain (U.S. Government work, HABS)",
+  "author": "Historic American Buildings Survey (Library of Congress)",
+  "page": "https://www.loc.gov/item/il0439/",
+  "source_file": "https://tile.loc.gov/storage-services/master/pnp/habshaer/il/il0400/il0439/photos/061615pu.tif",
+  "size": [
+   3200,
+   2474
+  ]
+ },
+ "cottage": {
+  "file": "cottage.jpg",
+  "title": "Ruins after the great fire of Oct. 1871, Chicago - Mrs. O'Leary's residence (stereograph, left half)",
+  "license": "No known restrictions on publication (Library of Congress)",
+  "author": "Stereograph published by J. Mountford, 1871 (Library of Congress)",
+  "page": "https://www.loc.gov/item/2004682849/",
+  "source_file": "https://tile.loc.gov/storage-services/master/pnp/cph/3b00000/3b04000/3b04800/3b04891u.tif",
+  "size": [
+   639,
+   588
+  ]
+ },
+ "westside": {
+  "file": "westside.jpg",
+  "title": "The Great fire at Chicago Oct. 9th 1871. View from the west side",
+  "license": "No known restrictions on publication (Library of Congress)",
+  "author": "Gibson & Co., Cincinnati, 1871 (Library of Congress)",
+  "page": "https://www.loc.gov/item/92506070/",
+  "source_file": "https://tile.loc.gov/storage-services/master/pnp/pga/06700/06789u.tif",
+  "size": [
+   3200,
+   2439
+  ]
+ }
+}

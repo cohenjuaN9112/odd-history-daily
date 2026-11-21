@@ -1,0 +1,198 @@
+{
+ "slug": "2026-11-21-ham-chimp",
+ "voice": "en-US-ChristopherNeural",
+ "rate": "+8%",
+ "gap": 0.2,
+ "lines": [
+  "A chimp beat every American astronaut to space.",
+  "In January 1961, NASA strapped Ham into a Mercury capsule.",
+  "His rocket burned too hard, and he flew 42 miles too high.",
+  "He splashed down more than 120 miles past the target.",
+  "Ham came back alive, and was handed an apple.",
+  "Because of the glitch, NASA added one more test flight.",
+  "Nineteen days later, Yuri Gagarin became the first human in space.",
+  "America's first astronaut flew that May, months after..."
+ ],
+ "images": {
+  "chair": "NASA G61-00337",
+  "couchfit": "NASA S63-20801",
+  "launch": "NASA S63-22731",
+  "recovery": "NASA S61-00199",
+  "apple": "NASA S63-18198",
+  "mrbd": "NASA MSFC 9801802",
+  "earth": "NASA S61-04674",
+  "shepard": "NASA MSFC 6417078"
+ },
+ "shots": [
+  {
+   "line": 0,
+   "kind": "kb",
+   "image": "chair",
+   "from": [
+    0.45,
+    0.48,
+    0.75
+   ],
+   "to": [
+    0.38,
+    0.42,
+    0.6
+   ]
+  },
+  {
+   "line": 1,
+   "kind": "kb",
+   "image": "couchfit",
+   "from": [
+    0.45,
+    0.5,
+    0.72
+   ],
+   "to": [
+    0.43,
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "line": 2,
+   "kind": "kb",
+   "image": "launch",
+   "from": [
+    0.5,
+    0.62,
+    0.6
+   ],
+   "to": [
+    0.5,
+    0.45,
+    0.45
+   ]
+  },
+  {
+   "line": 2,
+   "at_word": 7,
+   "kind": "bars",
+   "title": "Highest point, Jan. 31, 1961",
+   "rows": [
+    [
+     "Ham's flight",
+     157,
+     "157 mi"
+    ],
+    [
+     "The plan",
+     115,
+     "115 mi"
+    ]
+   ]
+  },
+  {
+   "line": 3,
+   "kind": "kb",
+   "image": "recovery",
+   "from": [
+    0.42,
+    0.5,
+    0.44
+   ],
+   "to": [
+    0.6,
+    0.5,
+    0.4
+   ]
+  },
+  {
+   "line": 4,
+   "kind": "kb",
+   "image": "apple",
+   "from": [
+    0.26,
+    0.5,
+    0.44
+   ],
+   "to": [
+    0.68,
+    0.5,
+    0.42
+   ]
+  },
+  {
+   "line": 5,
+   "kind": "kb",
+   "image": "mrbd",
+   "from": [
+    0.48,
+    0.55,
+    0.7
+   ],
+   "to": [
+    0.48,
+    0.5,
+    0.55
+   ]
+  },
+  {
+   "line": 6,
+   "kind": "framed",
+   "image": "earth",
+   "zoom": 1.06,
+   "x": [
+    0.4,
+    0.6
+   ],
+   "y": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "line": 7,
+   "kind": "kb",
+   "image": "shepard",
+   "from": [
+    0.45,
+    0.5,
+    0.75
+   ],
+   "to": [
+    0.42,
+    0.4,
+    0.55
+   ]
+  }
+ ],
+ "hook": [
+  "CHIMP BEAT",
+  "*ASTRONAUTS"
+ ],
+ "hook_y": 240,
+ "badge_line": 6,
+ "comment": "Should Ham count as America's first astronaut?",
+ "youtube": {
+  "title": "A chimp beat every American astronaut to space",
+  "description": "On January 31, 1961, NASA launched a chimpanzee named Ham on the Mercury-Redstone 2 test flight from Cape Canaveral, more than three months before Alan Shepard became the first American in space. A problem with the Redstone rocket made it burn too hard, so the capsule climbed to about 157 miles instead of the planned 115 and splashed down more than 120 miles past its target; Ham was recovered alive and was given an apple. Because of the thrust problem, NASA's Marshall team added an extra unmanned booster test flight (MR-BD) on March 24, 1961, and on April 12 the Soviet Union's Yuri Gagarin became the first human in space. Shepard flew on May 5, 1961.\n\nSources: NASA, \"Mercury-Redstone Launch Vehicle\" (Marshall Space Flight Center history); AmericaSpace, \"'We Gave It Away': Remembering the Unhappy Flight of Ham the Chimp, 60 Years On\" (2021); Wikipedia, \"Mercury-Redstone 2\"; NASA Image and Video Library captions for MR-2 (S63-22731) and MR-3 (S61-01928).\nImages: NASA, public domain: Ham before the flight and being fitted into his couch; the MR-2 launch; Ham's recovery aboard the USS Donner; Ham after his recovery; Earth seen from the MR-2 capsule (Johnson Space Center); the MR-BD test launch of March 24, 1961, and Alan Shepard with the Freedom 7 spacecraft (Marshall Space Flight Center).\n\n#history #shorts #nasa",
+  "tags": [
+   "history",
+   "ham the chimp",
+   "nasa",
+   "space race",
+   "project mercury",
+   "1961",
+   "alan shepard",
+   "yuri gagarin",
+   "space history",
+   "true story"
+  ],
+  "category": "EDUCATION"
+ },
+ "sources": [
+  "https://www.nasa.gov/centers-and-facilities/marshall/mercury-redstone-launch-vehicle/",
+  "https://www.americaspace.com/2021/01/31/we-gave-it-away-remembering-the-unhappy-flight-of-ham-60-years-on/",
+  "https://en.wikipedia.org/wiki/Mercury-Redstone_2",
+  "https://images.nasa.gov/details/S63-22731",
+  "https://images.nasa.gov/details/S61-01928"
+ ],
+ "translation_es": "Un chimpancé llegó al espacio antes que cualquier astronauta estadounidense. En enero de 1961, la NASA ató a Ham dentro de una cápsula Mercury. Su cohete empujó de más, y voló 42 millas (unos 68 km) más alto de lo previsto. Cayó al mar a más de 120 millas (unos 190 km) del objetivo. Ham volvió vivo, y le dieron una manzana. Por esa falla, la NASA agregó un vuelo de prueba más. Diecinueve días después, Yuri Gagarin se convirtió en el primer ser humano en el espacio. El primer astronauta de Estados Unidos voló en mayo, meses después de que… un chimpancé llegara al espacio antes que cualquier astronauta estadounidense.",
+ "why_es": "Mezcla animales y carrera espacial con fotos de la NASA de dominio público, y casi nadie sabe que la falla del vuelo de Ham demoró a EE.UU. justo cuando Gagarin llegó primero."
+}

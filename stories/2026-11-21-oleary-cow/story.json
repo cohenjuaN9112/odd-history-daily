@@ -1,0 +1,188 @@
+{
+ "slug": "2026-11-21-oleary-cow",
+ "voice": "en-US-ChristopherNeural",
+ "rate": "+8%",
+ "gap": 0.2,
+ "lines": [
+  "Chicago blamed its Great Fire on a cow.",
+  "In October 1871, a fire broke out in the O'Learys' barn.",
+  "It killed about 300 people and left 100,000 homeless.",
+  "Newspapers said Mrs. O'Leary's cow kicked over a lantern.",
+  "Years later, a reporter claimed he had made that up.",
+  "In 1997, the city council officially cleared her, and the cow.",
+  "Today, the city trains its firefighters right where the O'Learys lived.",
+  "Still, for 126 years..."
+ ],
+ "images": {
+  "flames": "LOC 90715935: Chicago in flames, Scene at Randolph Street Bridge (Currier & Ives)",
+  "greatfire": "LOC 2001704271: The great fire at Chicago, Octr. 8th 1871 (Currier & Ives)",
+  "ruins": "LOC 2022648563: Chicago fire ruins (P.B. Greene stereograph, 1871)",
+  "origin": "LOC 2023640474: Origin of the Chicago fire, Oct. 9th, 1871",
+  "paper": "LOC Chronicling America: Daily Kennebec Journal, Oct. 31, 1871, p. 1",
+  "cityhall": "LOC il0439: Chicago City Hall (HABS IL-1128)",
+  "cottage": "LOC 2004682849: Mrs. O'Leary's residence after the fire (J. Mountford stereograph, 1871)",
+  "westside": "LOC 92506070: The Great fire at Chicago Oct. 9th 1871, view from the west side"
+ },
+ "shots": [
+  {
+   "line": 0,
+   "kind": "kb",
+   "image": "flames",
+   "from": [
+    0.47,
+    0.485,
+    0.3
+   ],
+   "to": [
+    0.45,
+    0.48,
+    0.26
+   ]
+  },
+  {
+   "line": 1,
+   "kind": "kb",
+   "image": "greatfire",
+   "from": [
+    0.36,
+    0.43,
+    0.3
+   ],
+   "to": [
+    0.62,
+    0.43,
+    0.3
+   ]
+  },
+  {
+   "line": 2,
+   "kind": "kb",
+   "image": "ruins",
+   "from": [
+    0.55,
+    0.5,
+    0.6
+   ],
+   "to": [
+    0.55,
+    0.47,
+    0.45
+   ]
+  },
+  {
+   "line": 2,
+   "at_word": 6,
+   "kind": "number",
+   "title": "The Great Chicago Fire",
+   "value": "100,000",
+   "label": "left homeless"
+  },
+  {
+   "line": 3,
+   "kind": "kb",
+   "image": "origin",
+   "from": [
+    0.47,
+    0.45,
+    0.32
+   ],
+   "to": [
+    0.72,
+    0.45,
+    0.3
+   ]
+  },
+  {
+   "line": 4,
+   "kind": "framed",
+   "image": "paper",
+   "zoom": 1.06,
+   "x": [
+    0.45,
+    0.55
+   ],
+   "y": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "line": 5,
+   "kind": "kb",
+   "image": "cityhall",
+   "from": [
+    0.42,
+    0.5,
+    0.43
+   ],
+   "to": [
+    0.38,
+    0.52,
+    0.34
+   ]
+  },
+  {
+   "line": 6,
+   "kind": "framed",
+   "image": "cottage",
+   "zoom": 1.06,
+   "x": [
+    0.4,
+    0.6
+   ],
+   "y": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "line": 7,
+   "kind": "kb",
+   "image": "westside",
+   "from": [
+    0.55,
+    0.45,
+    0.42
+   ],
+   "to": [
+    0.5,
+    0.42,
+    0.34
+   ]
+  }
+ ],
+ "hook": [
+  "THE COW",
+  "*WAS FRAMED"
+ ],
+ "hook_y": 330,
+ "badge_line": 4,
+ "comment": "Who do you think really started the Great Chicago Fire?",
+ "youtube": {
+  "title": "Chicago blamed its Great Fire on a cow. It was framed",
+  "description": "The Great Chicago Fire broke out on the night of October 8, 1871, in or near the barn of Patrick and Catherine O'Leary on DeKoven Street; it killed about 300 people and left some 100,000 homeless, about a third of the city. Newspapers spread the story that Mrs. O'Leary's cow had kicked over a lantern, although she testified that she was in bed and the official inquiry could not determine the cause. Michael Ahern, a reporter for the Chicago Republican, later claimed he had made up the cow story, and in 1997 the Chicago City Council passed a resolution exonerating Catherine O'Leary and her cow. Since 1961, the Chicago Fire Academy has stood on the old O'Leary property.\n\nSources: Smithsonian Magazine, \"What (or Who) Caused the Great Chicago Fire?\"; History.com, \"Chicago Fire of 1871\"; Chicago History Museum and Northwestern University, \"The O'Leary Legend\" (greatchicagofire.org); Chicago Public Library, \"Whodunit? The Mystery of Mrs. O'Leary's Cow\"; City of Chicago, \"Site of the Chicago Fire\" (1971 landmark summary); Wikipedia, \"Catherine O'Leary\".\nImages: Library of Congress, public domain / no known restrictions: \"Chicago in Flames: Scene at Randolph Street Bridge\" and \"The Great Fire at Chicago, Octr. 8th 1871\" (Currier & Ives); \"The Great Fire at Chicago Oct. 9th 1871, View from the West Side\" (Gibson & Co.); \"Origin of the Chicago Fire\" (1871, after a painting by L.V.H. Crosby); stereographs of the ruins (P.B. Greene) and of Mrs. O'Leary's residence (J. Mountford), 1871; Daily Kennebec Journal, October 31, 1871 (Chronicling America); Chicago City Hall (Historic American Buildings Survey).\n\n#history #shorts #chicago",
+  "tags": [
+   "history",
+   "great chicago fire",
+   "mrs oleary",
+   "oleary cow",
+   "chicago",
+   "1871",
+   "myth",
+   "american history",
+   "chicago history",
+   "true story"
+  ],
+  "category": "EDUCATION"
+ },
+ "sources": [
+  "https://www.smithsonianmag.com/history/what-or-who-caused-the-great-chicago-fire-61481977/",
+  "https://www.history.com/topics/natural-disasters-and-environment/great-chicago-fire",
+  "https://www.greatchicagofire.org/oleary-legend/",
+  "https://www.chipublib.org/blogs/post/whodunit-the-mystery-of-mrs-olearys-cow/",
+  "https://www.chicago.gov/content/dam/city/depts/zlup/Historic_Preservation/Publications/Site_of_Chicago_Fire.pdf",
+  "https://en.wikipedia.org/wiki/Catherine_O%27Leary"
+ ],
+ "translation_es": "Chicago le echó la culpa de su Gran Incendio a una vaca. En octubre de 1871, se desató un incendio en el granero de los O'Leary. Mató a unas 300 personas y dejó a 100.000 sin casa. Los diarios dijeron que la vaca de la señora O'Leary pateó un farol. Años después, un periodista aseguró que eso lo había inventado él. En 1997, el concejo de la ciudad la declaró inocente oficialmente, a ella y a la vaca. Hoy, la ciudad entrena a sus bomberos justo donde vivían los O'Leary. Aun así, durante 126 años… Chicago le echó la culpa de su Gran Incendio a una vaca.",
+ "why_es": "Es un mito que casi todos en EE.UU. conocen, pero muy pocos saben que la vaca fue \"absuelta\" oficialmente en 1997 y que la academia de bomberos está en ese mismo terreno."
+}

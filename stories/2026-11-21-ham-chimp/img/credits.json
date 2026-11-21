@@ -1,0 +1,98 @@
+{
+ "chair": {
+  "file": "chair.jpg",
+  "title": "Chimpanzee \"Ham\" during preflight activity prior to the Mercury-Redstone 2 (MR-2) flight, January 1961",
+  "license": "Public domain (NASA)",
+  "author": "NASA (JSC)",
+  "page": "https://images.nasa.gov/details/G61-00337",
+  "source_file": "https://images-assets.nasa.gov/image/G61-00337/G61-00337~orig.jpg",
+  "size": [
+   3200,
+   4138
+  ]
+ },
+ "couchfit": {
+  "file": "couchfit.jpg",
+  "title": "Chimpanzee \"Ham\", in his spacesuit, is fitted into the couch of the MR-2 capsule, Jan. 23, 1961",
+  "license": "Public domain (NASA)",
+  "author": "NASA (JSC)",
+  "page": "https://images.nasa.gov/details/S63-20801",
+  "source_file": "https://images-assets.nasa.gov/image/S63-20801/S63-20801~orig.jpg",
+  "size": [
+   2341,
+   3000
+  ]
+ },
+ "launch": {
+  "file": "launch.jpg",
+  "title": "Launch of the Mercury-Redstone 2 (MR-2) mission from Cape Canaveral, Jan. 31, 1961",
+  "license": "Public domain (NASA)",
+  "author": "NASA (JSC)",
+  "page": "https://images.nasa.gov/details/S63-22731",
+  "source_file": "https://images-assets.nasa.gov/image/S63-22731/S63-22731~orig.jpg",
+  "size": [
+   3200,
+   4056
+  ]
+ },
+ "recovery": {
+  "file": "recovery.jpg",
+  "title": "Recovery personnel aboard the USS Donner remove Ham from the MR-2 spacecraft, Jan. 31, 1961",
+  "license": "Public domain (NASA)",
+  "author": "NASA (JSC)",
+  "page": "https://images.nasa.gov/details/S61-00199",
+  "source_file": "https://images-assets.nasa.gov/image/S61-00199/S61-00199~orig.jpg",
+  "size": [
+   3000,
+   2348
+  ]
+ },
+ "apple": {
+  "file": "apple.jpg",
+  "title": "Closeup of chimpanzee Ham following his recovery from the Atlantic, Jan. 31, 1961",
+  "license": "Public domain (NASA)",
+  "author": "NASA (JSC)",
+  "page": "https://images.nasa.gov/details/S63-18198",
+  "source_file": "https://images-assets.nasa.gov/image/S63-18198/S63-18198~orig.jpg",
+  "size": [
+   3000,
+   2366
+  ]
+ },
+ "mrbd": {
+  "file": "mrbd.jpg",
+  "title": "The Mercury-Redstone Booster Development vehicle (MR-BD) lifts off from Cape Canaveral, March 24, 1961",
+  "license": "Public domain (NASA)",
+  "author": "NASA (MSFC)",
+  "page": "https://images.nasa.gov/details/9801802",
+  "source_file": "https://images-assets.nasa.gov/image/9801802/9801802~orig.jpg",
+  "size": [
+   889,
+   1140
+  ]
+ },
+ "earth": {
+  "file": "earth.jpg",
+  "title": "Earth view from the Mercury-Redstone 2 spacecraft, Jan. 31, 1961 (crop)",
+  "license": "Public domain (NASA)",
+  "author": "NASA (JSC)",
+  "page": "https://images.nasa.gov/details/S61-04674",
+  "source_file": "https://images-assets.nasa.gov/image/S61-04674/S61-04674~orig.jpg",
+  "size": [
+   3047,
+   1934
+  ]
+ },
+ "shepard": {
+  "file": "shepard.jpg",
+  "title": "Alan B. Shepard Jr. in front of the Freedom 7 spacecraft, 1961",
+  "license": "Public domain (NASA)",
+  "author": "NASA (MSFC)",
+  "page": "https://images.nasa.gov/details/6417078",
+  "source_file": "https://images-assets.nasa.gov/image/6417078/6417078~orig.jpg",
+  "size": [
+   850,
+   1147
+  ]
+ }
+}
