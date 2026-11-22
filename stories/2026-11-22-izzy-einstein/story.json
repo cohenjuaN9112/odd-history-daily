@@ -1,0 +1,187 @@
+{
+ "slug": "2026-11-22-izzy-einstein",
+ "voice": "en-US-ChristopherNeural",
+ "rate": "+8%",
+ "gap": 0.2,
+ "lines": [
+  "Prohibition's top agent was a 225-pound postal clerk.",
+  "Izzy Einstein became a Prohibition agent in 1920.",
+  "He showed up as a gravedigger, a fisherman, a football player, even a trombonist.",
+  "A funnel sewn into his vest saved the drinks as evidence.",
+  "In New Orleans, it took him just 35 seconds to get a drink.",
+  "With his partner Moe Smith, he made 4,932 arrests.",
+  "In 1925, his bosses fired him for getting too famous.",
+  "Bootleggers never saw him coming, because..."
+ ],
+ "images": {
+  "idcard": "Identification Card for Prohibition Agent Isidor Einstein.jpg",
+  "paper": "Izzy Einstein, the Champion Federal Prohibition Detective.jpg",
+  "disguise": "Izzy Einstein in disguise.jpg",
+  "nola": "Louisiana - New Orleans - NARA - 23940603.jpg",
+  "izzymoe": "Izzy Einstein and Moe Smith.jpg",
+  "disposal": "5 Prohibition Disposal(9).jpg",
+  "raid": "Liquor raid, 10-14-22 LCCN2016846928.jpg"
+ },
+ "shots": [
+  {
+   "line": 0,
+   "kind": "kb",
+   "image": "izzymoe",
+   "from": [
+    0.3,
+    0.5,
+    0.445
+   ],
+   "to": [
+    0.26,
+    0.42,
+    0.36
+   ]
+  },
+  {
+   "line": 1,
+   "kind": "kb",
+   "image": "idcard",
+   "from": [
+    0.5,
+    0.75,
+    0.55
+   ],
+   "to": [
+    0.45,
+    0.2,
+    0.55
+   ]
+  },
+  {
+   "line": 2,
+   "kind": "framed",
+   "image": "disguise",
+   "zoom": 1.06,
+   "x": [
+    0.4,
+    0.6
+   ],
+   "y": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "line": 3,
+   "kind": "kb",
+   "image": "raid",
+   "from": [
+    0.35,
+    0.5,
+    0.406
+   ],
+   "to": [
+    0.62,
+    0.45,
+    0.33
+   ]
+  },
+  {
+   "line": 4,
+   "kind": "framed",
+   "image": "nola",
+   "zoom": 1.06,
+   "x": [
+    0.35,
+    0.65
+   ],
+   "y": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "line": 4,
+   "at_word": 7,
+   "kind": "number",
+   "title": "New Orleans",
+   "value": "35 SEC",
+   "label": "to get a drink"
+  },
+  {
+   "line": 5,
+   "kind": "kb",
+   "image": "izzymoe",
+   "from": [
+    0.3,
+    0.5,
+    0.4
+   ],
+   "to": [
+    0.7,
+    0.5,
+    0.4
+   ]
+  },
+  {
+   "line": 6,
+   "kind": "framed",
+   "image": "paper",
+   "zoom": 1.06,
+   "x": [
+    0.35,
+    0.65
+   ],
+   "y": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "line": 7,
+   "kind": "kb",
+   "image": "disposal",
+   "from": [
+    0.5,
+    0.5,
+    0.447
+   ],
+   "to": [
+    0.4,
+    0.55,
+    0.34
+   ]
+  }
+ ],
+ "hook": [
+  "MAIL CLERK",
+  "*TOP AGENT"
+ ],
+ "hook_y": 230,
+ "badge_line": 4,
+ "comment": "Which disguise would have fooled you?",
+ "sources": [
+  "https://www.atf.gov/our-history/historical-articles/isador-izzy-einstein",
+  "https://www.smithsonianmag.com/history/prohibitions-premier-hooch-hounds-16963599/",
+  "https://www.history.com/articles/the-improbable-prohibition-agents-who-outsmarted-speakeasy-owners",
+  "https://prohibition.themobmuseum.org/the-history/enforcing-the-prohibition-laws/",
+  "https://tabletmag.com/sections/history/articles/best-booze-busters-brooklyn",
+  "https://hnoc.org/publishing/first-draft/liquor-capital-america-new-orleans-during-prohibition",
+  "https://en.wikipedia.org/wiki/Izzy_Einstein_and_Moe_Smith"
+ ],
+ "youtube": {
+  "title": "Prohibition's top agent was a 225-pound postal clerk",
+  "description": "Isidor \"Izzy\" Einstein, a 5-foot-5, 225-pound New York postal clerk, became a federal Prohibition agent in 1920. Working with his partner Moe Smith, a former cigar store owner, he caught bootleggers in dozens of disguises, from gravedigger and fisherman to football player and trombone player, and saved the drinks he was served as evidence with a funnel sewn into his vest that ran to a hidden container; in New Orleans, it took him just 35 seconds to be offered a drink. The pair made 4,932 arrests, with a 95 percent conviction rate. In November 1925 they were let go, officially for not measuring up to \"standards of efficiency,\" though their superiors were said to resent all the headlines they made.\n\nSources: ATF, \"Isador 'Izzy' Einstein\"; Smithsonian Magazine, \"Prohibition's Premier Hooch Hounds\"; HISTORY, \"The Improbable Prohibition Agents Who Outsmarted Speakeasy Owners\"; The Mob Museum, \"Enforcing the Prohibition Laws\"; Tablet, \"The Best Booze Busters in Brooklyn\"; The Historic New Orleans Collection, \"Liquor Capital of America\"; Wikipedia, \"Izzy Einstein and Moe Smith\".\nImages: public domain, via Wikimedia Commons and the Library of Congress: Izzy Einstein and Moe Smith sharing a toast in a New York bar, 1935 (New York World-Telegram & Sun Collection, Library of Congress); Izzy's 1920 Prohibition agent identification card (U.S. Treasury Department); a picture published in The Literary Digest (April 15, 1922) said to show Izzy in one of his disguises; a liquor raid, October 14, 1922 (National Photo Company Collection, Library of Congress); aerial view of Canal Street, New Orleans, 1922 (U.S. National Archives); \"Izzy Einstein, the Champion Federal Prohibition Detective,\" The Washington Times, June 11, 1922 (American Weekly); New York City Deputy Police Commissioner John A. Leach watching agents pour liquor into a sewer (Library of Congress).\n\n#history #shorts #prohibition",
+  "tags": [
+   "history",
+   "prohibition",
+   "izzy einstein",
+   "moe smith",
+   "1920s",
+   "bootleggers",
+   "speakeasy",
+   "roaring twenties",
+   "american history",
+   "true story"
+  ],
+  "category": "EDUCATION"
+ },
+ "translation_es": "El mejor agente de la Ley Seca era un empleado de correo de 102 kilos. Izzy Einstein se hizo agente de la Ley Seca en 1920. Se aparecía disfrazado de sepulturero, de pescador, de jugador de fútbol americano, hasta de trombonista. Un embudo cosido en el chaleco guardaba los tragos como prueba. En Nueva Orleans, tardó apenas 35 segundos en conseguir un trago. Con su compañero Moe Smith, hizo 4.932 arrestos. En 1925, sus jefes lo echaron por hacerse demasiado famoso. Los contrabandistas nunca lo vieron venir, porque… el mejor agente de la Ley Seca era un empleado de correo de 102 kilos.",
+ "why_es": "Es de otra época y otro tema que el video 1 (años 20, Ley Seca), tiene fotos de dominio público de la Biblioteca del Congreso y un dato que la gente repite: 35 segundos para conseguir un trago en Nueva Orleans."
+}

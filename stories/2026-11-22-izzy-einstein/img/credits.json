@@ -1,0 +1,82 @@
+{
+ "idcard": {
+  "file": "idcard.jpg",
+  "title": "Identification Card for Prohibition Agent Isidor Einstein.jpg",
+  "license": "Public domain",
+  "author": "Department of the Treasury",
+  "page": "https://commons.wikimedia.org/wiki/File:Identification_Card_for_Prohibition_Agent_Isidor_Einstein.jpg",
+  "size": [
+   3339,
+   4300
+  ]
+ },
+ "paper": {
+  "file": "paper.jpg",
+  "title": "Izzy Einstein, the Champion Federal Prohibition Detective.jpg",
+  "license": "Public domain",
+  "author": "American Weekly, Inc.",
+  "page": "https://commons.wikimedia.org/wiki/File:Izzy_Einstein,_the_Champion_Federal_Prohibition_Detective.jpg",
+  "size": [
+   10440,
+   6754
+  ]
+ },
+ "disguise": {
+  "file": "disguise.jpg",
+  "title": "Izzy Einstein in disguise.jpg",
+  "license": "Public domain; PD-1923",
+  "author": "not stated",
+  "page": "https://commons.wikimedia.org/wiki/File:Izzy_Einstein_in_disguise.jpg",
+  "size": [
+   606,
+   808
+  ]
+ },
+ "nola": {
+  "file": "nola.jpg",
+  "title": "Louisiana - New Orleans - NARA - 23940603.jpg",
+  "license": "Public domain",
+  "author": "Unknown authorUnknown author or not provided",
+  "page": "https://commons.wikimedia.org/wiki/File:Louisiana_-_New_Orleans_-_NARA_-_23940603.jpg",
+  "size": [
+   4391,
+   3384
+  ]
+ },
+ "izzymoe": {
+  "file": "izzymoe.jpg",
+  "title": "Izzy Einstein and Moe Smith.jpg",
+  "license": "Public domain",
+  "author": "World Telegram staff photographer",
+  "page": "https://commons.wikimedia.org/wiki/File:Izzy_Einstein_and_Moe_Smith.jpg",
+  "size": [
+   2776,
+   2197
+  ]
+ },
+ "disposal": {
+  "file": "disposal.jpg",
+  "title": "5 Prohibition Disposal(9).jpg",
+  "license": "Public domain",
+  "author": "Unknown photographer (Library of Congress, Prints & Photographs Division, cph.3c23257)",
+  "page": "https://commons.wikimedia.org/wiki/File:5_Prohibition_Disposal(9).jpg",
+  "size": [
+   5120,
+   4070
+  ],
+  "source_file": "https://tile.loc.gov/storage-services/master/pnp/cph/3c20000/3c23000/3c23200/3c23257u.tif",
+  "description": "New York City Deputy Police Commissioner John A. Leach, right, watching agents pour liquor into a sewer following a raid"
+ },
+ "raid": {
+  "file": "raid.jpg",
+  "title": "Liquor raid, 10/14/22",
+  "license": "Public domain (Library of Congress: no known restrictions on publication)",
+  "author": "National Photo Company Collection, Library of Congress (npcc.23550)",
+  "page": "https://www.loc.gov/item/2016846928/",
+  "source_file": "https://tile.loc.gov/storage-services/master/pnp/npcc/23500/23550u.tif",
+  "size": [
+   6054,
+   4369
+  ]
+ }
+}

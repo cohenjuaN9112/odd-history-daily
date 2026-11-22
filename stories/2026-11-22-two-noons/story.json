@@ -1,0 +1,714 @@
+{
+ "slug": "2026-11-22-two-noons",
+ "voice": "en-US-ChristopherNeural",
+ "rate": "+8%",
+ "gap": 0.2,
+ "lines": [
+  "One day in 1883, noon happened twice.",
+  "Until then, every town set its clocks by the sun.",
+  "America ran on more than 100 local times.",
+  "When it was noon in Chicago, it was 11:27 in Omaha.",
+  "So on November 18, railroads split the country into four time zones.",
+  "In New York, bells struck noon, then struck it again four minutes later.",
+  "Congress only made it law in 1918, 35 years after..."
+ ],
+ "images": {
+  "clock": "Small clock face, Seth Thomas clock, 1876 (961021fd-324e-47f9-976b-5c24506b6dff).jpg",
+  "jeweler": "Jaccard's Jewelers, northeast corner of North Broadway and Olive Street. - DPLA - a6da5e975a7c01fdaf2bffbbd2b52fc3.jpg",
+  "table": "Comparative-time-table.jpg",
+  "psm": "PSM V26 D162 Standard railway time vs greenwich mean time.jpg",
+  "broadway": "Broadway-1885-APL.jpeg"
+ },
+ "shots": [
+  {
+   "line": 0,
+   "kind": "kb",
+   "image": "clock",
+   "from": [
+    0.62,
+    0.5,
+    0.37
+   ],
+   "to": [
+    0.62,
+    0.54,
+    0.29
+   ]
+  },
+  {
+   "line": 1,
+   "kind": "kb",
+   "image": "jeweler",
+   "from": [
+    0.5,
+    0.5,
+    0.85
+   ],
+   "to": [
+    0.46,
+    0.36,
+    0.52
+   ]
+  },
+  {
+   "line": 2,
+   "kind": "framed",
+   "image": "table",
+   "zoom": 1.06,
+   "x": [
+    0.45,
+    0.55
+   ],
+   "y": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "line": 2,
+   "at_word": 5,
+   "kind": "number",
+   "title": "More than",
+   "value": "100",
+   "label": "local times"
+  },
+  {
+   "line": 3,
+   "kind": "kb",
+   "image": "sun",
+   "from": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "to": [
+    0.5,
+    0.47,
+    0.9
+   ]
+  },
+  {
+   "line": 4,
+   "kind": "kb",
+   "image": "zones",
+   "from": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "to": [
+    0.5,
+    0.47,
+    0.9
+   ]
+  },
+  {
+   "line": 4,
+   "at_word": 6,
+   "kind": "kb",
+   "image": "psm",
+   "from": [
+    0.2,
+    0.5,
+    0.365
+   ],
+   "to": [
+    0.8,
+    0.5,
+    0.365
+   ]
+  },
+  {
+   "line": 5,
+   "kind": "kb",
+   "image": "broadway",
+   "from": [
+    0.45,
+    0.6,
+    0.458
+   ],
+   "to": [
+    0.3,
+    0.36,
+    0.3
+   ]
+  },
+  {
+   "line": 6,
+   "kind": "number",
+   "title": "Congress makes it law",
+   "value": "1918",
+   "label": "35 years later"
+  },
+  {
+   "line": 6,
+   "at_word": 6,
+   "kind": "kb",
+   "image": "clock",
+   "from": [
+    0.62,
+    0.54,
+    0.29
+   ],
+   "to": [
+    0.62,
+    0.5,
+    0.37
+   ]
+  }
+ ],
+ "maps": {
+  "sun": {
+   "type": "region",
+   "center": [
+    -91.8,
+    40.2
+   ],
+   "width_km": 1250,
+   "y_offset": 0.14,
+   "fine": true,
+   "states_borders": true,
+   "lakes": true,
+   "dots": [
+    {
+     "lonlat": [
+      -87.63,
+      41.88
+     ],
+     "r": 26,
+     "color": "amber"
+    },
+    {
+     "lonlat": [
+      -90.2,
+      38.63
+     ],
+     "r": 20,
+     "color": "paper"
+    },
+    {
+     "lonlat": [
+      -95.94,
+      41.26
+     ],
+     "r": 20,
+     "color": "paper"
+    }
+   ],
+   "labels": [
+    {
+     "text": "CHICAGO",
+     "lonlat": [
+      -87.9,
+      42.75
+     ],
+     "size": 60,
+     "color": "paper"
+    },
+    {
+     "text": "12:00",
+     "lonlat": [
+      -87.9,
+      41.0
+     ],
+     "size": 100,
+     "color": "amber"
+    },
+    {
+     "text": "OMAHA",
+     "lonlat": [
+      -95.9,
+      42.15
+     ],
+     "size": 60,
+     "color": "paper"
+    },
+    {
+     "text": "11:27",
+     "lonlat": [
+      -95.9,
+      40.4
+     ],
+     "size": 100,
+     "color": "amber"
+    },
+    {
+     "text": "ST. LOUIS",
+     "lonlat": [
+      -90.2,
+      39.45
+     ],
+     "size": 52,
+     "color": "paper"
+    },
+    {
+     "text": "11:50",
+     "lonlat": [
+      -90.2,
+      37.85
+     ],
+     "size": 84,
+     "color": "amber"
+    }
+   ],
+   "title": "SUN TIME, 1883"
+  },
+  "zones": {
+   "type": "region",
+   "center": [
+    -97.5,
+    38.5
+   ],
+   "width_km": 4700,
+   "y_offset": 0.1,
+   "highlight": [
+    {
+     "country": "United States of America",
+     "color": "#56432f"
+    }
+   ],
+   "lines": [
+    {
+     "lonlat": [
+      [
+       -75,
+       25.5
+      ],
+      [
+       -75,
+       26.5
+      ],
+      [
+       -75,
+       27.5
+      ],
+      [
+       -75,
+       28.5
+      ],
+      [
+       -75,
+       29.5
+      ],
+      [
+       -75,
+       30.5
+      ],
+      [
+       -75,
+       31.5
+      ],
+      [
+       -75,
+       32.5
+      ],
+      [
+       -75,
+       33.5
+      ],
+      [
+       -75,
+       34.5
+      ],
+      [
+       -75,
+       35.5
+      ],
+      [
+       -75,
+       36.5
+      ],
+      [
+       -75,
+       37.5
+      ],
+      [
+       -75,
+       38.5
+      ],
+      [
+       -75,
+       39.5
+      ],
+      [
+       -75,
+       40.5
+      ],
+      [
+       -75,
+       41.5
+      ],
+      [
+       -75,
+       42.5
+      ],
+      [
+       -75,
+       43.5
+      ],
+      [
+       -75,
+       44.5
+      ],
+      [
+       -75,
+       45.5
+      ]
+     ],
+     "color": "amber",
+     "dash": true,
+     "width": 6
+    },
+    {
+     "lonlat": [
+      [
+       -90,
+       25.5
+      ],
+      [
+       -90,
+       26.5
+      ],
+      [
+       -90,
+       27.5
+      ],
+      [
+       -90,
+       28.5
+      ],
+      [
+       -90,
+       29.5
+      ],
+      [
+       -90,
+       30.5
+      ],
+      [
+       -90,
+       31.5
+      ],
+      [
+       -90,
+       32.5
+      ],
+      [
+       -90,
+       33.5
+      ],
+      [
+       -90,
+       34.5
+      ],
+      [
+       -90,
+       35.5
+      ],
+      [
+       -90,
+       36.5
+      ],
+      [
+       -90,
+       37.5
+      ],
+      [
+       -90,
+       38.5
+      ],
+      [
+       -90,
+       39.5
+      ],
+      [
+       -90,
+       40.5
+      ],
+      [
+       -90,
+       41.5
+      ],
+      [
+       -90,
+       42.5
+      ],
+      [
+       -90,
+       43.5
+      ],
+      [
+       -90,
+       44.5
+      ],
+      [
+       -90,
+       45.5
+      ]
+     ],
+     "color": "amber",
+     "dash": true,
+     "width": 6
+    },
+    {
+     "lonlat": [
+      [
+       -105,
+       25.5
+      ],
+      [
+       -105,
+       26.5
+      ],
+      [
+       -105,
+       27.5
+      ],
+      [
+       -105,
+       28.5
+      ],
+      [
+       -105,
+       29.5
+      ],
+      [
+       -105,
+       30.5
+      ],
+      [
+       -105,
+       31.5
+      ],
+      [
+       -105,
+       32.5
+      ],
+      [
+       -105,
+       33.5
+      ],
+      [
+       -105,
+       34.5
+      ],
+      [
+       -105,
+       35.5
+      ],
+      [
+       -105,
+       36.5
+      ],
+      [
+       -105,
+       37.5
+      ],
+      [
+       -105,
+       38.5
+      ],
+      [
+       -105,
+       39.5
+      ],
+      [
+       -105,
+       40.5
+      ],
+      [
+       -105,
+       41.5
+      ],
+      [
+       -105,
+       42.5
+      ],
+      [
+       -105,
+       43.5
+      ],
+      [
+       -105,
+       44.5
+      ],
+      [
+       -105,
+       45.5
+      ]
+     ],
+     "color": "amber",
+     "dash": true,
+     "width": 6
+    },
+    {
+     "lonlat": [
+      [
+       -120,
+       25.5
+      ],
+      [
+       -120,
+       26.5
+      ],
+      [
+       -120,
+       27.5
+      ],
+      [
+       -120,
+       28.5
+      ],
+      [
+       -120,
+       29.5
+      ],
+      [
+       -120,
+       30.5
+      ],
+      [
+       -120,
+       31.5
+      ],
+      [
+       -120,
+       32.5
+      ],
+      [
+       -120,
+       33.5
+      ],
+      [
+       -120,
+       34.5
+      ],
+      [
+       -120,
+       35.5
+      ],
+      [
+       -120,
+       36.5
+      ],
+      [
+       -120,
+       37.5
+      ],
+      [
+       -120,
+       38.5
+      ],
+      [
+       -120,
+       39.5
+      ],
+      [
+       -120,
+       40.5
+      ],
+      [
+       -120,
+       41.5
+      ],
+      [
+       -120,
+       42.5
+      ],
+      [
+       -120,
+       43.5
+      ],
+      [
+       -120,
+       44.5
+      ],
+      [
+       -120,
+       45.5
+      ]
+     ],
+     "color": "amber",
+     "dash": true,
+     "width": 6
+    }
+   ],
+   "labels": [
+    {
+     "text": "12:00",
+     "lonlat": [
+      -75,
+      47.6
+     ],
+     "size": 58,
+     "color": "amber"
+    },
+    {
+     "text": "11:00",
+     "lonlat": [
+      -90,
+      47.6
+     ],
+     "size": 58,
+     "color": "amber"
+    },
+    {
+     "text": "10:00",
+     "lonlat": [
+      -105,
+      47.6
+     ],
+     "size": 58,
+     "color": "amber"
+    },
+    {
+     "text": "9:00",
+     "lonlat": [
+      -120,
+      47.6
+     ],
+     "size": 58,
+     "color": "amber"
+    }
+   ],
+   "title": "NOV. 18, 1883"
+  }
+ },
+ "hook": [
+  "NOON CAME",
+  "*TWICE"
+ ],
+ "hook_y": 230,
+ "badge_line": 3,
+ "comment": "Should every town go back to its own sun time?",
+ "sources": [
+  "https://blogs.loc.gov/law/2024/11/whose-time-is-it-anyway-a-brief-history-of-standardized-time-zones-in-the-united-states/",
+  "https://www.chipublib.org/standardtimelarge/",
+  "https://www.environmentandsociety.org/exhibitions/cbq-railroad/sun-will-be-requested-rise-and-set-railroad-time",
+  "https://time.com/5730146/standardized-time/",
+  "https://www.untappedcities.com/the-day-that-new-york-had-two-noons-a-century-after-losing-11-days/",
+  "https://www.americanheritage.com/they-didnt-know-what-time-it-was",
+  "https://iowapbs.org/iowapathways/mypath/2584/what-time-it-railroads-bring-standard-time",
+  "https://history.iowa.gov/sites/default/files/history-education-pss-industrial-time-transcription.pdf",
+  "https://www.smithsonianmag.com/smithsonian-institution/how-standardization-time-changed-american-society-180961503/"
+ ],
+ "youtube": {
+  "title": "The day noon happened twice in America",
+  "description": "Before standard time, every American town kept its own local time by the sun, and the country ran on more than 100 local times: when it was noon in Chicago, it was about 11:27 in Omaha and 11:50 in St. Louis. On Sunday, November 18, 1883, the railroads switched to standard time, splitting the U.S. into four zones based on the 75th, 90th, 105th and 120th meridians, each one hour apart. Clocks were reset at noon, so several cities heard noon twice: in New York, church bells rang noon by the old local time and again about four minutes later by the new standard time. Congress did not make standard time law until the Standard Time Act of March 19, 1918, 35 years later.\n\nSources: Library of Congress, In Custodia Legis, \"Whose Time Is It Anyway? A Brief History of Standardized Time Zones in the United States\" (2024); Chicago Public Library, Standard Time plaque; Environment & Society Portal (Rachel Carson Center), \"The Sun Will Be Requested to Rise and Set by Railroad Time\"; TIME, \"How Railroads Standardized Time\" (2019); Untapped New York, \"The Day That New York Had Two Noons\" (2020); American Heritage, \"They Didn't Know What Time It Was\" (1983); Iowa PBS, \"What Time Is It? Railroads Bring Standard Time\"; State Historical Society of Iowa, \"What Time Is It?\" (Goldfinch); Smithsonian Magazine, \"When the Standardization of Time Arrived in America\".\nImages: public domain or no known restrictions, via Wikimedia Commons: an 1876 Seth Thomas clock dial at Independence Hall (NPS photo); Jaccard's Jewelers, St. Louis, photographed by Emil Boehl (Missouri Historical Society); \"Comparative Time-Table\" from Dinsmore's American Railroad and Steam Navigation Guide (1857); map of standard railway time from Popular Science Monthly, vol. 26 (1884-85); Broadway, New York, c. 1885-87, photo-lithograph by the American Photo-Lithography Co. (Library of Congress). Maps drawn with Natural Earth data (public domain); city times are local sun time, and the dashed lines mark the four zone meridians, not the exact 1883 zone borders.\n\n#history #shorts #timezones",
+  "tags": [
+   "history",
+   "time zones",
+   "standard time",
+   "1883",
+   "railroads",
+   "railroad history",
+   "day of two noons",
+   "american history",
+   "maps",
+   "true story"
+  ],
+  "category": "EDUCATION"
+ },
+ "translation_es": "Un día de 1883, el mediodía pasó dos veces. Hasta entonces, cada pueblo ponía sus relojes según el sol. Estados Unidos funcionaba con más de 100 horas locales distintas. Cuando era mediodía en Chicago, en Omaha eran las 11:27. Así que el 18 de noviembre, los ferrocarriles dividieron el país en cuatro husos horarios. En Nueva York, las campanas dieron el mediodía, y lo volvieron a dar cuatro minutos después. El Congreso recién lo hizo ley en 1918, 35 años después de que… un día de 1883, el mediodía pasara dos veces.",
+ "why_es": "Hoy tocaba mapas y números, y esta es ideal: casi nadie sabe que los husos horarios los inventaron los ferrocarriles, y el aniversario (18 de noviembre de 1883) fue hace cuatro días."
+}

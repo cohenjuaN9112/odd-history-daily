@@ -1,0 +1,57 @@
+{
+ "clock": {
+  "file": "clock.jpg",
+  "title": "Small clock face, Seth Thomas clock, 1876 (961021fd-324e-47f9-976b-5c24506b6dff).jpg",
+  "license": "Public domain",
+  "author": "NPS photo",
+  "page": "https://commons.wikimedia.org/wiki/File:Small_clock_face,_Seth_Thomas_clock,_1876_(961021fd-324e-47f9-976b-5c24506b6dff).jpg",
+  "size": [
+   4288,
+   2848
+  ]
+ },
+ "jeweler": {
+  "file": "jeweler.jpg",
+  "title": "Jaccard's Jewelers, northeast corner of North Broadway and Olive Street. - DPLA - a6da5e975a7c01fdaf2bffbbd2b52fc3.jpg",
+  "license": "No restrictions",
+  "author": "Boehl, Emil, 1839-1919",
+  "page": "https://commons.wikimedia.org/wiki/File:Jaccard%27s_Jewelers,_northeast_corner_of_North_Broadway_and_Olive_Street._-_DPLA_-_a6da5e975a7c01fdaf2bffbbd2b52fc3.jpg",
+  "size": [
+   4075,
+   6160
+  ]
+ },
+ "table": {
+  "file": "table.jpg",
+  "title": "Comparative-time-table.jpg",
+  "license": "Public domain",
+  "author": "Dinsmore",
+  "page": "https://commons.wikimedia.org/wiki/File:Comparative-time-table.jpg",
+  "size": [
+   1351,
+   1891
+  ]
+ },
+ "psm": {
+  "file": "psm.jpg",
+  "title": "PSM V26 D162 Standard railway time vs greenwich mean time.jpg",
+  "license": "Public domain",
+  "author": "Unknown authorUnknown author",
+  "page": "https://commons.wikimedia.org/wiki/File:PSM_V26_D162_Standard_railway_time_vs_greenwich_mean_time.jpg",
+  "size": [
+   2586,
+   1677
+  ]
+ },
+ "broadway": {
+  "file": "broadway.jpeg",
+  "title": "Broadway-1885-APL.jpeg",
+  "license": "Public domain",
+  "author": "Unknown authorUnknown author",
+  "page": "https://commons.wikimedia.org/wiki/File:Broadway-1885-APL.jpeg",
+  "size": [
+   8514,
+   6930
+  ]
+ }
+}
