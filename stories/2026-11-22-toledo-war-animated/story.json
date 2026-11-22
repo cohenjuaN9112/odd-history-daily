@@ -1,0 +1,630 @@
+{
+ "format": "animado",
+ "voice": "en-US-ChristopherNeural",
+ "rate": "+8%",
+ "gap": 0.2,
+ "lines": [
+  "Ohio and Michigan went to war over Toledo.",
+  "Their border was drawn from a map that put Lake Michigan too far north.",
+  "So both claimed the same 468 square miles, including Toledo.",
+  "In 1835, both sides sent militias, but nobody died.",
+  "To become a state, Michigan had to give up Toledo.",
+  "In exchange, it got 9,000 square miles of the Upper Peninsula.",
+  "Then copper and iron were found there.",
+  "Not bad for the state that lost, when..."
+ ],
+ "hook": [
+  "OHIO VS.",
+  "*MICHIGAN"
+ ],
+ "comment": "Who got the better deal: Ohio or Michigan?",
+ "badge_line": 5,
+ "sources": [
+  "https://en.wikipedia.org/wiki/Toledo_War",
+  "https://www.history.com/articles/the-toledo-war-when-michigan-and-ohio-nearly-came-to-blows",
+  "https://www.michigan.gov/dmva/about/history/military-events/highlights/the-toledo-war",
+  "https://project.geo.msu.edu/geogmich/toledo_war.html",
+  "https://www.battlefields.org/learn/articles/war-sparked-sports-rivalry",
+  "https://michiganology.org/stories/the-toledo-war"
+ ],
+ "translation_es": "Ohio y Michigan fueron a la guerra por Toledo. Su frontera se trazó con un mapa que ponía el lago Míchigan demasiado al norte. Así que los dos reclamaban las mismas 468 millas cuadradas (unos 1.200 km²), incluida Toledo. En 1835, los dos mandaron milicias, pero no murió nadie. Para convertirse en estado, Michigan tuvo que entregar Toledo. A cambio, recibió 9.000 millas cuadradas (unos 23.000 km²) de la Península Superior. Después ahí encontraron cobre y hierro. Nada mal para el estado que perdió, cuando… Ohio y Michigan fueron a la guerra por Toledo.",
+ "youtube": {
+  "title": "Ohio and Michigan went to war over Toledo",
+  "description": "In 1835, Ohio and the Michigan Territory both claimed the Toledo Strip, 468 square miles along their border, because the boundary set in 1787 relied on maps that put the southern tip of Lake Michigan too far north. Both sides called out their militias, but no one was killed. Congress then made giving up the strip the price of statehood, and in exchange Michigan received about 9,000 square miles of the western Upper Peninsula, where valuable copper and iron ore were later found. Michigan became a state on January 26, 1837.\n\nSources: Wikipedia, \"Toledo War\"; History.com, \"The Toledo War: When Michigan and Ohio Nearly Came to Blows\"; Michigan Department of Military and Veterans Affairs, \"The Toledo War\"; Michigan State University Department of Geography, \"The Toledo War\"; American Battlefield Trust, \"The War that Sparked a Sports Rivalry\"; Michiganology, \"The Toledo War\".\nImages: public domain. Portraits of Robert Lucas (John H. Witt) and Stevens T. Mason (Thomas Mickell Burnham, 1837, Detroit Institute of Arts) and John Mitchell's 1755 map of North America, via Wikimedia Commons. Quincy Mine and Calumet & Hecla Mine photos (Detroit Publishing Co., 1906, Library of Congress). Maps: Natural Earth (public domain).\n\n#history #shorts #michigan",
+  "tags": [
+   "history",
+   "toledo war",
+   "ohio",
+   "michigan",
+   "upper peninsula",
+   "maps",
+   "geography",
+   "true story"
+  ],
+  "category": "EDUCATION"
+ },
+ "mapas": [
+  [
+   "--nombre",
+   "ohd-lagos2",
+   "--zona",
+   "-104",
+   "54",
+   "-66",
+   "33",
+   "--grados-min",
+   "10",
+   "--regiones",
+   "USA:Ohio=ohio,Michigan=michigan"
+  ],
+  [
+   "--nombre",
+   "ohd-toledo",
+   "--zona",
+   "-89.5",
+   "45.5",
+   "-78",
+   "38",
+   "--grados-min",
+   "4.3",
+   "--regiones",
+   "USA:Ohio=ohio,Michigan=michigan"
+  ]
+ ],
+ "partir": {
+  "ohd-lagos2": {
+   "michigan": {
+    "michigan_up": {
+     "norte_de": [
+      [
+       -91,
+       44.9
+      ],
+      [
+       -87.6,
+       44.9
+      ],
+      [
+       -86.6,
+       45.25
+      ],
+      [
+       -85.75,
+       45.9
+      ],
+      [
+       -85.2,
+       45.92
+      ],
+      [
+       -84.73,
+       45.815
+      ],
+      [
+       -84.45,
+       45.7
+      ],
+      [
+       -84.0,
+       45.75
+      ],
+      [
+       -83.4,
+       45.85
+      ],
+      [
+       -82.0,
+       45.85
+      ]
+     ]
+    },
+    "michigan_lp": {
+     "resto": true
+    }
+   }
+  },
+  "ohd-toledo": {
+   "michigan": {
+    "michigan_up": {
+     "norte_de": [
+      [
+       -91,
+       44.9
+      ],
+      [
+       -87.6,
+       44.9
+      ],
+      [
+       -86.6,
+       45.25
+      ],
+      [
+       -85.75,
+       45.9
+      ],
+      [
+       -85.2,
+       45.92
+      ],
+      [
+       -84.73,
+       45.815
+      ],
+      [
+       -84.45,
+       45.7
+      ],
+      [
+       -84.0,
+       45.75
+      ],
+      [
+       -83.4,
+       45.85
+      ],
+      [
+       -82.0,
+       45.85
+      ]
+     ]
+    },
+    "michigan_lp": {
+     "resto": true
+    }
+   }
+  }
+ },
+ "plan": {
+  "cola": 1.2,
+  "musica": [
+   {
+    "desde": 0,
+    "pista": "gracia--mischief-maker.mp3",
+    "volumen": 3
+   }
+  ],
+  "planos": [
+   {
+    "tipo": "mapa",
+    "mapa": "ohd-lagos2",
+    "encuadre": false,
+    "guia": false,
+    "en": 0,
+    "cam": {
+     "lon": -83.65,
+     "lat": 42.1,
+     "grados": 21
+    },
+    "hasta": {
+     "lon": -83.6,
+     "lat": 41.95,
+     "grados": 18.5
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "ohio",
+      "color": "rojo",
+      "cara": "enfado",
+      "cara_en": "Ohio",
+      "cara_lugar": [
+       -82.75,
+       40.6
+      ]
+     },
+     {
+      "en": 0,
+      "id": "michigan_lp",
+      "color": "azul",
+      "cara": "enfado",
+      "cara_en": "Michigan",
+      "cara_lugar": [
+       -84.6,
+       43.2
+      ]
+     }
+    ],
+    "pins": [
+     {
+      "en": "Toledo",
+      "lon": -83.555,
+      "lat": 41.654,
+      "nombre": "Toledo",
+      "aro": true
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "Their border",
+    "decorado": "despacho",
+    "actores": [
+     {
+      "q": "cartografo",
+      "traje": "noble",
+      "x": 960,
+      "s": 1.15,
+      "mira": 0.3,
+      "lleva": "mapa_abierto",
+      "acciones": [
+       {
+        "en": "map",
+        "hace": "piensa"
+       },
+       {
+        "en": "too far",
+        "hace": "encoge"
+       }
+      ]
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "drawn",
+      "a": "cartografo",
+      "texto": "Eh, close enough.",
+      "ancho": 300
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "mapa": "ohd-toledo",
+    "encuadre": false,
+    "guia": false,
+    "en": "So both claimed",
+    "cam": {
+     "lon": -83.75,
+     "lat": 41.75,
+     "grados": 9
+    },
+    "hasta": {
+     "lon": -83.65,
+     "lat": 41.7,
+     "grados": 7.8
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "ohio",
+      "color": "rojo",
+      "cara": "enfado",
+      "cara_en": "both",
+      "cara_lugar": [
+       -83.9,
+       40.95
+      ]
+     },
+     {
+      "en": 0,
+      "id": "michigan_lp",
+      "color": "azul",
+      "cara": "enfado",
+      "cara_en": "claimed",
+      "cara_lugar": [
+       -83.95,
+       42.25
+      ]
+     }
+    ],
+    "pins": [
+     {
+      "en": 0,
+      "lon": -83.555,
+      "lat": 41.654,
+      "nombre": "Toledo",
+      "aro": true
+     }
+    ],
+    "flechas": [
+     {
+      "en": "both",
+      "de": [
+       -83.85,
+       41.15
+      ],
+      "a": [
+       -83.6,
+       41.58
+      ],
+      "color": "rojo"
+     },
+     {
+      "en": "claimed",
+      "de": [
+       -83.9,
+       42.1
+      ],
+      "a": [
+       -83.6,
+       41.74
+      ],
+      "color": "azul"
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "468",
+      "texto": "468 SQ MI",
+      "x": 960,
+      "y": 640,
+      "tam": 64
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "In 1835",
+    "decorado": "campo",
+    "actores": [
+     {
+      "q": "ohio",
+      "traje": "colono",
+      "x": 840,
+      "mira": 1,
+      "lleva": "fusil",
+      "colores": {
+       "color": "#b8352a"
+      },
+      "acciones": [
+       {
+        "en": "sent",
+        "hace": "enfada"
+       },
+       {
+        "en": "nobody",
+        "hace": "encoge"
+       }
+      ]
+     },
+     {
+      "q": "mich",
+      "traje": "colono",
+      "x": 1080,
+      "mira": -1,
+      "lleva": "fusil",
+      "colores": {
+       "color": "#2d5ca8"
+      },
+      "acciones": [
+       {
+        "en": "militias",
+        "hace": "enfada"
+       },
+       {
+        "en": "died",
+        "hace": "rie"
+       }
+      ]
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "both sides",
+      "a": "ohio",
+      "texto": "Toledo is OURS!",
+      "ancho": 300
+     },
+     {
+      "en": "nobody",
+      "a": "mich",
+      "texto": "Truce? Lunch?",
+      "ancho": 290
+     }
+    ],
+    "rotulos": [
+     {
+      "en": 0,
+      "texto": "1835",
+      "x": 960,
+      "y": 200,
+      "tam": 90
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "mapa": "ohd-lagos2",
+    "encuadre": false,
+    "guia": false,
+    "en": "To become",
+    "cam": {
+     "lon": -84.0,
+     "lat": 42.5,
+     "grados": 20
+    },
+    "hasta": {
+     "lon": -83.9,
+     "lat": 42.3,
+     "grados": 18
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "michigan_lp",
+      "color": "azul",
+      "cara": "susto",
+      "cara_en": "give up",
+      "cara_lugar": [
+       -84.6,
+       43.1
+      ]
+     },
+     {
+      "en": 0,
+      "id": "ohio",
+      "color": "rojo",
+      "cara": "feliz",
+      "cara_en": "Toledo",
+      "cara_lugar": [
+       -82.8,
+       40.7
+      ]
+     }
+    ],
+    "pins": [
+     {
+      "en": "Toledo",
+      "lon": -83.555,
+      "lat": 41.654,
+      "nombre": "Toledo",
+      "aro": true
+     }
+    ],
+    "iconos": [
+     {
+      "en": "state",
+      "lon": -85.3,
+      "lat": 42.6,
+      "cosa": "bandera_eeuu",
+      "tam": 1
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "mapa": "ohd-lagos2",
+    "encuadre": false,
+    "guia": false,
+    "en": "In exchange",
+    "cam": {
+     "lon": -85.5,
+     "lat": 44.6,
+     "grados": 24
+    },
+    "hasta": {
+     "lon": -86.6,
+     "lat": 46.0,
+     "grados": 24
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "michigan_lp",
+      "color": "azul"
+     },
+     {
+      "en": "Upper",
+      "id": "michigan_up",
+      "color": "verde",
+      "modo": "crece",
+      "etiqueta": "UPPER PENINSULA"
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "got",
+      "texto": "9,000 SQ MI",
+      "x": 960,
+      "y": 780,
+      "tam": 64
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "Then copper",
+    "decorado": "mina",
+    "actores": [
+     {
+      "q": "minero1",
+      "traje": "minero",
+      "x": 840,
+      "mira": 1,
+      "lleva": "pico",
+      "acciones": [
+       {
+        "en": "found",
+        "hace": "celebra"
+       }
+      ]
+     },
+     {
+      "q": "minero2",
+      "traje": "minero",
+      "x": 1080,
+      "mira": -1,
+      "acciones": [
+       {
+        "en": "iron",
+        "hace": "susto"
+       },
+       {
+        "en": "there",
+        "hace": "celebra"
+       }
+      ]
+     }
+    ],
+    "cosas": [
+     {
+      "en": "copper",
+      "cosa": "lingote",
+      "x": 960,
+      "y": 860,
+      "salta": -90
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "iron",
+      "a": "minero2",
+      "texto": "We're RICH!",
+      "ancho": 280
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "mapa": "ohd-lagos2",
+    "encuadre": false,
+    "guia": false,
+    "en": "Not bad",
+    "cam": {
+     "lon": -85.2,
+     "lat": 44.2,
+     "grados": 30
+    },
+    "hasta": {
+     "lon": -84.9,
+     "lat": 43.8,
+     "grados": 32
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "michigan_lp",
+      "color": "azul",
+      "etiqueta": "MICHIGAN",
+      "cara": "feliz",
+      "cara_en": "Not"
+     },
+     {
+      "en": 0,
+      "id": "michigan_up",
+      "color": "azul"
+     },
+     {
+      "en": 0,
+      "id": "ohio",
+      "color": "rojo",
+      "cara": "enfado",
+      "cara_en": "lost",
+      "cara_lugar": [
+       -82.8,
+       40.8
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "cap_y": 500,
+ "badge_y": 385,
+ "hook_y": 250,
+ "sin_lagos": true
+}
