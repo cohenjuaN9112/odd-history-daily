@@ -82,12 +82,12 @@ Use `HISTORIA_ANIMADA=~/historia-animada` for every command.
 
 ## 4. Hand over (Juan uploads by hand)
 1. For each video write `stories/<dir>/upload.txt` (committed) with exactly these blocks, in English:
-   `TITLE:` (max 60 characters, no hashtags), `DESCRIPTION:` (2–4 sentences of the story, then `Sources:`, then
-   the music credit exactly as `~/historia-animada/public/musica/creditos.tsv` gives it, written like
-   `Music: "Mischief Maker", Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0
-   (CC BY 4.0) <url>` (required by the license), then `Maps: NASA Blue Marble (public domain) and Natural Earth
-   (public domain).` (add `historical-basemaps by A. Ourednik (GPL-3.0)` if `--hist` was used), then
-   `#history #shorts` plus one topical hashtag; see `stories/2026-11-22-toledo-war-animated/upload.txt`),
+   `TITLE:` (max 60 characters, no hashtags), `DESCRIPTION:` **short** (Juan's rule, 2026-11-22): 1–2 sentences
+   (max ~35 words) of the story, a blank line, `Sources:` with 2–3 short source names only (e.g. "Wikipedia,
+   History.com, Michigan.gov"), the music credit in one line (required by the CC BY license), e.g.
+   `Music: "Mischief Maker" by Kevin MacLeod (incompetech.com), CC BY 4.0` (title and author from
+   `~/historia-animada/public/musica/creditos.tsv`), then `#history #shorts` plus one topical hashtag.
+   No map credits (public domain); see `stories/2026-11-22-toledo-war-animated/upload.txt`.
    `COMMENT:` (the story's `comment` question), `TAGS:` (comma-separated).
 2. Commit `story.json`, `upload.txt` and the `log.csv` lines to `main`
    (never commit `out/` or anything from `~/historia-animada`). log.csv columns: `date,slug,title,scheduled_et,status,sources,format`;
