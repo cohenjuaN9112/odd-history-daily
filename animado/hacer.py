@@ -94,7 +94,8 @@ class Animado:
                 print(f"map {nombre}: already there")
             else:
                 shutil.rmtree(dest, ignore_errors=True)
-                r = subprocess.run([f"{T}/.venv/bin/python", f"{T}/herramientas/preparar_mapa.py", *m], cwd=T, env=env_t(), capture_output=True, text=True)
+                # preparar_mapa.py only needs the standard library, so the template's Python venv is not required
+                r = subprocess.run([sys.executable, f"{T}/herramientas/preparar_mapa.py", *m], cwd=T, env=env_t(), capture_output=True, text=True)
                 if r.returncode != 0:
                     sys.exit(f"map {nombre} failed:\n{(r.stderr or r.stdout)[-1500:]}")
                 print(f"map {nombre}: ready")
