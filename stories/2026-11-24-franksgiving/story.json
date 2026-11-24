@@ -1,0 +1,492 @@
+{
+ "format": "animado",
+ "voice": "en-US-ChristopherNeural",
+ "rate": "+8%",
+ "gap": 0.2,
+ "lines": [
+  "In 1939, America had two Thanksgivings.",
+  "That November had five Thursdays, so the holiday landed on the 30th.",
+  "Stores complained: that left just 20 shopping days before Christmas.",
+  "So President Roosevelt moved Thanksgiving a week earlier.",
+  "People called it Franksgiving, and many states refused to switch.",
+  "Texas, Colorado and Mississippi simply celebrated both days.",
+  "In 1941, Congress finally fixed it on the fourth Thursday of November.",
+  "That's the rule today, all because..."
+ ],
+ "hook": [
+  "DOUBLE",
+  "*TURKEY DAY"
+ ],
+ "comment": "Two Thanksgivings a year: genius or chaos?",
+ "badge_line": 4,
+ "cap_y": 500,
+ "badge_y": 385,
+ "hook_y": 250,
+ "sin_lagos": true,
+ "mapas": [
+  [
+   "--nombre",
+   "ohd-usa",
+   "--zona",
+   "-140",
+   "62",
+   "-52",
+   "8",
+   "--grados-min",
+   "33",
+   "--paises",
+   "USA=usa",
+   "--regiones",
+   "USA:Texas=texas,Colorado=colorado,Mississippi=mississippi"
+  ]
+ ],
+ "plan": {
+  "cola": 1.2,
+  "musica": [
+   {
+    "desde": 0,
+    "pista": "industrial--americana.mp3",
+    "volumen": 3
+   }
+  ],
+  "planos": [
+   {
+    "tipo": "mapa",
+    "mapa": "ohd-usa",
+    "encuadre": false,
+    "guia": false,
+    "en": 0,
+    "cam": {
+     "lon": -97.5,
+     "lat": 38.5,
+     "grados": 74
+    },
+    "hasta": {
+     "lon": -97.0,
+     "lat": 38.0,
+     "grados": 66
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "usa",
+      "color": "naranja",
+      "cara": "susto",
+      "cara_en": 0.3,
+      "cara_lugar": [
+       -97.5,
+       40.5
+      ]
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "two",
+      "texto": "NOV 23",
+      "x": 960,
+      "y": 700,
+      "tam": 80
+     },
+     {
+      "en": "Thanksgivings",
+      "texto": "NOV 30",
+      "x": 960,
+      "y": 830,
+      "tam": 80,
+      "rojo": true
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "That November",
+    "decorado": "interior",
+    "actores": [
+     {
+      "q": "papa",
+      "traje": "civil",
+      "x": 840,
+      "mira": 1,
+      "lleva": "cuenco",
+      "acciones": [
+       {
+        "en": "five",
+        "hace": "piensa"
+       },
+       {
+        "en": "30th",
+        "hace": "encoge"
+       }
+      ]
+     },
+     {
+      "q": "mama",
+      "traje": "civil_mujer",
+      "x": 1080,
+      "mira": -1,
+      "acciones": [
+       {
+        "en": "Thursdays",
+        "hace": "susto"
+       },
+       {
+        "en": "landed",
+        "hace": "jarras"
+       }
+      ]
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "Thursdays",
+      "a": "mama",
+      "texto": "Who added a Thursday?",
+      "ancho": 290
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "30th",
+      "texto": "NOV 30",
+      "x": 960,
+      "y": 200,
+      "tam": 90,
+      "rojo": true
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "Stores complained",
+    "decorado": "calle",
+    "actores": [
+     {
+      "q": "tendero",
+      "traje": "civil",
+      "x": 860,
+      "s": 1.1,
+      "mira": 0.3,
+      "lleva": "monton_monedas",
+      "acciones": [
+       {
+        "en": "complained",
+        "hace": "susto"
+       },
+       {
+        "en": "Christmas",
+        "hace": "triste"
+       }
+      ],
+      "colores": {
+       "color": "#6b4a2a"
+      }
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "shopping",
+      "a": "tendero",
+      "texto": "Bad for business!",
+      "ancho": 290
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "20",
+      "texto": "20 DAYS",
+      "x": 960,
+      "y": 200,
+      "tam": 90
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "So President",
+    "decorado": "despacho",
+    "actores": [
+     {
+      "q": "fdr",
+      "traje": "roosevelt",
+      "x": 840,
+      "mira": 1,
+      "acciones": [
+       {
+        "en": "moved",
+        "hace": "senala",
+        "lado": 1
+       },
+       {
+        "en": "earlier",
+        "hace": "orgulloso"
+       }
+      ]
+     },
+     {
+      "q": "tendero",
+      "traje": "civil",
+      "x": 1080,
+      "mira": -1,
+      "acciones": [
+       {
+        "en": "week",
+        "hace": "celebra"
+       }
+      ],
+      "colores": {
+       "color": "#6b4a2a"
+      }
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "week",
+      "a": "tendero",
+      "texto": "Shop early, folks!",
+      "ancho": 280
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "week",
+      "texto": "NOV 23",
+      "x": 960,
+      "y": 200,
+      "tam": 90
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "mapa": "ohd-usa",
+    "encuadre": false,
+    "guia": false,
+    "en": "People called",
+    "cam": {
+     "lon": -97.0,
+     "lat": 38.5,
+     "grados": 66
+    },
+    "hasta": {
+     "lon": -97.5,
+     "lat": 38.8,
+     "grados": 72
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "usa",
+      "color": "rojo",
+      "cara": "enfado",
+      "cara_en": "refused",
+      "cara_lugar": [
+       -97.5,
+       40.5
+      ]
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "Franksgiving",
+      "texto": "FRANKSGIVING",
+      "x": 960,
+      "y": 780,
+      "tam": 66
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "mapa": "ohd-usa",
+    "encuadre": false,
+    "guia": false,
+    "en": "Texas",
+    "cam": {
+     "lon": -97.3,
+     "lat": 35.0,
+     "grados": 80
+    },
+    "hasta": {
+     "lon": -97.3,
+     "lat": 34.6,
+     "grados": 76
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "usa",
+      "color": "gris"
+     },
+     {
+      "en": "Texas",
+      "id": "texas",
+      "color": "verde",
+      "cara": "feliz",
+      "cara_en": "Texas",
+      "cara_lugar": [
+       -99.0,
+       31.3
+      ]
+     },
+     {
+      "en": "Colorado",
+      "id": "colorado",
+      "color": "verde",
+      "cara": "feliz",
+      "cara_en": "Colorado",
+      "cara_lugar": [
+       -105.5,
+       39.0
+      ]
+     },
+     {
+      "en": "Mississippi",
+      "id": "mississippi",
+      "color": "verde",
+      "cara": "feliz",
+      "cara_en": "Mississippi",
+      "cara_lugar": [
+       -89.7,
+       32.7
+      ]
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "both",
+      "texto": "NOV 23 + 30",
+      "x": 960,
+      "y": 860,
+      "tam": 64
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "In 1941",
+    "decorado": "foro",
+    "actores": [
+     {
+      "q": "sen1",
+      "traje": "politico",
+      "x": 840,
+      "mira": 1,
+      "lleva": "pluma",
+      "acciones": [
+       {
+        "en": "fixed",
+        "hace": "senala",
+        "lado": 1
+       },
+       {
+        "en": "November",
+        "hace": "orgulloso"
+       }
+      ]
+     },
+     {
+      "q": "sen2",
+      "traje": "politico",
+      "x": 1080,
+      "mira": -1,
+      "lleva": "pergamino",
+      "acciones": [
+       {
+        "en": "Congress",
+        "hace": "piensa"
+       },
+       {
+        "en": "fourth",
+        "hace": "asiente"
+       }
+      ]
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "fourth",
+      "a": "sen2",
+      "texto": "Final answer. No more moving!",
+      "ancho": 300
+     }
+    ],
+    "rotulos": [
+     {
+      "en": 0,
+      "texto": "1941",
+      "x": 960,
+      "y": 200,
+      "tam": 90
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "mapa": "ohd-usa",
+    "encuadre": false,
+    "guia": false,
+    "en": "the rule today",
+    "cam": {
+     "lon": -97.5,
+     "lat": 38.5,
+     "grados": 70
+    },
+    "hasta": {
+     "lon": -97.5,
+     "lat": 38.5,
+     "grados": 74
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "usa",
+      "color": "naranja",
+      "cara": "feliz",
+      "cara_en": 0.2,
+      "cara_lugar": [
+       -97.5,
+       40.5
+      ]
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "rule",
+      "texto": "4TH THURSDAY",
+      "x": 960,
+      "y": 780,
+      "tam": 66
+     }
+    ]
+   }
+  ]
+ },
+ "sources": [
+  "https://www.archives.gov/publications/prologue/fdr-thanksgiving-experiment",
+  "https://www.archives.gov/legislative/features/thanksgiving",
+  "https://www.history.com/articles/fdr-thanksgiving-date-change-franksgiving",
+  "https://www.cbsnews.com/colorado/news/colorado-celebrated-two-thanksgivings-in-1939/"
+ ],
+ "translation_es": "En 1939, Estados Unidos tuvo dos Días de Acción de Gracias. Ese noviembre tenía cinco jueves, así que la fiesta caía el 30. Las tiendas se quejaron: eso dejaba apenas 20 días de compras antes de Navidad. Entonces el presidente Roosevelt adelantó Acción de Gracias una semana. La gente lo bautizó \"Franksgiving\", y muchos estados se negaron a cambiar. Texas, Colorado y Misisipi directamente festejaron los dos días. En 1941, el Congreso lo arregló de una vez: el cuarto jueves de noviembre. Esa es la regla hoy, todo porque… en 1939, Estados Unidos tuvo dos Días de Acción de Gracias.",
+ "youtube": {
+  "title": "In 1939, America had two Thanksgivings",
+  "description": "In 1939, President Roosevelt moved Thanksgiving a week earlier to give stores more shopping days before Christmas. Many states refused, and in 1941 Congress fixed it on the fourth Thursday.\n\nSources: National Archives, History.com, CBS News\nMusic: \"Americana\" by Kevin MacLeod (incompetech.com), CC BY 4.0\n#history #shorts #thanksgiving",
+  "tags": [
+   "history",
+   "thanksgiving",
+   "franksgiving",
+   "fdr",
+   "franklin roosevelt",
+   "1939",
+   "american history",
+   "holidays",
+   "animated history",
+   "true story"
+  ],
+  "category": "EDUCATION"
+ }
+}

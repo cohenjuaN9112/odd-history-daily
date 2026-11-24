@@ -1,0 +1,545 @@
+{
+ "format": "animado",
+ "voice": "en-US-ChristopherNeural",
+ "rate": "+8%",
+ "gap": 0.2,
+ "lines": [
+  "In 1859, telegraphs ran on the northern lights.",
+  "On September 1st, an English astronomer saw a white flash on the sun.",
+  "Hours later, a monster solar storm slammed into Earth.",
+  "Auroras glowed as far south as Cuba.",
+  "In the Rockies, gold miners woke up and made breakfast at 1 a.m.",
+  "Telegraphs threw sparks, shocked operators and set paper on fire.",
+  "In Boston, operators unplugged their batteries and still sent messages to Maine.",
+  "Turns out they didn't need them, because..."
+ ],
+ "hook": [
+  "NO BATTERY",
+  "*NEEDED"
+ ],
+ "comment": "What would you miss most if this happened today?",
+ "badge_line": 5,
+ "cap_y": 500,
+ "badge_y": 385,
+ "hook_y": 250,
+ "sin_lagos": true,
+ "mapas": [
+  [
+   "--nombre",
+   "ohd-america1859",
+   "--zona",
+   "-115",
+   "60",
+   "-42",
+   "12",
+   "--grados-min",
+   "11.7",
+   "--paises",
+   "CUB=cuba,USA=usa,CAN=canada",
+   "--regiones",
+   "USA:Massachusetts=massachusetts,Maine=maine"
+  ]
+ ],
+ "plan": {
+  "cola": 1.2,
+  "musica": [
+   {
+    "desde": 0,
+    "pista": "curiosidad--investigations.mp3",
+    "volumen": 3
+   }
+  ],
+  "planos": [
+   {
+    "tipo": "mapa",
+    "mapa": "ohd-america1859",
+    "encuadre": false,
+    "guia": false,
+    "en": 0,
+    "cam": {
+     "lon": -70.9,
+     "lat": 43.4,
+     "grados": 24
+    },
+    "hasta": {
+     "lon": -70.7,
+     "lat": 43.3,
+     "grados": 21
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "massachusetts",
+      "color": "rojo",
+      "cara": "susto",
+      "cara_en": 0.3,
+      "cara_lugar": [
+       -72.2,
+       42.25
+      ]
+     },
+     {
+      "en": 0,
+      "id": "maine",
+      "color": "naranja",
+      "cara": "susto",
+      "cara_en": "telegraphs",
+      "cara_lugar": [
+       -69.6,
+       44.65
+      ]
+     }
+    ],
+    "pins": [
+     {
+      "en": 0,
+      "lon": -71.06,
+      "lat": 42.36,
+      "nombre": "Boston",
+      "aro": true
+     },
+     {
+      "en": 0,
+      "lon": -70.26,
+      "lat": 43.66,
+      "nombre": "Portland"
+     }
+    ],
+    "flechas": [
+     {
+      "en": "ran",
+      "de": [
+       -70.95,
+       42.5
+      ],
+      "a": [
+       -70.35,
+       43.55
+      ],
+      "color": "amarillo"
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "northern",
+      "texto": "1859",
+      "x": 960,
+      "y": 880,
+      "tam": 80
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "On September",
+    "decorado": "campo",
+    "actores": [
+     {
+      "q": "astro",
+      "traje": "politico",
+      "x": 960,
+      "s": 1.1,
+      "mira": 0.4,
+      "acciones": [
+       {
+        "en": "astronomer",
+        "hace": "piensa"
+       },
+       {
+        "en": "flash",
+        "hace": "susto"
+       }
+      ]
+     }
+    ],
+    "cosas": [
+     {
+      "en": "white",
+      "cosa": "sol",
+      "x": 1110,
+      "y": 430,
+      "salta": -60
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "September",
+      "texto": "SEPT 1, 1859",
+      "x": 960,
+      "y": 200,
+      "tam": 72
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "mapa": "ohd-america1859",
+    "encuadre": false,
+    "guia": false,
+    "en": "Hours later",
+    "cam": {
+     "lon": -78.0,
+     "lat": 36.5,
+     "grados": 60
+    },
+    "hasta": {
+     "lon": -78.5,
+     "lat": 37.0,
+     "grados": 66
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "usa",
+      "color": "naranja",
+      "cara": "susto",
+      "cara_en": "slammed",
+      "cara_lugar": [
+       -81.5,
+       38.5
+      ]
+     },
+     {
+      "en": 0,
+      "id": "canada",
+      "color": "rojo"
+     }
+    ],
+    "iconos": [
+     {
+      "en": "solar",
+      "lon": -72.0,
+      "lat": 29.0,
+      "cosa": "sol",
+      "tam": 1.4
+     }
+    ],
+    "flechas": [
+     {
+      "en": "storm",
+      "de": [
+       -73.0,
+       30.2
+      ],
+      "a": [
+       -79.5,
+       36.5
+      ],
+      "color": "amarillo",
+      "curva": 0.15
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "mapa": "ohd-america1859",
+    "encuadre": false,
+    "guia": false,
+    "en": "Auroras",
+    "cam": {
+     "lon": -79.2,
+     "lat": 27.5,
+     "grados": 36
+    },
+    "hasta": {
+     "lon": -79.2,
+     "lat": 25.5,
+     "grados": 34
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "usa",
+      "color": "naranja"
+     },
+     {
+      "en": 0,
+      "id": "cuba",
+      "color": "verde",
+      "etiqueta": "CUBA",
+      "cara": "susto",
+      "cara_en": "south",
+      "cara_lugar": [
+       -77.0,
+       20.75
+      ]
+     }
+    ],
+    "flechas": [
+     {
+      "en": "glowed",
+      "de": [
+       -80.6,
+       32.5
+      ],
+      "a": [
+       -81.2,
+       23.4
+      ],
+      "color": "verde"
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "In the Rockies",
+    "decorado": "montana",
+    "noche": true,
+    "actores": [
+     {
+      "q": "min1",
+      "traje": "minero",
+      "x": 840,
+      "mira": 1,
+      "lleva": "cuenco",
+      "acciones": [
+       {
+        "en": "woke",
+        "hace": "saluda"
+       },
+       {
+        "en": "breakfast",
+        "hace": "celebra"
+       }
+      ]
+     },
+     {
+      "q": "min2",
+      "traje": "minero",
+      "x": 1080,
+      "mira": -1,
+      "lleva": "pico",
+      "acciones": [
+       {
+        "en": "miners",
+        "hace": "piensa"
+       },
+       {
+        "en": "at",
+        "hace": "encoge"
+       }
+      ]
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "made",
+      "a": "min2",
+      "texto": "Sunrise already?",
+      "ancho": 270
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "1",
+      "texto": "1 A.M.",
+      "x": 960,
+      "y": 200,
+      "tam": 90
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "Telegraphs threw",
+    "decorado": "despacho",
+    "actores": [
+     {
+      "q": "oper",
+      "traje": "politico",
+      "x": 960,
+      "s": 1.1,
+      "mira": 0.3,
+      "acciones": [
+       {
+        "en": "sparks",
+        "hace": "susto"
+       },
+       {
+        "en": "fire",
+        "hace": "agacha"
+       }
+      ]
+     }
+    ],
+    "cosas": [
+     {
+      "en": "paper",
+      "cosa": "pergamino",
+      "x": 1100,
+      "y": 900,
+      "salta": -60
+     },
+     {
+      "en": "fire",
+      "cosa": "fuego",
+      "x": 1100,
+      "y": 900,
+      "salta": -40
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "shocked",
+      "a": "oper",
+      "texto": "OUCH! It bit me!",
+      "ancho": 280
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "mapa": "ohd-america1859",
+    "encuadre": false,
+    "guia": false,
+    "en": "In Boston",
+    "cam": {
+     "lon": -70.8,
+     "lat": 43.2,
+     "grados": 21
+    },
+    "hasta": {
+     "lon": -70.7,
+     "lat": 43.3,
+     "grados": 23
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "massachusetts",
+      "color": "rojo",
+      "cara": "feliz",
+      "cara_en": "Boston",
+      "cara_lugar": [
+       -72.2,
+       42.25
+      ]
+     },
+     {
+      "en": 0,
+      "id": "maine",
+      "color": "naranja",
+      "cara": "feliz",
+      "cara_en": "Maine",
+      "cara_lugar": [
+       -69.6,
+       44.65
+      ]
+     }
+    ],
+    "pins": [
+     {
+      "en": 0,
+      "lon": -71.06,
+      "lat": 42.36,
+      "nombre": "Boston",
+      "aro": true
+     },
+     {
+      "en": 0,
+      "lon": -70.26,
+      "lat": 43.66,
+      "nombre": "Portland"
+     }
+    ],
+    "flechas": [
+     {
+      "en": "messages",
+      "de": [
+       -70.95,
+       42.5
+      ],
+      "a": [
+       -70.35,
+       43.55
+      ],
+      "color": "amarillo"
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "unplugged",
+      "texto": "NO BATTERIES",
+      "x": 960,
+      "y": 880,
+      "tam": 66
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "Turns out",
+    "decorado": "despacho",
+    "actores": [
+     {
+      "q": "op1",
+      "traje": "politico",
+      "x": 840,
+      "mira": 1,
+      "acciones": [
+       {
+        "en": "them",
+        "hace": "celebra"
+       }
+      ]
+     },
+     {
+      "q": "op2",
+      "traje": "politico",
+      "x": 1080,
+      "mira": -1,
+      "colores": {
+       "color": "#5a4632"
+      },
+      "acciones": [
+       {
+        "en": "Turns",
+        "hace": "rie"
+       },
+       {
+        "en": "because",
+        "hace": "celebra"
+       }
+      ]
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "need",
+      "a": "op2",
+      "texto": "Free electricity!",
+      "ancho": 280
+     }
+    ]
+   }
+  ]
+ },
+ "sources": [
+  "https://www.history.com/articles/a-perfect-solar-superstorm-the-1859-carrington-event",
+  "https://www.nesdis.noaa.gov/about/k-12-education/space-weather/what-was-the-carrington-event",
+  "https://research.noaa.gov/?p=22740",
+  "https://nautil.us/the-geomagnetic-storm-that-sparked-panic-across-a-continent-1265288"
+ ],
+ "translation_es": "En 1859, los telégrafos funcionaron con la aurora boreal. El 1 de septiembre, un astrónomo inglés vio un destello blanco en el Sol. Horas después, una tormenta solar monstruosa golpeó la Tierra. Hubo auroras hasta en Cuba. En las Montañas Rocosas, unos mineros de oro se levantaron y se hicieron el desayuno a la 1 de la mañana. Los telégrafos largaban chispas, les daban patadas a los operadores y prendían fuego el papel. En Boston, los operadores desconectaron las baterías y aun así siguieron mandando mensajes a Maine. Resulta que no las necesitaban, porque… en 1859, los telégrafos funcionaron con la aurora boreal.",
+ "youtube": {
+  "title": "In 1859, telegraphs ran on the northern lights",
+  "description": "In September 1859, a huge solar storm lit up skies as far south as Cuba. Telegraphs sparked and failed, and operators in Boston kept sending messages to Maine with their batteries unplugged.\n\nSources: NOAA, History.com, Nautilus\nMusic: \"Investigations\" by Kevin MacLeod (incompetech.com), CC BY 4.0\n#history #shorts #space",
+  "tags": [
+   "history",
+   "carrington event",
+   "solar storm",
+   "northern lights",
+   "aurora",
+   "telegraph",
+   "1859",
+   "space weather",
+   "animated history",
+   "true story"
+  ],
+  "category": "EDUCATION"
+ }
+}
