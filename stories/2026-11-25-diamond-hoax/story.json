@@ -1,0 +1,678 @@
+{
+ "format": "animado",
+ "voice": "en-US-ChristopherNeural",
+ "rate": "+8%",
+ "gap": 0.2,
+ "lines": [
+  "Two cousins fooled Tiffany by planting diamonds.",
+  "Philip Arnold and John Slack bought $20,000 of rough gems in London.",
+  "They scattered them on a remote mesa near the Wyoming-Colorado border.",
+  "Charles Tiffany himself valued a sample at $150,000.",
+  "San Francisco bankers rushed in and paid the cousins over $600,000.",
+  "Then, in 1872, geologist Clarence King inspected the site.",
+  "He found a dozen rubies for every diamond, some tucked into anthills.",
+  "Nature had nothing to do with it, because..."
+ ],
+ "hook": [
+  "FAKE MINE,",
+  "*REAL GEMS"
+ ],
+ "comment": "Would you have invested after Tiffany's appraisal?",
+ "badge_line": 5,
+ "cap_y": 500,
+ "badge_y": 385,
+ "hook_y": 250,
+ "sin_lagos": true,
+ "plan": {
+  "cola": 1.2,
+  "musica": [
+   {
+    "desde": 0,
+    "pista": "gracia--sneaky-snitch.mp3",
+    "volumen": 3
+   }
+  ],
+  "planos": [
+   {
+    "tipo": "mapa",
+    "encuadre": false,
+    "guia": false,
+    "mapa": "ohd-west1872",
+    "en": 0,
+    "cam": {
+     "lon": -108.6,
+     "lat": 41.0,
+     "grados": 20
+    },
+    "hasta": {
+     "lon": -108.7,
+     "lat": 41.0,
+     "grados": 18
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "wyoming",
+      "color": "amarillo",
+      "cara": "feliz",
+      "cara_en": 0.3,
+      "cara_lugar": [
+       -108.1,
+       42.45
+      ]
+     },
+     {
+      "en": 0,
+      "id": "colorado",
+      "color": "verde",
+      "cara": "susto",
+      "cara_en": "fooled",
+      "cara_lugar": [
+       -107.7,
+       39.55
+      ]
+     }
+    ],
+    "pins": [
+     {
+      "en": 0,
+      "lon": -108.9,
+      "lat": 41.0,
+      "nombre": "Diamond Field",
+      "aro": true
+     }
+    ],
+    "iconos": [
+     {
+      "en": 0,
+      "lon": -109.6,
+      "lat": 40.75,
+      "cosa": "diamante",
+      "tam": 0.8
+     },
+     {
+      "en": "diamonds",
+      "lon": -108.2,
+      "lat": 40.8,
+      "cosa": "diamante",
+      "tam": 0.8
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "Philip",
+    "decorado": "calle",
+    "actores": [
+     {
+      "q": "arnold",
+      "traje": "minero",
+      "x": 840,
+      "mira": 1,
+      "lleva": "saco",
+      "acciones": [
+       {
+        "en": "bought",
+        "hace": "senala",
+        "lado": 1
+       },
+       {
+        "en": "London",
+        "hace": "celebra"
+       }
+      ]
+     },
+     {
+      "q": "slack",
+      "traje": "minero",
+      "x": 1080,
+      "mira": -1,
+      "colores": {
+       "color": "#4a5a3a",
+       "sombreroColor": "#2b2724",
+       "barba": "#6b6b6b",
+       "pelo": "#6b6b6b"
+      },
+      "acciones": [
+       {
+        "en": "Slack",
+        "hace": "saluda"
+       },
+       {
+        "en": "gems",
+        "hace": "rie"
+       }
+      ]
+     }
+    ],
+    "cosas": [
+     {
+      "en": "rough",
+      "cosa": "diamante",
+      "x": 960,
+      "y": 860,
+      "salta": -90
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "gems",
+      "a": "slack",
+      "texto": "Cheap AND shiny!",
+      "ancho": 280
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "bought",
+      "texto": "$20,000",
+      "x": 960,
+      "y": 200,
+      "tam": 90
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "encuadre": false,
+    "guia": false,
+    "mapa": "ohd-mesa",
+    "en": "They scattered",
+    "cam": {
+     "lon": -108.85,
+     "lat": 41.05,
+     "grados": 8
+    },
+    "hasta": {
+     "lon": -108.9,
+     "lat": 41.0,
+     "grados": 6.9
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "wyoming",
+      "color": "amarillo"
+     },
+     {
+      "en": 0,
+      "id": "colorado",
+      "color": "verde"
+     }
+    ],
+    "pins": [
+     {
+      "en": 0,
+      "lon": -108.9,
+      "lat": 41.0,
+      "nombre": "Diamond Field",
+      "aro": true
+     }
+    ],
+    "iconos": [
+     {
+      "en": "scattered",
+      "lon": -109.15,
+      "lat": 40.85,
+      "cosa": "diamante",
+      "tam": 0.7
+     },
+     {
+      "en": "them",
+      "lon": -108.6,
+      "lat": 40.82,
+      "cosa": "diamante",
+      "tam": 0.7
+     },
+     {
+      "en": "remote",
+      "lon": -108.95,
+      "lat": 40.65,
+      "cosa": "diamante",
+      "tam": 0.7
+     },
+     {
+      "en": "mesa",
+      "lon": -108.55,
+      "lat": 41.2,
+      "cosa": "diamante",
+      "tam": 0.7
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "near",
+      "texto": "WYOMING",
+      "x": 960,
+      "y": 394,
+      "tam": 50
+     },
+     {
+      "en": "near",
+      "texto": "COLORADO",
+      "x": 960,
+      "y": 816,
+      "tam": 50
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "Charles Tiffany",
+    "decorado": "interior",
+    "actores": [
+     {
+      "q": "tiffany",
+      "traje": "politico",
+      "x": 840,
+      "mira": 1,
+      "colores": {
+       "barba": "#d7d2c8",
+       "pelo": "#d7d2c8"
+      },
+      "acciones": [
+       {
+        "en": "valued",
+        "hace": "piensa"
+       },
+       {
+        "en": "at",
+        "hace": "orgulloso"
+       }
+      ]
+     },
+     {
+      "q": "banker",
+      "traje": "politico",
+      "x": 1080,
+      "mira": -1,
+      "colores": {
+       "color": "#5a4632"
+      },
+      "acciones": [
+       {
+        "en": "himself",
+        "hace": "susto"
+       },
+       {
+        "en": "at",
+        "hace": "celebra"
+       }
+      ]
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "at",
+      "a": "banker",
+      "texto": "That's a LOT of zeros.",
+      "ancho": 290
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "at",
+      "texto": "$150,000",
+      "x": 960,
+      "y": 200,
+      "tam": 90
+     }
+    ],
+    "cosas": [
+     {
+      "en": "sample",
+      "cosa": "diamante",
+      "x": 960,
+      "y": 860,
+      "salta": -90
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "encuadre": false,
+    "guia": false,
+    "mapa": "ohd-west1872",
+    "en": "San Francisco",
+    "cam": {
+     "lon": -119.5,
+     "lat": 38.6,
+     "grados": 36
+    },
+    "hasta": {
+     "lon": -111.5,
+     "lat": 40.0,
+     "grados": 36
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "california",
+      "color": "naranja",
+      "cara": "feliz",
+      "cara_en": "San",
+      "cara_lugar": [
+       -120.6,
+       37.0
+      ]
+     },
+     {
+      "en": 0,
+      "id": "wyoming",
+      "color": "amarillo"
+     },
+     {
+      "en": 0,
+      "id": "colorado",
+      "color": "verde"
+     }
+    ],
+    "pins": [
+     {
+      "en": 0,
+      "lon": -122.42,
+      "lat": 37.77,
+      "nombre": "San Francisco",
+      "aro": true
+     },
+     {
+      "en": 0,
+      "lon": -108.9,
+      "lat": 41.0,
+      "nombre": "Diamond Field",
+      "aro": false,
+      "izquierda": true
+     }
+    ],
+    "flechas": [
+     {
+      "en": "rushed",
+      "de": [
+       -121.6,
+       38.3
+      ],
+      "a": [
+       -109.3,
+       40.9
+      ],
+      "color": "amarillo",
+      "curva": 0.12
+     }
+    ],
+    "iconos": [
+     {
+      "en": "paid",
+      "lon": -110.3,
+      "lat": 39.6,
+      "cosa": "monton_monedas",
+      "tam": 1
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "over",
+      "texto": "$600,000+",
+      "x": 960,
+      "y": 880,
+      "tam": 72
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "encuadre": false,
+    "guia": false,
+    "mapa": "ohd-mesa",
+    "en": "Then in",
+    "cam": {
+     "lon": -108.9,
+     "lat": 41.1,
+     "grados": 7.6
+    },
+    "hasta": {
+     "lon": -108.9,
+     "lat": 41.0,
+     "grados": 6.8
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "wyoming",
+      "color": "amarillo"
+     },
+     {
+      "en": 0,
+      "id": "colorado",
+      "color": "verde",
+      "cara": "susto",
+      "cara_en": "inspected",
+      "cara_lugar": [
+       -108.6,
+       40.68
+      ]
+     }
+    ],
+    "pins": [
+     {
+      "en": 0,
+      "lon": -108.9,
+      "lat": 41.0,
+      "nombre": "Diamond Field",
+      "aro": true
+     }
+    ],
+    "foco": {
+     "en": "geologist",
+     "lon": -108.9,
+     "lat": 41.0,
+     "radio": 220
+    },
+    "rotulos": [
+     {
+      "en": "Then",
+      "texto": "1872",
+      "x": 960,
+      "y": 880,
+      "tam": 90
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "He found",
+    "decorado": "desierto",
+    "actores": [
+     {
+      "q": "king",
+      "traje": "civil",
+      "x": 840,
+      "mira": 1,
+      "colores": {
+       "color": "#6b5a3e",
+       "barba": "#6b4425"
+      },
+      "acciones": [
+       {
+        "en": "found",
+        "hace": "agacha"
+       },
+       {
+        "en": "rubies",
+        "hace": "susto"
+       },
+       {
+        "en": "anthills",
+        "hace": "piensa"
+       }
+      ]
+     },
+     {
+      "q": "helper",
+      "traje": "minero",
+      "x": 1080,
+      "mira": -1,
+      "acciones": [
+       {
+        "en": "every",
+        "hace": "encoge"
+       },
+       {
+        "en": "tucked",
+        "hace": "rie"
+       }
+      ]
+     }
+    ],
+    "cosas": [
+     {
+      "en": "diamond",
+      "cosa": "diamante",
+      "x": 960,
+      "y": 860,
+      "salta": -90
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "tucked",
+      "a": "helper",
+      "texto": "Very fancy ants.",
+      "ancho": 270
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "dozen",
+      "texto": "12 RUBIES",
+      "x": 960,
+      "y": 200,
+      "tam": 88
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "encuadre": false,
+    "guia": false,
+    "mapa": "ohd-west1872",
+    "en": "Nature had",
+    "cam": {
+     "lon": -108.7,
+     "lat": 41.0,
+     "grados": 19
+    },
+    "hasta": {
+     "lon": -108.6,
+     "lat": 41.0,
+     "grados": 21
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "wyoming",
+      "color": "amarillo",
+      "cara": "enfado",
+      "cara_en": "Nature",
+      "cara_lugar": [
+       -108.1,
+       42.45
+      ]
+     },
+     {
+      "en": 0,
+      "id": "colorado",
+      "color": "verde",
+      "cara": "malo",
+      "cara_en": "nothing",
+      "cara_lugar": [
+       -107.7,
+       39.55
+      ]
+     }
+    ],
+    "pins": [
+     {
+      "en": 0,
+      "lon": -108.9,
+      "lat": 41.0,
+      "nombre": "Diamond Field",
+      "aro": true
+     }
+    ],
+    "iconos": [
+     {
+      "en": 0,
+      "lon": -109.6,
+      "lat": 40.75,
+      "cosa": "diamante",
+      "tam": 0.8
+     },
+     {
+      "en": 0,
+      "lon": -108.2,
+      "lat": 40.8,
+      "cosa": "diamante",
+      "tam": 0.8
+     }
+    ]
+   }
+  ]
+ },
+ "mapas": [
+  [
+   "--nombre",
+   "ohd-west1872",
+   "--zona",
+   "-142",
+   "56",
+   "-86",
+   "20",
+   "--grados-min",
+   "10",
+   "--regiones",
+   "USA:Wyoming=wyoming,Colorado=colorado,California=california"
+  ],
+  [
+   "--nombre",
+   "ohd-mesa",
+   "--zona",
+   "-114.5",
+   "45",
+   "-103",
+   "37",
+   "--grados-min",
+   "3.8",
+   "--regiones",
+   "USA:Wyoming=wyoming,Colorado=colorado"
+  ]
+ ],
+ "sources": [
+  "https://www.smithsonianmag.com/history/the-great-diamond-hoax-of-1872-2630188/",
+  "https://www.wyohistory.org/encyclopedia/diamond-hoax-bonanza-never-was",
+  "https://en.wikipedia.org/wiki/Great_Diamond_Hoax",
+  "https://www.earthmagazine.org/article/november-261872-great-diamond-hoax-exposed/"
+ ],
+ "translation_es": "Dos primos engañaron a Tiffany plantando diamantes. Philip Arnold y John Slack compraron 20.000 dólares en piedras en bruto en Londres. Las desparramaron en una meseta perdida cerca de la frontera entre Wyoming y Colorado. El mismísimo Charles Tiffany valuó una muestra en 150.000 dólares. Los banqueros de San Francisco se tiraron de cabeza y les pagaron a los primos más de 600.000 dólares. Después, en 1872, el geólogo Clarence King fue a inspeccionar el lugar. Encontró una docena de rubíes por cada diamante, algunos metidos en hormigueros. La naturaleza no tuvo nada que ver, porque… dos primos engañaron a Tiffany plantando diamantes.",
+ "youtube": {
+  "title": "Two cousins fooled Tiffany by planting diamonds",
+  "description": "Two Kentucky cousins scattered gems bought in London on a remote mesa near the Wyoming-Colorado border and sold the \"diamond field\" to San Francisco bankers. Geologist Clarence King exposed the hoax in November 1872.\n\nSources: Smithsonian, WyoHistory.org, EARTH Magazine\nMusic: \"Sneaky Snitch\" by Kevin MacLeod (incompetech.com), CC BY 4.0\n#history #shorts #diamonds",
+  "tags": [
+   "history",
+   "great diamond hoax",
+   "diamond hoax",
+   "1872",
+   "tiffany",
+   "clarence king",
+   "wild west",
+   "colorado",
+   "wyoming",
+   "scam",
+   "animated history",
+   "true story"
+  ],
+  "category": "EDUCATION"
+ }
+}

@@ -1,0 +1,653 @@
+{
+ "format": "animado",
+ "voice": "en-US-ChristopherNeural",
+ "rate": "+8%",
+ "gap": 0.2,
+ "lines": [
+  "Russia made men pay to keep their beards.",
+  "In 1698, Peter the Great came home from Western Europe.",
+  "At his welcome-home party, his nobles' beards got shaved off.",
+  "Then keeping a beard meant paying a tax.",
+  "Rich merchants paid up to 100 rubles a year.",
+  "Payers carried a copper token stamped \"money taken.\"",
+  "No token? Police could shave you.",
+  "Catherine the Great ended it in 1772, 74 years after..."
+ ],
+ "hook": [
+  "PAY FOR",
+  "*YOUR BEARD"
+ ],
+ "comment": "Would you have paid the tax or shaved?",
+ "badge_line": 4,
+ "cap_y": 500,
+ "badge_y": 385,
+ "hook_y": 250,
+ "plan": {
+  "cola": 1.2,
+  "musica": [
+   {
+    "desde": 0,
+    "pista": "barroco--procession-of-the-king.mp3",
+    "volumen": 3
+   }
+  ],
+  "planos": [
+   {
+    "tipo": "mapa",
+    "mapa": "ohd-europa1698",
+    "encuadre": false,
+    "guia": false,
+    "en": 0,
+    "cam": {
+     "lon": 34.6,
+     "lat": 55.4,
+     "grados": 40
+    },
+    "hasta": {
+     "lon": 34.8,
+     "lat": 55.4,
+     "grados": 36
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "rusia_main",
+      "color": "rojo",
+      "cara": "enfado",
+      "cara_en": 0.2,
+      "cara_lugar": [
+       36.4,
+       53.7
+      ]
+     }
+    ],
+    "pins": [
+     {
+      "en": 0,
+      "lon": 37.62,
+      "lat": 55.75,
+      "nombre": "Moscow",
+      "aro": true
+     }
+    ],
+    "iconos": [
+     {
+      "en": 0,
+      "lon": 38.9,
+      "lat": 56.9,
+      "cosa": "moneda",
+      "tam": 1
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "mapa": "ohd-europa1698",
+    "encuadre": false,
+    "guia": false,
+    "en": "In 1698",
+    "cam": {
+     "lon": 5.4,
+     "lat": 52.3,
+     "grados": 24
+    },
+    "hasta": {
+     "lon": 5.4,
+     "lat": 52.3,
+     "grados": 21
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "holanda",
+      "color": "naranja",
+      "cara": "feliz",
+      "cara_en": "In",
+      "cara_lugar": [
+       5.7,
+       52.25
+      ]
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "1698",
+      "texto": "1698",
+      "x": 960,
+      "y": 860,
+      "tam": 90
+     }
+    ],
+    "iconos": [
+     {
+      "en": "Peter",
+      "lon": 5.6,
+      "lat": 53.6,
+      "cosa": "corona",
+      "tam": 1
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "mapa": "ohd-europa1698",
+    "encuadre": false,
+    "guia": false,
+    "en": "came home",
+    "cam": {
+     "lon": 22.0,
+     "lat": 54.6,
+     "grados": 30
+    },
+    "hasta": {
+     "lon": 35.0,
+     "lat": 55.4,
+     "grados": 30
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "rusia_main",
+      "color": "rojo",
+      "cara": "susto",
+      "cara_en": "Western",
+      "cara_lugar": [
+       35.4,
+       53.9
+      ]
+     }
+    ],
+    "pins": [
+     {
+      "en": 0,
+      "lon": 37.62,
+      "lat": 55.75,
+      "nombre": "Moscow",
+      "aro": true,
+      "izquierda": true
+     }
+    ],
+    "flechas": [
+     {
+      "en": 0,
+      "de": [
+       14.0,
+       53.4
+      ],
+      "a": [
+       37.2,
+       55.65
+      ],
+      "color": "amarillo",
+      "curva": 0.06
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "At his",
+    "decorado": "sala_trono",
+    "actores": [
+     {
+      "q": "peter",
+      "traje": "noble",
+      "x": 840,
+      "s": 1.22,
+      "mira": 1,
+      "colores": {
+       "color": "#2f6b3a",
+       "ribete": "#e8b74a",
+       "pelo": "#3a2616",
+       "bigote": "#3a2616",
+       "sombrero": "tricornio",
+       "sombreroColor": "#26201c"
+      },
+      "acciones": [
+       {
+        "en": "his",
+        "hace": "senala",
+        "lado": 1
+       },
+       {
+        "en": "nobles",
+        "hace": "rie"
+       }
+      ]
+     },
+     {
+      "q": "boyar",
+      "traje": "noble",
+      "x": 1080,
+      "mira": -1,
+      "colores": {
+       "color": "#8a2b2b",
+       "ribete": "#e8b74a",
+       "pelo": "#4a3423",
+       "barba": "#4a3423",
+       "sombrero": "piel",
+       "sombreroColor": "#5a4632"
+      },
+      "acciones": [
+       {
+        "en": "party",
+        "hace": "susto"
+       },
+       {
+        "en": "beards",
+        "hace": "niega"
+       }
+      ]
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "party",
+      "a": "boyar",
+      "texto": "Wait, not the BEARD!",
+      "ancho": 290
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "shaved",
+    "decorado": "sala_trono",
+    "actores": [
+     {
+      "q": "peter",
+      "traje": "noble",
+      "x": 840,
+      "s": 1.22,
+      "mira": 1,
+      "colores": {
+       "color": "#2f6b3a",
+       "ribete": "#e8b74a",
+       "pelo": "#3a2616",
+       "bigote": "#3a2616",
+       "sombrero": "tricornio",
+       "sombreroColor": "#26201c"
+      },
+      "acciones": [
+       {
+        "en": "off",
+        "hace": "orgulloso"
+       },
+       {
+        "en": "paying",
+        "hace": "senala",
+        "lado": 1
+       }
+      ]
+     },
+     {
+      "q": "boyar",
+      "traje": "noble",
+      "x": 1080,
+      "mira": -1,
+      "colores": {
+       "color": "#8a2b2b",
+       "ribete": "#e8b74a",
+       "pelo": "#4a3423",
+       "barba": null,
+       "sombrero": "piel",
+       "sombreroColor": "#5a4632"
+      },
+      "ojos": "susto",
+      "acciones": [
+       {
+        "en": "off",
+        "hace": "triste"
+       },
+       {
+        "en": "tax",
+        "hace": "encoge"
+       }
+      ]
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "Then",
+      "a": "boyar",
+      "texto": "My chin is cold.",
+      "ancho": 270
+     }
+    ],
+    "cosas": [
+     {
+      "en": "tax",
+      "cosa": "moneda",
+      "x": 960,
+      "y": 820,
+      "salta": -90
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "paying",
+      "texto": "BEARD TAX",
+      "x": 960,
+      "y": 200,
+      "tam": 90
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "mapa": "ohd-europa1698",
+    "encuadre": false,
+    "guia": false,
+    "en": "Rich",
+    "cam": {
+     "lon": 34.6,
+     "lat": 55.4,
+     "grados": 36
+    },
+    "hasta": {
+     "lon": 34.8,
+     "lat": 55.4,
+     "grados": 40
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "rusia_main",
+      "color": "rojo",
+      "cara": "malo",
+      "cara_en": "merchants",
+      "cara_lugar": [
+       36.4,
+       53.7
+      ]
+     }
+    ],
+    "pins": [
+     {
+      "en": 0,
+      "lon": 37.62,
+      "lat": 55.75,
+      "nombre": "Moscow",
+      "aro": true
+     }
+    ],
+    "iconos": [
+     {
+      "en": "paid",
+      "lon": 35.0,
+      "lat": 56.8,
+      "cosa": "monton_monedas",
+      "tam": 1
+     },
+     {
+      "en": "100",
+      "lon": 38.9,
+      "lat": 56.9,
+      "cosa": "monton_monedas",
+      "tam": 1
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "100",
+      "texto": "100 RUBLES",
+      "x": 960,
+      "y": 860,
+      "tam": 80
+     },
+     {
+      "en": "year",
+      "texto": "A YEAR",
+      "x": 960,
+      "y": 930,
+      "tam": 54
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "Payers",
+    "decorado": "interior",
+    "actores": [
+     {
+      "q": "merchant",
+      "traje": "mercader",
+      "x": 960,
+      "s": 1.15,
+      "mira": 0.3,
+      "lleva": "moneda",
+      "colores": {
+       "color": "#7a1f2b",
+       "sombrero": "piel",
+       "sombreroColor": "#3a2616"
+      },
+      "acciones": [
+       {
+        "en": "carried",
+        "hace": "orgulloso"
+       },
+       {
+        "en": "money",
+        "hace": "celebra"
+       }
+      ]
+     }
+    ],
+    "cosas": [
+     {
+      "en": "copper",
+      "cosa": "moneda",
+      "x": 1100,
+      "y": 760,
+      "salta": -80
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "token",
+      "a": "merchant",
+      "texto": "Beard: fully paid.",
+      "ancho": 270
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "money",
+      "texto": "MONEY TAKEN",
+      "x": 960,
+      "y": 200,
+      "tam": 80
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "No token",
+    "decorado": "ciudad",
+    "actores": [
+     {
+      "q": "guard",
+      "traje": "colono",
+      "x": 840,
+      "mira": 1,
+      "colores": {
+       "color": "#2f6b3a",
+       "ribete": "#c9302c"
+      },
+      "acciones": [
+       {
+        "en": "token",
+        "hace": "senala",
+        "lado": 1
+       },
+       {
+        "en": "shave",
+        "hace": "camina",
+        "a": 900
+       }
+      ]
+     },
+     {
+      "q": "peasant",
+      "traje": "campesino",
+      "x": 1080,
+      "mira": -1,
+      "colores": {
+       "barba": "#6b4425",
+       "pelo": "#6b4425"
+      },
+      "acciones": [
+       {
+        "en": "No",
+        "hace": "susto"
+       },
+       {
+        "en": "could",
+        "hace": "camina",
+        "a": 1150
+       },
+       {
+        "en": "you",
+        "hace": "susto"
+       }
+      ]
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "No",
+      "a": "guard",
+      "texto": "Beard papers, please.",
+      "ancho": 280
+     },
+     {
+      "en": "Police",
+      "a": "peasant",
+      "texto": "It's just stubble!",
+      "ancho": 260
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "mapa": "ohd-europa1698",
+    "encuadre": false,
+    "guia": false,
+    "en": "Catherine",
+    "cam": {
+     "lon": 34.6,
+     "lat": 55.4,
+     "grados": 36
+    },
+    "hasta": {
+     "lon": 34.8,
+     "lat": 55.4,
+     "grados": 40
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "rusia_main",
+      "color": "rojo",
+      "cara": "feliz",
+      "cara_en": "ended",
+      "cara_lugar": [
+       36.4,
+       53.7
+      ]
+     }
+    ],
+    "pins": [
+     {
+      "en": 0,
+      "lon": 37.62,
+      "lat": 55.75,
+      "nombre": "Moscow",
+      "aro": true
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "1772",
+      "texto": "1772",
+      "x": 960,
+      "y": 840,
+      "tam": 90
+     },
+     {
+      "en": "74",
+      "texto": "74 YEARS",
+      "x": 960,
+      "y": 945,
+      "tam": 60
+     }
+    ]
+   }
+  ]
+ },
+ "mapas": [
+  [
+   "--nombre",
+   "ohd-europa1698",
+   "--zona",
+   "-14",
+   "70",
+   "64",
+   "38",
+   "--grados-min",
+   "15",
+   "--paises",
+   "RUS=rusia,NLD=holanda"
+  ]
+ ],
+ "sources": [
+  "https://www.smithsonianmag.com/smart-news/why-tsar-peter-great-established-beard-tax-180964693/",
+  "https://daily.jstor.org/peter-the-greats-beard-tax",
+  "https://en.wikipedia.org/wiki/Beard_tax",
+  "https://www.britishmuseum.org/collection/object/C_C-3701",
+  "https://atlasobscura.com/articles/what-was-the-beard-tax"
+ ],
+ "partir": {
+  "ohd-europa1698": {
+   "rusia": {
+    "kaliningrad": {
+     "sur_de": [
+      [
+       15,
+       56.2
+      ],
+      [
+       26,
+       56.2
+      ]
+     ]
+    },
+    "rusia_main": {
+     "resto": true
+    }
+   }
+  }
+ },
+ "translation_es": "Rusia hacía pagar a los hombres para poder quedarse con la barba. En 1698, Pedro el Grande volvió de Europa occidental. En su fiesta de bienvenida, a sus nobles les afeitaron la barba. Desde entonces, tener barba significaba pagar un impuesto. Los comerciantes ricos pagaban hasta 100 rublos por año. Los que pagaban llevaban una ficha de cobre con la inscripción «dinero cobrado». ¿No tenías ficha? La policía te podía afeitar. Catalina la Grande lo eliminó en 1772, 74 años después de que… Rusia hacía pagar a los hombres para poder quedarse con la barba.",
+ "youtube": {
+  "title": "Russia once made men pay to keep their beards",
+  "description": "In 1698, Peter the Great taxed beards to make Russia look more European. Men who paid carried a copper token stamped \"money taken.\" Catherine the Great repealed the tax in 1772.\n\nSources: Smithsonian, British Museum, Atlas Obscura\nMusic: \"Procession of the King\" by Kevin MacLeod (incompetech.com), CC BY 4.0\n#history #shorts #russia",
+  "tags": [
+   "history",
+   "beard tax",
+   "peter the great",
+   "russia",
+   "catherine the great",
+   "beards",
+   "1698",
+   "tsar",
+   "russian history",
+   "animated history",
+   "true story"
+  ],
+  "category": "EDUCATION"
+ }
+}
