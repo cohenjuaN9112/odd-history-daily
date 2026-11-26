@@ -1,0 +1,570 @@
+{
+ "format": "animado",
+ "voice": "en-US-ChristopherNeural",
+ "rate": "+8%",
+ "gap": 0.2,
+ "lines": [
+  "L.A. fired 1,440 shells at planes that weren't there.",
+  "It was February 1942, weeks after Pearl Harbor.",
+  "A Japanese submarine had just shelled an oil field near Santa Barbara.",
+  "After 2 a.m., radar spotted something, and sirens wailed across the city.",
+  "Searchlights swept the sky, and the guns fired for about an hour.",
+  "No bombs fell, and Japan later said it sent no planes.",
+  "But falling shell fragments damaged homes.",
+  "Air Force historians later suspected weather balloons, which is how..."
+ ],
+ "hook": [
+  "L.A. VS.",
+  "*NOBODY"
+ ],
+ "comment": "Would you have hidden under the bed or run outside to watch?",
+ "badge_line": 5,
+ "cap_y": 500,
+ "badge_y": 385,
+ "hook_y": 250,
+ "sin_lagos": true,
+ "plan": {
+  "cola": 1.2,
+  "musica": [
+   {
+    "desde": 0,
+    "pista": "guerra--impending-boom.mp3",
+    "volumen": 3
+   }
+  ],
+  "planos": [
+   {
+    "tipo": "mapa",
+    "mapa": "ohd-socal",
+    "encuadre": false,
+    "guia": false,
+    "en": 0,
+    "cam": {
+     "lon": -118.4,
+     "lat": 34.6,
+     "grados": 14
+    },
+    "hasta": {
+     "lon": -118.3,
+     "lat": 34.4,
+     "grados": 12
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "california",
+      "color": "naranja",
+      "cara": "susto",
+      "cara_en": 0.3,
+      "cara_lugar": [
+       -117.6,
+       35.2
+      ]
+     }
+    ],
+    "pins": [
+     {
+      "en": 0,
+      "lon": -118.24,
+      "lat": 34.05,
+      "nombre": "Los Angeles",
+      "aro": true
+     }
+    ],
+    "iconos": [
+     {
+      "en": "fired",
+      "lon": -118.75,
+      "lat": 34.3,
+      "cosa": "canon",
+      "tam": 1.0
+     }
+    ],
+    "rotulos": [
+     {
+      "en": 0.8,
+      "texto": "1,440 SHELLS",
+      "x": 960,
+      "y": 880,
+      "tam": 72
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "It was",
+    "decorado": "calle",
+    "actores": [
+     {
+      "q": "man",
+      "traje": "civil",
+      "x": 840,
+      "mira": 1,
+      "acciones": [
+       {
+        "en": "February",
+        "hace": "piensa"
+       },
+       {
+        "en": "Pearl",
+        "hace": "susto"
+       }
+      ]
+     },
+     {
+      "q": "woman",
+      "traje": "civil_mujer",
+      "x": 1080,
+      "mira": -1,
+      "acciones": [
+       {
+        "en": "weeks",
+        "hace": "susto"
+       },
+       {
+        "en": "Harbor",
+        "hace": "jarras"
+       }
+      ]
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "weeks",
+      "a": "man",
+      "texto": "Everybody stay calm!",
+      "ancho": 280
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "February",
+      "texto": "FEB 1942",
+      "x": 960,
+      "y": 200,
+      "tam": 90
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "mapa": "ohd-socal",
+    "encuadre": false,
+    "guia": false,
+    "en": "A Japanese",
+    "cam": {
+     "lon": -119.5,
+     "lat": 34.5,
+     "grados": 9
+    },
+    "hasta": {
+     "lon": -119.6,
+     "lat": 34.45,
+     "grados": 8
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "california",
+      "color": "naranja",
+      "cara": "susto",
+      "cara_en": "shelled",
+      "cara_lugar": [
+       -119.3,
+       35.0
+      ]
+     }
+    ],
+    "iconos": [
+     {
+      "en": "submarine",
+      "lon": -120.05,
+      "lat": 34.12,
+      "cosa": "submarino",
+      "tam": 0.6
+     },
+     {
+      "en": "oil",
+      "lon": -119.88,
+      "lat": 34.5,
+      "cosa": "petroleo",
+      "tam": 0.8
+     }
+    ],
+    "flechas": [
+     {
+      "en": "shelled",
+      "de": [
+       -119.98,
+       34.2
+      ],
+      "a": [
+       -119.89,
+       34.42
+      ],
+      "color": "rojo",
+      "curva": 0.2
+     }
+    ],
+    "pins": [
+     {
+      "en": "Santa",
+      "lon": -119.7,
+      "lat": 34.42,
+      "nombre": "Santa Barbara"
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "After",
+    "decorado": "ciudad",
+    "noche": true,
+    "actores": [
+     {
+      "q": "soldier",
+      "traje": "soldado_usa",
+      "x": 840,
+      "mira": 1,
+      "acciones": [
+       {
+        "en": "radar",
+        "hace": "senala",
+        "lado": 1
+       },
+       {
+        "en": "spotted",
+        "hace": "piensa"
+       },
+       {
+        "en": "sirens",
+        "hace": "susto"
+       }
+      ]
+     },
+     {
+      "q": "civ",
+      "traje": "civil",
+      "x": 1080,
+      "mira": -1,
+      "acciones": [
+       {
+        "en": "sirens",
+        "hace": "susto"
+       },
+       {
+        "en": "city",
+        "hace": "agacha"
+       }
+      ]
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "something",
+      "a": "soldier",
+      "texto": "Is that a blip?",
+      "ancho": 260
+     },
+     {
+      "en": "wailed",
+      "a": "civ",
+      "texto": "Lights OFF!",
+      "ancho": 240
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "After",
+      "texto": "2:25 A.M.",
+      "x": 960,
+      "y": 200,
+      "tam": 90
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "Searchlights",
+    "decorado": "campamento",
+    "noche": true,
+    "actores": [
+     {
+      "q": "g1",
+      "traje": "soldado_usa",
+      "x": 840,
+      "mira": 1,
+      "acciones": [
+       {
+        "en": "sky",
+        "hace": "senala",
+        "lado": 1
+       },
+       {
+        "en": "fired",
+        "hace": "ataca"
+       }
+      ]
+     },
+     {
+      "q": "g2",
+      "traje": "soldado_usa",
+      "x": 1080,
+      "mira": -1,
+      "acciones": [
+       {
+        "en": "swept",
+        "hace": "susto"
+       },
+       {
+        "en": "guns",
+        "hace": "ataca"
+       }
+      ]
+     }
+    ],
+    "cosas": [
+     {
+      "en": "guns",
+      "cosa": "canon",
+      "x": 960,
+      "y": 930,
+      "salta": -60
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "fired",
+      "a": "g2",
+      "texto": "There! No, THERE!",
+      "ancho": 280
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "guns",
+      "texto": "1,440 SHELLS",
+      "x": 960,
+      "y": 200,
+      "tam": 84
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "mapa": "ohd-socal",
+    "encuadre": false,
+    "guia": false,
+    "en": "No bombs",
+    "cam": {
+     "lon": -118.4,
+     "lat": 34.4,
+     "grados": 13
+    },
+    "hasta": {
+     "lon": -118.4,
+     "lat": 34.4,
+     "grados": 15
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "california",
+      "color": "naranja",
+      "cara": "feliz",
+      "cara_en": "fell",
+      "cara_lugar": [
+       -117.6,
+       35.1
+      ]
+     }
+    ],
+    "pins": [
+     {
+      "en": 0,
+      "lon": -118.24,
+      "lat": 34.05,
+      "nombre": "Los Angeles",
+      "aro": true
+     }
+    ],
+    "iconos": [
+     {
+      "en": "Japan",
+      "lon": -119.6,
+      "lat": 33.5,
+      "cosa": "bandera_japon",
+      "tam": 1.0
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "bombs",
+      "texto": "0 BOMBS",
+      "x": 960,
+      "y": 820,
+      "tam": 80
+     },
+     {
+      "en": "planes",
+      "texto": "0 PLANES",
+      "x": 960,
+      "y": 930,
+      "tam": 80
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "But falling",
+    "decorado": "calle",
+    "actores": [
+     {
+      "q": "owner",
+      "traje": "civil",
+      "x": 840,
+      "mira": 1,
+      "acciones": [
+       {
+        "en": "falling",
+        "hace": "agacha"
+       },
+       {
+        "en": "damaged",
+        "hace": "susto"
+       },
+       {
+        "en": "homes",
+        "hace": "enfada"
+       }
+      ]
+     },
+     {
+      "q": "neighbor",
+      "traje": "civil_mujer",
+      "x": 1080,
+      "mira": -1,
+      "acciones": [
+       {
+        "en": "shell",
+        "hace": "susto"
+       },
+       {
+        "en": "homes",
+        "hace": "jarras"
+       }
+      ]
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "damaged",
+      "a": "owner",
+      "texto": "My ROOF!",
+      "ancho": 220
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "mapa": "ohd-socal",
+    "encuadre": false,
+    "guia": false,
+    "en": "Air Force",
+    "cam": {
+     "lon": -118.3,
+     "lat": 34.4,
+     "grados": 12
+    },
+    "hasta": {
+     "lon": -118.4,
+     "lat": 34.6,
+     "grados": 14
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "california",
+      "color": "naranja",
+      "cara": "susto",
+      "cara_en": "historians",
+      "cara_lugar": [
+       -117.6,
+       35.2
+      ]
+     }
+    ],
+    "pins": [
+     {
+      "en": 0,
+      "lon": -118.24,
+      "lat": 34.05,
+      "nombre": "Los Angeles",
+      "aro": true
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "weather",
+      "texto": "WEATHER BALLOONS?",
+      "x": 960,
+      "y": 880,
+      "tam": 60
+     }
+    ],
+    "foco": {
+     "en": "suspected",
+     "lon": -118.24,
+     "lat": 34.05,
+     "radio": 220
+    }
+   }
+  ]
+ },
+ "mapas": [
+  [
+   "--nombre",
+   "ohd-socal",
+   "--zona",
+   "-127",
+   "39.5",
+   "-109.5",
+   "29.5",
+   "--grados-min",
+   "4.4",
+   "--regiones",
+   "USA:California=california"
+  ]
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Battle_of_Los_Angeles",
+  "https://www.history.com/articles/world-war-iis-bizarre-battle-of-los-angeles",
+  "https://www.militarymuseum.org/BattleofLA.html",
+  "https://en.wikipedia.org/wiki/Bombardment_of_Ellwood",
+  "https://sbmm.org/maritime-museum-exhibits/the-bombardment-of-ellwood-oil-field",
+  "https://www.militarytimes.com/off-duty/2017/02/19/ufos-or-no-battle-of-los-angeles-nears-75th-anniversary/"
+ ],
+ "translation_es": "Los Ángeles disparó 1.440 proyectiles contra aviones que no estaban ahí. Era febrero de 1942, semanas después de Pearl Harbor. Un submarino japonés acababa de cañonear un yacimiento de petróleo cerca de Santa Bárbara. Pasadas las 2 de la mañana, el radar detectó algo y las sirenas sonaron en toda la ciudad. Los reflectores barrieron el cielo y los cañones dispararon durante casi una hora. No cayó ninguna bomba, y Japón dijo después que no había mandado ningún avión. Pero los fragmentos de los proyectiles que caían dañaron casas. Los historiadores de la Fuerza Aérea sospecharon después de unos globos meteorológicos, y así fue como… Los Ángeles disparó 1.440 proyectiles contra aviones que no estaban ahí.",
+ "youtube": {
+  "title": "L.A. fired 1,440 shells at planes that weren't there",
+  "description": "On February 25, 1942, days after a Japanese submarine shelled an oil field near Santa Barbara, anti-aircraft guns in Los Angeles fired 1,440 shells at an enemy that never came.\n\nSources: Wikipedia, History.com, California State Military Museum\nMusic: \"Impending Boom\" by Kevin MacLeod (incompetech.com), CC BY 4.0\n#history #shorts #losangeles",
+  "tags": [
+   "history",
+   "battle of los angeles",
+   "1942",
+   "world war 2",
+   "ww2",
+   "los angeles",
+   "california",
+   "air raid",
+   "false alarm",
+   "animated history",
+   "true story"
+  ],
+  "category": "EDUCATION"
+ }
+}

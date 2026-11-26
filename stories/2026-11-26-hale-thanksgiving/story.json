@@ -1,0 +1,692 @@
+{
+ "format": "animado",
+ "voice": "en-US-ChristopherNeural",
+ "rate": "+8%",
+ "gap": 0.2,
+ "lines": [
+  "Thanksgiving is national because of a nursery rhyme author.",
+  "Sarah Josepha Hale wrote \"Mary Had a Little Lamb.\"",
+  "Back then, each state picked its own Thanksgiving day, or skipped it.",
+  "For over 15 years, she pushed for one national day in print.",
+  "Her letters to Presidents Taylor, Fillmore, Pierce and Buchanan went nowhere.",
+  "Then, during the Civil War, she wrote to Lincoln.",
+  "Five days later, he proclaimed a national Thanksgiving for November 26th.",
+  "So before you carve the turkey, remember..."
+ ],
+ "hook": [
+  "LITTLE LAMB",
+  "*BIG TURKEY"
+ ],
+ "comment": "What holiday would you campaign for next?",
+ "badge_line": 2,
+ "cap_y": 500,
+ "badge_y": 385,
+ "hook_y": 250,
+ "sin_lagos": true,
+ "plan": {
+  "cola": 1.2,
+  "musica": [
+   {
+    "desde": 0,
+    "pista": "industrial--americana.mp3",
+    "volumen": 3
+   }
+  ],
+  "planos": [
+   {
+    "tipo": "mapa",
+    "encuadre": false,
+    "guia": false,
+    "mapa": "ohd-usa-hale",
+    "en": 0,
+    "cam": {
+     "lon": -96.5,
+     "lat": 38.6,
+     "grados": 70
+    },
+    "hasta": {
+     "lon": -96.5,
+     "lat": 38.6,
+     "grados": 64
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "usa",
+      "color": "naranja",
+      "cara": "feliz",
+      "cara_en": 0.3,
+      "cara_lugar": [
+       -97.5,
+       40.0
+      ]
+     }
+    ],
+    "iconos": [
+     {
+      "en": "nursery",
+      "lon": -99.5,
+      "lat": 34.6,
+      "cosa": "oveja",
+      "tam": 1.1
+     },
+     {
+      "en": "author",
+      "lon": -93.2,
+      "lat": 34.8,
+      "cosa": "libro",
+      "tam": 1.0
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "Sarah",
+    "decorado": "campo",
+    "actores": [
+     {
+      "q": "hale",
+      "traje": "civil_mujer",
+      "x": 860,
+      "mira": 1,
+      "colores": {
+       "color": "#5a3a4a",
+       "ribete": "#e8dcc8",
+       "pelo": "#4a3423"
+      },
+      "acciones": [
+       {
+        "en": "Hale",
+        "hace": "saluda"
+       },
+       {
+        "en": "Lamb",
+        "hace": "orgulloso"
+       }
+      ]
+     }
+    ],
+    "cosas": [
+     {
+      "en": "wrote",
+      "cosa": "libro",
+      "x": 1000,
+      "y": 660,
+      "salta": -80
+     },
+     {
+      "en": "Mary",
+      "cosa": "oveja",
+      "x": 1010,
+      "y": 930,
+      "salta": -90
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "Little",
+      "a": "hale",
+      "texto": "Catchy, right?",
+      "ancho": 260
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "encuadre": false,
+    "guia": false,
+    "mapa": "ohd-este-hale",
+    "en": "Back then",
+    "cam": {
+     "lon": -75.3,
+     "lat": 40.6,
+     "grados": 36
+    },
+    "hasta": {
+     "lon": -75.5,
+     "lat": 40.4,
+     "grados": 32
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "massachusetts",
+      "color": "rojo",
+      "cara": "feliz",
+      "cara_en": "each",
+      "cara_lugar": [
+       -72.3,
+       42.35
+      ]
+     },
+     {
+      "en": 0,
+      "id": "new_york",
+      "color": "amarillo",
+      "cara": "susto",
+      "cara_en": "state",
+      "cara_lugar": [
+       -75.3,
+       42.8
+      ]
+     },
+     {
+      "en": 0,
+      "id": "pennsylvania",
+      "color": "verde",
+      "cara": "enfado",
+      "cara_en": "picked",
+      "cara_lugar": [
+       -77.6,
+       40.9
+      ]
+     },
+     {
+      "en": "skipped",
+      "id": "virginia",
+      "color": "gris",
+      "cara": "feliz",
+      "cara_en": "skipped",
+      "cara_lugar": [
+       -78.6,
+       37.6
+      ]
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "own",
+      "texto": "NO SET DATE",
+      "x": 960,
+      "y": 880,
+      "tam": 64
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "For over",
+    "decorado": "interior",
+    "actores": [
+     {
+      "q": "hale",
+      "traje": "civil_mujer",
+      "x": 960,
+      "s": 1.1,
+      "mira": 0.3,
+      "lleva": "pluma",
+      "colores": {
+       "color": "#5a3a4a",
+       "ribete": "#e8dcc8",
+       "pelo": "#4a3423"
+      },
+      "acciones": [
+       {
+        "en": "For",
+        "hace": "piensa"
+       },
+       {
+        "en": "pushed",
+        "hace": "senala",
+        "lado": 1
+       },
+       {
+        "en": "print",
+        "hace": "orgulloso"
+       }
+      ]
+     }
+    ],
+    "cosas": [
+     {
+      "en": "years",
+      "cosa": "pergamino",
+      "x": 1110,
+      "y": 860,
+      "salta": -80
+     },
+     {
+      "en": "print",
+      "cosa": "libro",
+      "x": 810,
+      "y": 860,
+      "salta": -80
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "national",
+      "a": "hale",
+      "texto": "More ink, please!",
+      "ancho": 270
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "15",
+      "texto": "15+ YEARS",
+      "x": 960,
+      "y": 200,
+      "tam": 90
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "Her letters",
+    "decorado": "despacho",
+    "actores": [
+     {
+      "q": "clerk",
+      "traje": "politico",
+      "x": 840,
+      "mira": 1,
+      "lleva": "pergamino",
+      "colores": {
+       "color": "#5a4632",
+       "pelo": "#6b4425"
+      },
+      "acciones": [
+       {
+        "en": "letters",
+        "hace": "senala",
+        "lado": 1
+       },
+       {
+        "en": "Pierce",
+        "hace": "encoge"
+       }
+      ]
+     },
+     {
+      "q": "pres",
+      "traje": "politico",
+      "x": 1080,
+      "mira": -1,
+      "colores": {
+       "color": "#26262c",
+       "pelo": "#9a9a9a",
+       "sombrero": "copa",
+       "sombreroColor": "#1d1c1a"
+      },
+      "acciones": [
+       {
+        "en": "Taylor",
+        "hace": "piensa"
+       },
+       {
+        "en": "Fillmore",
+        "hace": "niega"
+       },
+       {
+        "en": "Buchanan",
+        "hace": "encoge"
+       },
+       {
+        "en": "nowhere",
+        "hace": "niega"
+       }
+      ]
+     }
+    ],
+    "cosas": [
+     {
+      "en": "Fillmore",
+      "cosa": "pergamino",
+      "x": 960,
+      "y": 880,
+      "salta": -80
+     },
+     {
+      "en": "Buchanan",
+      "cosa": "pergamino",
+      "x": 930,
+      "y": 900,
+      "salta": -70
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "Pierce",
+      "a": "clerk",
+      "texto": "More mail from Mrs. Hale!",
+      "ancho": 290
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "Presidents",
+      "texto": "4 PRESIDENTS",
+      "x": 960,
+      "y": 200,
+      "tam": 84
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "encuadre": false,
+    "guia": false,
+    "mapa": "ohd-este-hale",
+    "en": "Then during",
+    "cam": {
+     "lon": -77.0,
+     "lat": 39.0,
+     "grados": 28
+    },
+    "hasta": {
+     "lon": -77.0,
+     "lat": 39.2,
+     "grados": 25
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "pennsylvania",
+      "color": "verde",
+      "cara": "feliz",
+      "cara_en": "wrote",
+      "cara_lugar": [
+       -77.6,
+       40.9
+      ]
+     },
+     {
+      "en": 0,
+      "id": "virginia",
+      "color": "gris",
+      "cara": "enfado",
+      "cara_en": "Civil",
+      "cara_lugar": [
+       -78.9,
+       37.6
+      ]
+     }
+    ],
+    "pins": [
+     {
+      "en": 0,
+      "lon": -75.17,
+      "lat": 39.95,
+      "nombre": "Philadelphia",
+      "izquierda": true
+     },
+     {
+      "en": "Lincoln",
+      "lon": -77.04,
+      "lat": 38.9,
+      "nombre": "Washington",
+      "aro": true,
+      "izquierda": true
+     }
+    ],
+    "ejercitos": [
+     {
+      "en": "Civil",
+      "de": [
+       -78.9,
+       39.75
+      ],
+      "a": [
+       -78.6,
+       39.15
+      ],
+      "color": "azul",
+      "d": 1.6
+     },
+     {
+      "en": "War",
+      "de": [
+       -79.2,
+       37.85
+      ],
+      "a": [
+       -78.9,
+       38.55
+      ],
+      "color": "gris",
+      "d": 1.6
+     }
+    ],
+    "flechas": [
+     {
+      "en": "wrote",
+      "de": [
+       -75.3,
+       39.8
+      ],
+      "a": [
+       -76.85,
+       38.98
+      ],
+      "color": "amarillo",
+      "curva": 0.15
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "Then",
+      "texto": "1863",
+      "x": 960,
+      "y": 880,
+      "tam": 90
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "Five days",
+    "decorado": "despacho",
+    "actores": [
+     {
+      "q": "lincoln",
+      "traje": "politico",
+      "x": 960,
+      "s": 1.15,
+      "mira": 0.3,
+      "colores": {
+       "color": "#1f1f24",
+       "ribete": "#ececec",
+       "pelo": "#2a1d14",
+       "barba": "#2a1d14",
+       "sombrero": "copa",
+       "sombreroColor": "#1d1c1a"
+      },
+      "acciones": [
+       {
+        "en": "later",
+        "hace": "piensa"
+       },
+       {
+        "en": "proclaimed",
+        "hace": "senala",
+        "lado": 1
+       }
+      ]
+     }
+    ],
+    "cosas": [
+     {
+      "en": "proclaimed",
+      "cosa": "pergamino",
+      "x": 1110,
+      "y": 860,
+      "salta": -80
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "Five",
+      "texto": "OCT 3, 1863",
+      "x": 960,
+      "y": 200,
+      "tam": 80
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "national Thanksgiving",
+    "decorado": "interior",
+    "actores": [
+     {
+      "q": "hale",
+      "traje": "civil_mujer",
+      "x": 960,
+      "s": 1.1,
+      "mira": 0.3,
+      "colores": {
+       "color": "#5a3a4a",
+       "ribete": "#e8dcc8",
+       "pelo": "#4a3423"
+      },
+      "acciones": [
+       {
+        "en": "Thanksgiving",
+        "hace": "celebra"
+       },
+       {
+        "en": "26th",
+        "hace": "rie"
+       }
+      ]
+     }
+    ],
+    "cosas": [
+     {
+      "en": "November",
+      "cosa": "pergamino",
+      "x": 1110,
+      "y": 860,
+      "salta": -80
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "Thanksgiving",
+      "a": "hale",
+      "texto": "FINALLY!",
+      "ancho": 220
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "November",
+      "texto": "NOV 26, 1863",
+      "x": 960,
+      "y": 200,
+      "tam": 80
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "encuadre": false,
+    "guia": false,
+    "mapa": "ohd-usa-hale",
+    "en": "So before",
+    "cam": {
+     "lon": -96.5,
+     "lat": 38.6,
+     "grados": 64
+    },
+    "hasta": {
+     "lon": -96.5,
+     "lat": 38.6,
+     "grados": 72
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "usa",
+      "color": "naranja",
+      "cara": "feliz",
+      "cara_en": 0.2,
+      "cara_lugar": [
+       -97.5,
+       40.0
+      ]
+     }
+    ],
+    "iconos": [
+     {
+      "en": "carve",
+      "lon": -96.5,
+      "lat": 34.4,
+      "cosa": "bandera_eeuu",
+      "tam": 1.1
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "turkey",
+      "texto": "THANKSGIVING",
+      "x": 960,
+      "y": 860,
+      "tam": 66
+     }
+    ]
+   }
+  ]
+ },
+ "mapas": [
+  [
+   "--nombre",
+   "ohd-usa-hale",
+   "--zona",
+   "-140",
+   "60",
+   "-52",
+   "15",
+   "--grados-min",
+   "35",
+   "--paises",
+   "USA=usa"
+  ],
+  [
+   "--nombre",
+   "ohd-este-hale",
+   "--zona",
+   "-96",
+   "50",
+   "-55",
+   "30",
+   "--grados-min",
+   "13.5",
+   "--regiones",
+   "USA:Massachusetts=massachusetts,New York=new_york,Pennsylvania=pennsylvania,Virginia=virginia"
+  ]
+ ],
+ "sources": [
+  "https://www.nps.gov/liho/learn/historyculture/lincoln-and-thanksgiving.htm",
+  "https://www.npr.org/2013/11/28/247516223/thanks-to-the-woman-who-helped-make-a-november-thursday-special",
+  "https://www.saturdayeveningpost.com/2025/11/the-mother-of-thanksgiving/",
+  "https://presidentlincoln.illinois.gov/Blog/Posts/169/Abraham-Lincoln/2022/11/Lincoln-and-Thanksgiving/blog-post/",
+  "https://www.womenshistory.org/education-resources/biographies/sarah-hale",
+  "https://www.history.com/news/abraham-lincoln-and-the-mother-of-thanksgiving",
+  "https://masshist.org/beehiveblog/2023/11/our-national-thanksgiving"
+ ],
+ "translation_es": "El Día de Acción de Gracias es feriado nacional gracias a la autora de una canción infantil. Sarah Josepha Hale escribió «Mary Had a Little Lamb» («María tenía un corderito»). En esa época, cada estado elegía su propio día de Acción de Gracias, o directamente no lo festejaba. Durante más de 15 años, ella insistió por escrito con un único día nacional. Sus cartas a los presidentes Taylor, Fillmore, Pierce y Buchanan no llegaron a nada. Entonces, en plena Guerra Civil, le escribió a Lincoln. Cinco días después, él proclamó un Día de Acción de Gracias nacional para el 26 de noviembre. Así que antes de cortar el pavo, acordate… el Día de Acción de Gracias es feriado nacional gracias a la autora de una canción infantil.",
+ "youtube": {
+  "title": "'Mary Had a Little Lamb' author made Thanksgiving national",
+  "description": "Sarah Josepha Hale, author of \"Mary Had a Little Lamb,\" lobbied for years for one national Thanksgiving. In 1863, five days after her letter, Lincoln proclaimed the last Thursday of November.\n\nSources: National Park Service, NPR, Abraham Lincoln Presidential Library\nMusic: \"Americana\" by Kevin MacLeod (incompetech.com), CC BY 4.0\n#history #shorts #thanksgiving",
+  "tags": [
+   "history",
+   "thanksgiving",
+   "sarah josepha hale",
+   "mary had a little lamb",
+   "abraham lincoln",
+   "1863",
+   "american history",
+   "holidays",
+   "animated history",
+   "true story"
+  ],
+  "category": "EDUCATION"
+ }
+}
