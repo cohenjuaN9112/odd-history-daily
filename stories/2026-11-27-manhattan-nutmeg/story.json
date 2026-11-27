@@ -1,0 +1,641 @@
+{
+ "format": "animado",
+ "voice": "en-US-ChristopherNeural",
+ "rate": "+8%",
+ "gap": 0.2,
+ "lines": [
+  "The Dutch traded Manhattan for a nutmeg island.",
+  "In the 1600s, nutmeg grew only on Indonesia's Banda Islands.",
+  "Europe paid a fortune for it, and some thought it fought the plague.",
+  "England and the Dutch fought over one of them: Run, about 2 miles long.",
+  "Meanwhile, England seized New Amsterdam and renamed it New York.",
+  "In the 1667 peace treaty, the Dutch kept Run, and England kept Manhattan.",
+  "Later, Britain planted nutmeg elsewhere, so today it sounds crazy that..."
+ ],
+ "hook": [
+  "MANHATTAN",
+  "*FOR NUTMEG"
+ ],
+ "comment": "Who got the better deal: the Dutch or England?",
+ "badge_line": 3,
+ "cap_y": 500,
+ "badge_y": 385,
+ "hook_y": 250,
+ "sin_lagos": true,
+ "mapas": [
+  [
+   "--nombre",
+   "ohd-nyc",
+   "--zona",
+   "-82",
+   "45.5",
+   "-66.5",
+   "37.5",
+   "--grados-min",
+   "5.8",
+   "--regiones",
+   "USA:New York=nuevayork"
+  ],
+  [
+   "--nombre",
+   "ohd-indo",
+   "--zona",
+   "100",
+   "10",
+   "144",
+   "-15",
+   "--grados-min",
+   "7.8",
+   "--paises",
+   "IDN=indonesia"
+  ],
+  [
+   "--nombre",
+   "ohd-banda",
+   "--zona",
+   "126",
+   "-2",
+   "133.5",
+   "-7",
+   "--grados-min",
+   "1.9"
+  ],
+  [
+   "--nombre",
+   "ohd-europa",
+   "--zona",
+   "-14",
+   "59",
+   "19",
+   "44.5",
+   "--grados-min",
+   "16",
+   "--paises",
+   "NLD=paisesbajos",
+   "--regiones",
+   "GBR:England=inglaterra"
+  ]
+ ],
+ "plan": {
+  "cola": 1.2,
+  "musica": [
+   {
+    "desde": 0,
+    "pista": "barroco--procession-of-the-king.mp3",
+    "volumen": 3
+   }
+  ],
+  "planos": [
+   {
+    "tipo": "mapa",
+    "encuadre": false,
+    "guia": false,
+    "mapa": "ohd-nyc",
+    "en": 0,
+    "cam": {
+     "lon": -74.3,
+     "lat": 41.4,
+     "grados": 12
+    },
+    "hasta": {
+     "lon": -74.2,
+     "lat": 41.3,
+     "grados": 10.5
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "nuevayork",
+      "color": "naranja",
+      "cara": "susto",
+      "cara_en": 0.3,
+      "cara_lugar": [
+       -74.6,
+       41.95
+      ]
+     }
+    ],
+    "pins": [
+     {
+      "en": 0,
+      "lon": -73.97,
+      "lat": 40.78,
+      "nombre": "Manhattan",
+      "aro": true
+     }
+    ],
+    "flechas": [
+     {
+      "en": "traded",
+      "de": [
+       -73.85,
+       40.6
+      ],
+      "a": [
+       -73.35,
+       40.12
+      ],
+      "color": "amarillo",
+      "curva": 0.2
+     }
+    ],
+    "iconos": [
+     {
+      "en": "nutmeg",
+      "lon": -73.15,
+      "lat": 39.95,
+      "cosa": "especias",
+      "tam": 1.0
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "encuadre": false,
+    "guia": false,
+    "mapa": "ohd-indo",
+    "en": "In the 1600s",
+    "cam": {
+     "lon": 122,
+     "lat": -2.5,
+     "grados": 40
+    },
+    "hasta": {
+     "lon": 129.9,
+     "lat": -4.6,
+     "grados": 14
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "indonesia",
+      "color": "verde"
+     }
+    ],
+    "pins": [
+     {
+      "en": "nutmeg",
+      "lon": 129.9,
+      "lat": -4.53,
+      "nombre": "Banda Islands",
+      "aro": true,
+      "izquierda": true
+     }
+    ],
+    "iconos": [
+     {
+      "en": "Banda",
+      "lon": 129.9,
+      "lat": -5.7,
+      "cosa": "especias",
+      "tam": 1.0
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "1600s",
+      "texto": "1600s",
+      "x": 960,
+      "y": 840,
+      "tam": 84
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "Europe",
+    "decorado": "ciudad",
+    "actores": [
+     {
+      "q": "buyer",
+      "traje": "noble",
+      "x": 840,
+      "mira": 1,
+      "acciones": [
+       {
+        "en": "fortune",
+        "hace": "susto"
+       },
+       {
+        "en": "plague",
+        "hace": "celebra"
+       }
+      ]
+     },
+     {
+      "q": "seller",
+      "traje": "mercader",
+      "x": 1080,
+      "mira": -1,
+      "lleva": "especias",
+      "colores": {
+       "color": "#e07a1f"
+      },
+      "acciones": [
+       {
+        "en": "paid",
+        "hace": "orgulloso"
+       },
+       {
+        "en": "thought",
+        "hace": "rie"
+       }
+      ]
+     }
+    ],
+    "cosas": [
+     {
+      "en": "fortune",
+      "cosa": "monton_monedas",
+      "x": 960,
+      "y": 930,
+      "salta": -70
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "fortune",
+      "a": "seller",
+      "texto": "Today's price: your castle.",
+      "ancho": 300
+     },
+     {
+      "en": "plague",
+      "a": "buyer",
+      "texto": "Sprinkle it on EVERYTHING!",
+      "ancho": 300
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "encuadre": false,
+    "guia": false,
+    "mapa": "ohd-europa",
+    "en": "England and",
+    "cam": {
+     "lon": 2.3,
+     "lat": 52.0,
+     "grados": 30
+    },
+    "hasta": {
+     "lon": 2.3,
+     "lat": 52.1,
+     "grados": 29
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "inglaterra",
+      "color": "rojo",
+      "cara": "enfado",
+      "cara_en": "England",
+      "cara_lugar": [
+       -0.8,
+       52.4
+      ]
+     },
+     {
+      "en": 0,
+      "id": "paisesbajos",
+      "color": "naranja",
+      "cara": "enfado",
+      "cara_en": "Dutch",
+      "cara_lugar": [
+       5.5,
+       52.3
+      ]
+     }
+    ],
+    "iconos": [
+     {
+      "en": "fought",
+      "lon": 2.4,
+      "lat": 53.3,
+      "cosa": "espada",
+      "tam": 1.0
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "encuadre": false,
+    "guia": false,
+    "mapa": "ohd-banda",
+    "en": "Run",
+    "cam": {
+     "lon": 129.76,
+     "lat": -4.56,
+     "grados": 4.4
+    },
+    "hasta": {
+     "lon": 129.76,
+     "lat": -4.56,
+     "grados": 3.5
+    },
+    "pins": [
+     {
+      "en": 0,
+      "lon": 129.683,
+      "lat": -4.55,
+      "nombre": "Run",
+      "aro": true,
+      "izquierda": true
+     },
+     {
+      "en": 0,
+      "lon": 129.9,
+      "lat": -4.52,
+      "nombre": "Banda"
+     }
+    ],
+    "barcos": [
+     {
+      "en": 0,
+      "de": [
+       129.2,
+       -5.0
+      ],
+      "a": [
+       129.63,
+       -4.64
+      ],
+      "d": 1.6,
+      "color": "#b8352a",
+      "vela": "#f4efe3"
+     },
+     {
+      "en": 0,
+      "de": [
+       130.3,
+       -4.12
+      ],
+      "a": [
+       129.8,
+       -4.47
+      ],
+      "d": 1.6,
+      "color": "#e07a1f",
+      "vela": "#f4efe3"
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "2",
+      "texto": "2 MILES",
+      "x": 960,
+      "y": 840,
+      "tam": 84
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "Meanwhile",
+    "decorado": "puerto",
+    "actores": [
+     {
+      "q": "eng",
+      "traje": "mosquetero",
+      "x": 840,
+      "mira": 1,
+      "lleva": "bandera_inglaterra",
+      "colores": {
+       "color": "#b8352a"
+      },
+      "acciones": [
+       {
+        "en": "seized",
+        "hace": "senala",
+        "lado": 1
+       },
+       {
+        "en": "renamed",
+        "hace": "orgulloso"
+       }
+      ]
+     },
+     {
+      "q": "dut",
+      "traje": "mercader",
+      "x": 1080,
+      "mira": -1,
+      "colores": {
+       "color": "#e07a1f"
+      },
+      "acciones": [
+       {
+        "en": "seized",
+        "hace": "susto"
+       },
+       {
+        "en": "York",
+        "hace": "enfada"
+       }
+      ]
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "Amsterdam",
+      "a": "dut",
+      "texto": "Hey! That's OURS!",
+      "ancho": 280
+     },
+     {
+      "en": "renamed",
+      "a": "eng",
+      "texto": "New name, who dis?",
+      "ancho": 280
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "York",
+      "texto": "NEW YORK",
+      "x": 960,
+      "y": 200,
+      "tam": 90
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "encuadre": false,
+    "guia": false,
+    "mapa": "ohd-europa",
+    "en": "In the 1667",
+    "cam": {
+     "lon": 2.3,
+     "lat": 52.0,
+     "grados": 30
+    },
+    "hasta": {
+     "lon": 2.3,
+     "lat": 52.1,
+     "grados": 29
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "inglaterra",
+      "color": "rojo",
+      "cara": "feliz",
+      "cara_en": "Manhattan",
+      "cara_lugar": [
+       -0.8,
+       52.4
+      ]
+     },
+     {
+      "en": 0,
+      "id": "paisesbajos",
+      "color": "naranja",
+      "cara": "feliz",
+      "cara_en": "Dutch kept",
+      "cara_lugar": [
+       5.5,
+       52.3
+      ]
+     }
+    ],
+    "iconos": [
+     {
+      "en": "treaty",
+      "lon": 2.4,
+      "lat": 53.4,
+      "cosa": "pergamino",
+      "tam": 0.9
+     },
+     {
+      "en": "kept Run",
+      "lon": 5.6,
+      "lat": 50.9,
+      "cosa": "especias",
+      "tam": 0.9
+     },
+     {
+      "en": "Manhattan",
+      "lon": -1.3,
+      "lat": 50.1,
+      "cosa": "isla",
+      "tam": 0.8
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "1667",
+      "texto": "1667",
+      "x": 960,
+      "y": 840,
+      "tam": 90
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "Later",
+    "decorado": "selva",
+    "actores": [
+     {
+      "q": "planter",
+      "traje": "colono",
+      "x": 840,
+      "mira": 1,
+      "colores": {
+       "color": "#b8352a"
+      },
+      "acciones": [
+       {
+        "en": "planted",
+        "hace": "agacha"
+       },
+       {
+        "en": "elsewhere",
+        "hace": "levanta"
+       },
+       {
+        "en": "today",
+        "hace": "celebra"
+       }
+      ]
+     },
+     {
+      "q": "dut",
+      "traje": "mercader",
+      "x": 1080,
+      "mira": -1,
+      "colores": {
+       "color": "#e07a1f"
+      },
+      "acciones": [
+       {
+        "en": "elsewhere",
+        "hace": "susto"
+       },
+       {
+        "en": "crazy",
+        "hace": "triste"
+       }
+      ]
+     }
+    ],
+    "cosas": [
+     {
+      "en": "nutmeg",
+      "cosa": "especias",
+      "x": 960,
+      "y": 960,
+      "salta": -60
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "elsewhere",
+      "a": "dut",
+      "texto": "It grows THERE too?!",
+      "ancho": 280
+     },
+     {
+      "en": "today",
+      "a": "planter",
+      "texto": "Nutmeg for everyone!",
+      "ancho": 280
+     }
+    ]
+   }
+  ]
+ },
+ "sources": [
+  "https://en.wikipedia.org/wiki/Treaty_of_Breda_(1667)",
+  "https://www.britannica.com/print/article/78668",
+  "https://en.wikipedia.org/wiki/Run_(island)",
+  "https://www.nbcnews.com/news/world/why-banda-islands-were-once-more-valuable-manhattan-n787006",
+  "https://history.howstuffworks.com/history-vs-myth/nutmeg-new-netherland.htm",
+  "https://atlasobscura.com/articles/island-traded-for-manhattan",
+  "https://kingscollections.org/exhibitions/specialcollections/fruits-of-the-earth-plants-in-the-service-of-mankind/sugar-and-spice/the-colourful-history-of-nutmeg",
+  "https://upfront.scholastic.com/issues/2024-25/120924/a-tale-of-two-islands.html"
+ ],
+ "translation_es": "Los holandeses cambiaron Manhattan por una isla de nuez moscada. En el siglo XVII, la nuez moscada solo crecía en las islas Banda, en Indonesia. Europa pagaba fortunas por ella, y algunos creían que combatía la peste. Inglaterra y los holandeses se pelearon por una de esas islas: Run, de unas 2 millas de largo (unos 3 km). Mientras tanto, Inglaterra tomó Nueva Ámsterdam y le cambió el nombre a Nueva York. En el tratado de paz de 1667, los holandeses se quedaron con Run e Inglaterra se quedó con Manhattan. Más tarde, Gran Bretaña plantó nuez moscada en otros lugares, así que hoy suena increíble que… los holandeses cambiaran Manhattan por una isla de nuez moscada.",
+ "youtube": {
+  "title": "The Dutch traded Manhattan for a nutmeg island",
+  "description": "In the 1667 Treaty of Breda, the Dutch kept Run, a tiny nutmeg island in Indonesia, while England kept Manhattan, which it had seized and renamed New York.\n\nSources: Wikipedia, Britannica, NBC News\nMusic: \"Procession of the King\" by Kevin MacLeod (incompetech.com), CC BY 4.0\n#history #shorts #newyork",
+  "tags": [
+   "history",
+   "manhattan",
+   "new york",
+   "nutmeg",
+   "run island",
+   "banda islands",
+   "treaty of breda",
+   "new amsterdam",
+   "dutch history",
+   "animated history",
+   "true story"
+  ],
+  "category": "EDUCATION"
+ }
+}

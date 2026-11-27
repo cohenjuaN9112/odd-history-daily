@@ -1,0 +1,639 @@
+{
+ "format": "animado",
+ "voice": "en-US-ChristopherNeural",
+ "rate": "+8%",
+ "gap": 0.2,
+ "lines": [
+  "The word jumbo comes from a real elephant.",
+  "Jumbo was the London Zoo's star, giving children rides on his back.",
+  "In 1882, P.T. Barnum bought him for $10,000.",
+  "Britain was furious, and even Queen Victoria objected.",
+  "Barnum shipped him to New York anyway and made his money back within three weeks.",
+  "In 1884, Jumbo and 20 other elephants crossed the Brooklyn Bridge to prove it was safe.",
+  "So next time you order anything extra large, remember..."
+ ],
+ "hook": [
+  "MEET THE",
+  "*REAL JUMBO"
+ ],
+ "comment": "Should Barnum have sent Jumbo back to London?",
+ "badge_line": 3,
+ "cap_y": 500,
+ "badge_y": 385,
+ "hook_y": 250,
+ "sin_lagos": true,
+ "mapas": [
+  [
+   "--nombre",
+   "ohd-england",
+   "--zona",
+   "-8",
+   "55",
+   "6.5",
+   "49",
+   "--grados-min",
+   "5.3",
+   "--regiones",
+   "GBR:England=inglaterra"
+  ],
+  [
+   "--nombre",
+   "ohd-nyc-wide",
+   "--zona",
+   "-85",
+   "47",
+   "-60",
+   "35",
+   "--grados-min",
+   "7.2",
+   "--paises",
+   "USA=eeuu"
+  ],
+  [
+   "--nombre",
+   "ohd-nyc-close",
+   "--zona",
+   "-77",
+   "42.3",
+   "-70.5",
+   "38.8",
+   "--grados-min",
+   "2.3",
+   "--regiones",
+   "USA:New York=nuevayork"
+  ]
+ ],
+ "plan": {
+  "cola": 1.2,
+  "musica": [
+   {
+    "desde": 0,
+    "pista": "gracia--sneaky-snitch.mp3",
+    "volumen": 3
+   }
+  ],
+  "planos": [
+   {
+    "tipo": "mapa",
+    "encuadre": false,
+    "guia": false,
+    "mapa": "ohd-england",
+    "en": 0,
+    "cam": {
+     "lon": -0.9,
+     "lat": 52.0,
+     "grados": 12
+    },
+    "hasta": {
+     "lon": -0.5,
+     "lat": 51.8,
+     "grados": 9.5
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "inglaterra",
+      "color": "rojo",
+      "cara": "feliz",
+      "cara_en": 0.3,
+      "cara_lugar": [
+       -1.2,
+       52.15
+      ]
+     }
+    ],
+    "pins": [
+     {
+      "en": 0,
+      "lon": -0.155,
+      "lat": 51.536,
+      "nombre": "London Zoo",
+      "aro": true,
+      "izquierda": true
+     }
+    ],
+    "iconos": [
+     {
+      "en": 0,
+      "lon": -0.3,
+      "lat": 50.95,
+      "cosa": "elefante",
+      "tam": 1.3
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "Jumbo was",
+    "decorado": "ciudad",
+    "corte": 935,
+    "actores": [
+     {
+      "q": "kid1",
+      "traje": "nino",
+      "s": 0.6,
+      "x": 720,
+      "y": 548,
+      "sentado": true,
+      "mira": 1,
+      "acciones": [
+       {
+        "en": "star",
+        "hace": "saluda"
+       },
+       {
+        "en": "rides",
+        "hace": "celebra"
+       }
+      ]
+     },
+     {
+      "q": "kid2",
+      "traje": "nino",
+      "s": 0.6,
+      "x": 860,
+      "y": 545,
+      "sentado": true,
+      "mira": 1,
+      "colores": {
+       "color": "#2d5ca8"
+      },
+      "acciones": [
+       {
+        "en": "children",
+        "hace": "celebra"
+       },
+       {
+        "en": "back",
+        "hace": "rie"
+       }
+      ]
+     }
+    ],
+    "cosas": [
+     {
+      "en": 0,
+      "cosa": "elefante",
+      "x": 760
+     }
+    ],
+    "bocadillos": [],
+    "rotulos": [
+     {
+      "en": "London",
+      "texto": "LONDON ZOO",
+      "x": 935,
+      "y": 200,
+      "tam": 70
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "In 1882",
+    "decorado": "despacho",
+    "actores": [
+     {
+      "q": "barnum",
+      "traje": "banquero",
+      "x": 840,
+      "mira": 1,
+      "lleva": "billete",
+      "acciones": [
+       {
+        "en": "Barnum",
+        "hace": "orgulloso"
+       },
+       {
+        "en": "bought",
+        "hace": "celebra"
+       }
+      ]
+     },
+     {
+      "q": "zooman",
+      "traje": "civil",
+      "x": 1080,
+      "mira": -1,
+      "acciones": [
+       {
+        "en": "bought",
+        "hace": "susto"
+       },
+       {
+        "en": "for",
+        "hace": "asiente"
+       }
+      ]
+     }
+    ],
+    "cosas": [
+     {
+      "en": "for",
+      "cosa": "monton_monedas",
+      "x": 960,
+      "y": 940,
+      "salta": -60
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "for",
+      "a": "zooman",
+      "texto": "We'll need a bigger crate.",
+      "ancho": 290
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "bought",
+      "texto": "$10,000",
+      "x": 960,
+      "y": 200,
+      "tam": 90
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "encuadre": false,
+    "guia": false,
+    "mapa": "ohd-england",
+    "en": "Britain",
+    "cam": {
+     "lon": -1.0,
+     "lat": 52.2,
+     "grados": 11
+    },
+    "hasta": {
+     "lon": -0.8,
+     "lat": 52.1,
+     "grados": 10
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "inglaterra",
+      "color": "rojo",
+      "cara": "enfado",
+      "cara_en": 0,
+      "cara_lugar": [
+       -1.2,
+       52.3
+      ]
+     }
+    ],
+    "pins": [
+     {
+      "en": 0,
+      "lon": -0.155,
+      "lat": 51.536,
+      "nombre": "London Zoo",
+      "aro": true,
+      "izquierda": true
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "even Queen",
+    "decorado": "sala_trono",
+    "actores": [
+     {
+      "q": "queen",
+      "traje": "reina_victoria",
+      "x": 840,
+      "mira": 1,
+      "acciones": [
+       {
+        "en": "Victoria",
+        "hace": "enfada"
+       },
+       {
+        "en": "objected",
+        "hace": "niega"
+       }
+      ]
+     },
+     {
+      "q": "courtier",
+      "traje": "noble",
+      "x": 1080,
+      "mira": -1,
+      "lleva": "pergamino",
+      "acciones": [
+       {
+        "en": "Queen",
+        "hace": "susto"
+       },
+       {
+        "en": "objected",
+        "hace": "encoge"
+       }
+      ]
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "Victoria",
+      "a": "courtier",
+      "texto": "Should we buy him back?",
+      "ancho": 280
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "encuadre": false,
+    "guia": false,
+    "mapa": "ohd-nyc-wide",
+    "en": "Barnum shipped",
+    "cam": {
+     "lon": -73.0,
+     "lat": 40.9,
+     "grados": 16
+    },
+    "hasta": {
+     "lon": -73.6,
+     "lat": 40.8,
+     "grados": 13
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "eeuu",
+      "color": "verde",
+      "cara": "feliz",
+      "cara_en": "York",
+      "cara_lugar": [
+       -74.9,
+       41.5
+      ]
+     }
+    ],
+    "barcos": [
+     {
+      "en": 0,
+      "de": [
+       -69.6,
+       40.15
+      ],
+      "a": [
+       -73.85,
+       40.45
+      ],
+      "d": 1.3,
+      "color": "#3a3a3a",
+      "vela": "#f4efe3"
+     }
+    ],
+    "pins": [
+     {
+      "en": 0,
+      "lon": -74.0,
+      "lat": 40.71,
+      "nombre": "New York",
+      "aro": true
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "and made",
+    "decorado": "calle",
+    "multitud": {
+     "n": 12,
+     "x0": 600,
+     "x1": 1320
+    },
+    "actores": [
+     {
+      "q": "barnum",
+      "traje": "banquero",
+      "x": 840,
+      "mira": 1,
+      "acciones": [
+       {
+        "en": "money",
+        "hace": "celebra"
+       },
+       {
+        "en": "weeks",
+        "hace": "orgulloso"
+       }
+      ]
+     },
+     {
+      "q": "fan",
+      "traje": "civil",
+      "x": 1080,
+      "mira": -1,
+      "acciones": [
+       {
+        "en": "made",
+        "hace": "senala",
+        "lado": -1
+       },
+       {
+        "en": "three",
+        "hace": "celebra"
+       }
+      ]
+     }
+    ],
+    "cosas": [
+     {
+      "en": "money",
+      "cosa": "monton_monedas",
+      "x": 960,
+      "y": 940,
+      "salta": -60
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "made",
+      "a": "fan",
+      "texto": "Where's the ELEPHANT?!",
+      "ancho": 270
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "three",
+      "texto": "3 WEEKS",
+      "x": 960,
+      "y": 200,
+      "tam": 90
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "encuadre": false,
+    "guia": false,
+    "mapa": "ohd-nyc-close",
+    "en": "In 1884",
+    "cam": {
+     "lon": -73.65,
+     "lat": 40.55,
+     "grados": 5
+    },
+    "hasta": {
+     "lon": -73.65,
+     "lat": 40.55,
+     "grados": 4.2
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "nuevayork",
+      "color": "naranja",
+      "cara": "feliz",
+      "cara_en": "safe",
+      "cara_lugar": [
+       -73.2,
+       40.82
+      ]
+     }
+    ],
+    "pins": [
+     {
+      "en": "Brooklyn",
+      "lon": -73.9969,
+      "lat": 40.7061,
+      "nombre": "Brooklyn Bridge",
+      "aro": true
+     }
+    ],
+    "iconos": [
+     {
+      "en": "Jumbo",
+      "lon": -74.12,
+      "lat": 40.38,
+      "cosa": "elefante",
+      "tam": 0.75
+     },
+     {
+      "en": "20",
+      "lon": -73.88,
+      "lat": 40.38,
+      "cosa": "elefante",
+      "tam": 0.75
+     },
+     {
+      "en": "other",
+      "lon": -73.64,
+      "lat": 40.38,
+      "cosa": "elefante",
+      "tam": 0.75
+     },
+     {
+      "en": "elephants",
+      "lon": -73.4,
+      "lat": 40.38,
+      "cosa": "elefante",
+      "tam": 0.75
+     }
+    ],
+    "rotulos": [
+     {
+      "en": 0,
+      "texto": "1884",
+      "x": 960,
+      "y": 770,
+      "tam": 80
+     },
+     {
+      "en": "elephants",
+      "texto": "21 ELEPHANTS",
+      "x": 960,
+      "y": 880,
+      "tam": 68
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "So next",
+    "decorado": "interior",
+    "actores": [
+     {
+      "q": "customer",
+      "traje": "civil",
+      "x": 840,
+      "mira": 1,
+      "acciones": [
+       {
+        "en": "order",
+        "hace": "senala",
+        "lado": 1
+       },
+       {
+        "en": "large",
+        "hace": "celebra"
+       }
+      ]
+     },
+     {
+      "q": "clerk",
+      "traje": "civil_mujer",
+      "x": 1080,
+      "mira": -1,
+      "acciones": [
+       {
+        "en": "anything",
+        "hace": "piensa"
+       },
+       {
+        "en": "remember",
+        "hace": "asiente"
+       }
+      ]
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "order",
+      "a": "customer",
+      "texto": "Make it JUMBO!",
+      "ancho": 250
+     }
+    ]
+   }
+  ]
+ },
+ "sources": [
+  "https://en.wikipedia.org/wiki/Jumbo",
+  "https://londonmuseum.org.uk/collections/london-stories/jumbo-the-elephant",
+  "https://news.tufts.edu/magazine/spring2002/jumbo.html",
+  "https://circusinamerica.iath.virginia.edu/public/people/public_show/5003",
+  "https://lindahall.org/about/news/scientist-of-the-day/jumbo",
+  "https://www.merriam-webster.com/dictionary/jumbo",
+  "https://www.npr.org/2006/04/20/5294962/jumbos-big-adventure-popularizes-a-new-word"
+ ],
+ "translation_es": "La palabra «jumbo» viene de un elefante de verdad. Jumbo era la estrella del Zoológico de Londres y paseaba a los chicos sobre el lomo. En 1882, P.T. Barnum lo compró por 10.000 dólares. Gran Bretaña se puso furiosa, y hasta la reina Victoria se opuso. Barnum igual lo mandó en barco a Nueva York y recuperó la plata en tres semanas. En 1884, Jumbo y otros 20 elefantes cruzaron el puente de Brooklyn para demostrar que era seguro. Así que la próxima vez que pidas algo extra grande, acordate de que… la palabra «jumbo» viene de un elefante de verdad.",
+ "youtube": {
+  "title": "The word 'jumbo' comes from a real elephant",
+  "description": "In 1882, P.T. Barnum bought Jumbo, the London Zoo's star elephant, for $10,000, despite outrage across Britain. His name became the word for anything huge.\n\nSources: Wikipedia, London Museum, Tufts University\nMusic: \"Sneaky Snitch\" by Kevin MacLeod (incompetech.com), CC BY 4.0\n#history #shorts #elephant",
+  "tags": [
+   "history",
+   "jumbo",
+   "jumbo the elephant",
+   "p.t. barnum",
+   "london zoo",
+   "queen victoria",
+   "brooklyn bridge",
+   "circus history",
+   "word origins",
+   "animated history",
+   "true story"
+  ],
+  "category": "EDUCATION"
+ }
+}
