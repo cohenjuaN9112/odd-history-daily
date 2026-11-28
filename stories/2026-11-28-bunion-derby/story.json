@@ -1,0 +1,663 @@
+{
+ "format": "animado",
+ "voice": "en-US-ChristopherNeural",
+ "rate": "+8%",
+ "gap": 0.2,
+ "lines": [
+  "199 runners raced on foot across America.",
+  "In 1928, they set off from Los Angeles for New York.",
+  "It was a stunt to promote the brand-new Route 66.",
+  "That's about 3,400 miles in 84 days.",
+  "Newspapers called it the Bunion Derby, and only 55 finished.",
+  "The winner was Andy Payne, a Cherokee farm kid from Oklahoma.",
+  "His $25,000 prize paid off his family's farm.",
+  "But the promoter still lost money, after..."
+ ],
+ "hook": [
+  "L.A. TO NYC",
+  "*ON FOOT"
+ ],
+ "comment": "Would you run 3,400 miles for $25,000?",
+ "badge_line": 2,
+ "cap_y": 500,
+ "badge_y": 385,
+ "hook_y": 250,
+ "sin_lagos": true,
+ "sources": [
+  "https://en.wikipedia.org/wiki/Trans-American_Footrace",
+  "https://www.history.com/articles/1928-bunion-derby",
+  "https://www.okhistory.org/publications/enc/entry?entry=BU006",
+  "https://en.wikipedia.org/wiki/Andy_Payne",
+  "https://claremoremoh.org/andy-payne/",
+  "https://historymuseumonthesquare.org/andy-payne-winner-of-the-transcontinental-footrace/",
+  "https://www.ebsco.com/research-starters/sports-and-leisure/bunion-derby",
+  "https://en.wikipedia.org/wiki/C._C._Pyle",
+  "https://live-legacy-admin.nypl.org/blog/2010/04/02/bunion-derby-first-leg"
+ ],
+ "translation_es": "199 corredores cruzaron Estados Unidos a pie. En 1928 salieron de Los Ángeles rumbo a Nueva York. Era un truco publicitario para promocionar la flamante Ruta 66. Son unas 3.400 millas (unos 5.500 km) en 84 días. Los diarios la llamaron el «Bunion Derby» (la carrera de los juanetes), y solo terminaron 55. El ganador fue Andy Payne, un muchacho cherokee de campo, de Oklahoma. Su premio de 25.000 dólares terminó de pagar la granja de su familia. Pero el organizador igual perdió plata, después de que… 199 corredores cruzaron Estados Unidos a pie.",
+ "plan": {
+  "cola": 1.2,
+  "musica": [
+   {
+    "desde": 0,
+    "pista": "industrial--americana.mp3",
+    "volumen": 3
+   }
+  ],
+  "planos": [
+   {
+    "tipo": "mapa",
+    "mapa": "ohd-usa",
+    "encuadre": false,
+    "guia": false,
+    "en": 0,
+    "cam": {
+     "lon": -118.0,
+     "lat": 35.3,
+     "grados": 16
+    },
+    "hasta": {
+     "lon": -117.8,
+     "lat": 35.2,
+     "grados": 14
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "california",
+      "color": "naranja",
+      "cara": "susto",
+      "cara_en": 0.3,
+      "cara_lugar": [
+       -119.0,
+       35.6
+      ]
+     }
+    ],
+    "pins": [
+     {
+      "en": 0,
+      "lon": -118.24,
+      "lat": 34.05,
+      "nombre": "Los Angeles",
+      "aro": true
+     }
+    ],
+    "flechas": [
+     {
+      "en": "raced",
+      "de": [
+       -117.9,
+       34.0
+      ],
+      "a": [
+       -115.3,
+       35.3
+      ],
+      "color": "amarillo",
+      "curva": 0.15
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "runners",
+      "texto": "199 RUNNERS",
+      "x": 960,
+      "y": 900,
+      "tam": 76
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "In 1928",
+    "decorado": "calle",
+    "multitud": {
+     "n": 12,
+     "x0": 600,
+     "x1": 1320
+    },
+    "actores": [
+     {
+      "q": "r1",
+      "traje": "obrero",
+      "colores": {
+       "color": "#f4f1ea",
+       "ribete": "#c9c2b0",
+       "sombrero": null
+      },
+      "x": 840,
+      "mira": 1,
+      "acciones": [
+       {
+        "en": "set",
+        "hace": "celebra"
+       },
+       {
+        "en": "Angeles",
+        "hace": "senala",
+        "lado": 1
+       }
+      ]
+     },
+     {
+      "q": "r2",
+      "traje": "obrero",
+      "colores": {
+       "color": "#e8c33a",
+       "ribete": "#b8952a",
+       "sombrero": null
+      },
+      "x": 1080,
+      "mira": -1,
+      "acciones": [
+       {
+        "en": "off",
+        "hace": "piensa"
+       },
+       {
+        "en": "York",
+        "hace": "susto"
+       }
+      ]
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "New",
+      "a": "r2",
+      "texto": "Wait, on FOOT?",
+      "ancho": 250
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "1928",
+      "texto": "1928",
+      "x": 960,
+      "y": 200,
+      "tam": 90
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "mapa": "ohd-usa",
+    "encuadre": false,
+    "guia": false,
+    "en": "It was",
+    "cam": {
+     "lon": -115.5,
+     "lat": 35.4,
+     "grados": 28
+    },
+    "hasta": {
+     "lon": -90.0,
+     "lat": 40.8,
+     "grados": 28
+    },
+    "flechas": [
+     {
+      "en": 0,
+      "de": [
+       -118.24,
+       34.05
+      ],
+      "puntos": [
+       [
+        -117.0,
+        34.9
+       ],
+       [
+        -111.65,
+        35.2
+       ],
+       [
+        -106.65,
+        35.08
+       ],
+       [
+        -101.83,
+        35.22
+       ],
+       [
+        -97.5,
+        35.47
+       ],
+       [
+        -95.99,
+        36.15
+       ],
+       [
+        -93.29,
+        37.21
+       ],
+       [
+        -90.2,
+        38.63
+       ]
+      ],
+      "a": [
+       -87.63,
+       41.88
+      ],
+      "color": "amarillo"
+     }
+    ],
+    "pins": [
+     {
+      "en": 0,
+      "lon": -118.24,
+      "lat": 34.05,
+      "nombre": "Los Angeles"
+     },
+     {
+      "en": 0,
+      "lon": -106.65,
+      "lat": 35.08,
+      "nombre": "Albuquerque"
+     },
+     {
+      "en": 0,
+      "lon": -95.99,
+      "lat": 36.15,
+      "nombre": "Tulsa"
+     },
+     {
+      "en": "Route",
+      "lon": -87.63,
+      "lat": 41.88,
+      "nombre": "Chicago",
+      "aro": true,
+      "izquierda": true
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "Route",
+      "texto": "ROUTE 66",
+      "x": 960,
+      "y": 930,
+      "tam": 90
+     }
+    ],
+    "capas": [
+     {
+      "en": 0,
+      "id": "california",
+      "color": "naranja"
+     },
+     {
+      "en": 0,
+      "id": "oklahoma",
+      "color": "verde",
+      "cara": "feliz",
+      "cara_en": 0,
+      "cara_lugar": [
+       -97.6,
+       35.9
+      ]
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "about",
+    "decorado": "desierto",
+    "actores": [
+     {
+      "q": "r1",
+      "traje": "obrero",
+      "colores": {
+       "color": "#f4f1ea",
+       "ribete": "#c9c2b0",
+       "sombrero": null
+      },
+      "x": 840,
+      "mira": 1,
+      "acciones": [
+       {
+        "en": "miles",
+        "hace": "triste"
+       },
+       {
+        "en": "days",
+        "hace": "cae"
+       }
+      ]
+     },
+     {
+      "q": "r2",
+      "traje": "obrero",
+      "colores": {
+       "color": "#e8c33a",
+       "ribete": "#b8952a",
+       "sombrero": null
+      },
+      "x": 1080,
+      "mira": -1,
+      "acciones": [
+       {
+        "en": 0.3,
+        "hace": "jarras"
+       },
+       {
+        "en": "84",
+        "hace": "susto"
+       }
+      ]
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "miles",
+      "a": "r2",
+      "texto": "Are we there YET?",
+      "ancho": 260
+     }
+    ],
+    "rotulos": [
+     {
+      "en": 0,
+      "tipo": "titular",
+      "texto": "3,400 MILES",
+      "x": 960,
+      "y": 200,
+      "tam": 84
+     },
+     {
+      "en": "84",
+      "tipo": "titular",
+      "texto": "84 DAYS",
+      "x": 960,
+      "y": 200,
+      "tam": 84
+     }
+    ],
+    "antes": 0.27
+   },
+   {
+    "tipo": "mapa",
+    "mapa": "ohd-usa",
+    "encuadre": false,
+    "guia": false,
+    "en": "Newspapers",
+    "cam": {
+     "lon": -74.6,
+     "lat": 42.5,
+     "grados": 13
+    },
+    "hasta": {
+     "lon": -74.5,
+     "lat": 42.3,
+     "grados": 11.5
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "nuevayork",
+      "color": "naranja",
+      "cara": "susto",
+      "cara_en": "Bunion",
+      "cara_lugar": [
+       -75.4,
+       42.4
+      ]
+     }
+    ],
+    "pins": [
+     {
+      "en": 0,
+      "lon": -73.99,
+      "lat": 40.75,
+      "nombre": "Madison Square Garden",
+      "izquierda": true,
+      "aro": true
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "Bunion",
+      "tipo": "titular",
+      "texto": "BUNION DERBY",
+      "x": 960,
+      "y": 1000,
+      "tam": 80
+     },
+     {
+      "en": "55",
+      "tipo": "titular",
+      "texto": "55 FINISHED",
+      "x": 960,
+      "y": 1000,
+      "tam": 80
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "The winner",
+    "decorado": "calle",
+    "multitud": {
+     "n": 12,
+     "x0": 600,
+     "x1": 1320
+    },
+    "actores": [
+     {
+      "q": "payne",
+      "traje": "obrero",
+      "colores": {
+       "color": "#f4f1ea",
+       "ribete": "#c9c2b0",
+       "sombrero": null
+      },
+      "x": 840,
+      "mira": 1,
+      "acciones": [
+       {
+        "en": "winner",
+        "hace": "celebra"
+       },
+       {
+        "en": "Oklahoma",
+        "hace": "saluda"
+       }
+      ]
+     },
+     {
+      "q": "fan",
+      "traje": "civil_mujer",
+      "x": 1080,
+      "mira": -1,
+      "acciones": [
+       {
+        "en": "Andy",
+        "hace": "celebra"
+       },
+       {
+        "en": "kid",
+        "hace": "rie"
+       }
+      ]
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "Cherokee",
+      "a": "fan",
+      "texto": "He's not even TIRED?!",
+      "ancho": 270
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "Andy",
+      "texto": "ANDY PAYNE",
+      "x": 960,
+      "y": 200,
+      "tam": 84
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "mapa": "ohd-usa",
+    "encuadre": false,
+    "guia": false,
+    "en": "His",
+    "cam": {
+     "lon": -97.0,
+     "lat": 36.0,
+     "grados": 15
+    },
+    "hasta": {
+     "lon": -96.7,
+     "lat": 36.0,
+     "grados": 13
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "oklahoma",
+      "color": "verde",
+      "cara": "feliz",
+      "cara_en": "paid",
+      "cara_lugar": [
+       -97.4,
+       35.6
+      ]
+     }
+    ],
+    "pins": [
+     {
+      "en": 0,
+      "lon": -95.52,
+      "lat": 36.43,
+      "nombre": "Foyil",
+      "aro": true
+     }
+    ],
+    "iconos": [
+     {
+      "en": "prize",
+      "lon": -95.9,
+      "lat": 34.6,
+      "cosa": "monton_monedas",
+      "tam": 1.1
+     },
+     {
+      "en": "farm",
+      "lon": -98.1,
+      "lat": 34.6,
+      "cosa": "vaca",
+      "tam": 1.0
+     },
+     {
+      "en": "farm",
+      "lon": -97.3,
+      "lat": 34.2,
+      "cosa": "trigo",
+      "tam": 0.9
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "prize",
+      "texto": "$25,000",
+      "x": 960,
+      "y": 980,
+      "tam": 90
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "But the",
+    "decorado": "interior",
+    "actores": [
+     {
+      "q": "promoter",
+      "traje": "banquero",
+      "x": 840,
+      "mira": 1,
+      "acciones": [
+       {
+        "en": "promoter",
+        "hace": "orgulloso"
+       },
+       {
+        "en": "lost",
+        "hace": "susto"
+       },
+       {
+        "en": "after",
+        "hace": "triste"
+       }
+      ]
+     },
+     {
+      "q": "clerk",
+      "traje": "civil",
+      "x": 1080,
+      "mira": -1,
+      "lleva": "pergamino",
+      "acciones": [
+       {
+        "en": "still",
+        "hace": "senala",
+        "lado": -1
+       }
+      ]
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "still",
+      "a": "clerk",
+      "texto": "Sir... the BILL.",
+      "ancho": 250
+     }
+    ]
+   }
+  ]
+ },
+ "mapas": [
+  [
+   "--nombre",
+   "ohd-usa",
+   "--zona",
+   "-134",
+   "52",
+   "-60",
+   "22",
+   "--grados-min",
+   "6.5",
+   "--regiones",
+   "USA:California=california,New York=nuevayork,Oklahoma=oklahoma"
+  ]
+ ],
+ "youtube": {
+  "title": "199 runners raced on foot across America",
+  "description": "In 1928, 199 runners set off from Los Angeles for New York in a race promoting the new Route 66. Only 55 finished, and Cherokee runner Andy Payne won $25,000.\n\nSources: History.com, Oklahoma Historical Society, Wikipedia\nMusic: \"Americana\" by Kevin MacLeod (incompetech.com), CC BY 4.0\n#history #shorts #route66",
+  "tags": [
+   "history",
+   "bunion derby",
+   "route 66",
+   "andy payne",
+   "footrace",
+   "running",
+   "ultramarathon",
+   "oklahoma",
+   "cherokee",
+   "1928",
+   "animated history",
+   "true story"
+  ],
+  "category": "EDUCATION"
+ }
+}

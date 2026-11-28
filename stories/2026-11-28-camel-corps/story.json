@@ -1,0 +1,628 @@
+{
+ "format": "animado",
+ "voice": "en-US-ChristopherNeural",
+ "rate": "+8%",
+ "gap": 0.2,
+ "lines": [
+  "The U.S. Army once bought camels for Texas.",
+  "In 1855, Congress gave War Secretary Jefferson Davis $30,000 to try it.",
+  "A Navy ship sailed to Egypt and Turkey to buy them.",
+  "33 camels sailed, and 34 landed, because calves were born on board.",
+  "In 1857, they hauled loads from Texas to California.",
+  "Each could carry twice what a mule could.",
+  "Then the Civil War ended the experiment.",
+  "Some camels were set loose and roamed the desert for decades, because..."
+ ],
+ "hook": [
+  "U.S. ARMY",
+  "*CAMELS"
+ ],
+ "comment": "Camel or mule: which would you take on a desert trip?",
+ "badge_line": 2,
+ "cap_y": 500,
+ "badge_y": 385,
+ "hook_y": 250,
+ "sin_lagos": true,
+ "sources": [
+  "https://en.wikipedia.org/wiki/United_States_Camel_Corps",
+  "https://www.britannica.com/print/article/2244037",
+  "https://www.army.mil/article/19778",
+  "https://historynet.com/soldiers-hump-the-southwest-with-camels/",
+  "https://www.usni.org/magazines/naval-history-magazine/2019/february/camel-carrying-supply-ship",
+  "https://www.historytoday.com/archive/history-matters/rise-and-fall-us-army-camel-corps",
+  "https://texashighways.com/culture/history/the-great-camel-experiment-texas-camel-corps/"
+ ],
+ "translation_es": "El Ejército de Estados Unidos una vez compró camellos para Texas. En 1855, el Congreso le dio al secretario de Guerra Jefferson Davis 30.000 dólares para probarlo. Un barco de la Marina navegó a Egipto y Turquía a comprarlos. Zarparon 33 camellos y desembarcaron 34, porque nacieron crías a bordo. En 1857 llevaron cargas desde Texas hasta California. Cada uno podía cargar el doble que una mula. Después, la Guerra Civil terminó con el experimento. Algunos camellos quedaron sueltos y anduvieron por el desierto durante décadas, porque… el Ejército de Estados Unidos una vez compró camellos para Texas.",
+ "plan": {
+  "cola": 1.2,
+  "musica": [
+   {
+    "desde": 0,
+    "pista": "gracia--sneaky-snitch.mp3",
+    "volumen": 3
+   }
+  ],
+  "planos": [
+   {
+    "tipo": "mapa",
+    "mapa": "ohd-sw",
+    "encuadre": false,
+    "guia": false,
+    "en": 0,
+    "cam": {
+     "lon": -99.3,
+     "lat": 30.4,
+     "grados": 22
+    },
+    "hasta": {
+     "lon": -99.2,
+     "lat": 30.6,
+     "grados": 19
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "texas",
+      "color": "naranja",
+      "cara": "susto",
+      "cara_en": 0.3,
+      "cara_lugar": [
+       -99.6,
+       31.0
+      ]
+     }
+    ],
+    "iconos": [
+     {
+      "en": 0,
+      "lon": -98.4,
+      "lat": 28.9,
+      "cosa": "camello",
+      "tam": 1.2
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "In 1855",
+    "decorado": "interior",
+    "actores": [
+     {
+      "q": "davis",
+      "traje": "ministro",
+      "x": 840,
+      "mira": 1,
+      "acciones": [
+       {
+        "en": "Jefferson",
+        "hace": "orgulloso"
+       },
+       {
+        "en": "try",
+        "hace": "senala",
+        "lado": 1
+       }
+      ]
+     },
+     {
+      "q": "congress",
+      "traje": "politico",
+      "x": 1080,
+      "mira": -1,
+      "acciones": [
+       {
+        "en": "gave",
+        "hace": "piensa"
+       },
+       {
+        "en": "try",
+        "hace": "susto"
+       }
+      ],
+      "colores": {
+       "color": "#6b4f37"
+      }
+     }
+    ],
+    "cosas": [
+     {
+      "en": "Davis",
+      "cosa": "monton_monedas",
+      "x": 960,
+      "y": 940,
+      "salta": -60
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "try",
+      "a": "congress",
+      "texto": "Wait... CAMELS?",
+      "ancho": 270
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "Davis",
+      "texto": "$30,000",
+      "x": 960,
+      "y": 200,
+      "tam": 90
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "mapa": "ohd-med",
+    "encuadre": false,
+    "guia": false,
+    "en": "A Navy",
+    "cam": {
+     "lon": 30.0,
+     "lat": 36.6,
+     "grados": 40
+    },
+    "hasta": {
+     "lon": 29.6,
+     "lat": 36.4,
+     "grados": 37
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "egipto",
+      "color": "naranja",
+      "cara": "feliz",
+      "cara_en": "Egypt",
+      "cara_lugar": [
+       30.9,
+       29.4
+      ]
+     },
+     {
+      "en": 0,
+      "id": "turquia",
+      "color": "rojo",
+      "cara": "feliz",
+      "cara_en": "Turkey",
+      "cara_lugar": [
+       33.0,
+       38.7
+      ]
+     }
+    ],
+    "barcos": [
+     {
+      "en": 0,
+      "de": [
+       22.5,
+       33.2
+      ],
+      "a": [
+       29.7,
+       31.6
+      ],
+      "d": 1.3,
+      "color": "#3a3a3a",
+      "vela": "#f4efe3"
+     },
+     {
+      "en": "Turkey",
+      "de": [
+       29.7,
+       31.9
+      ],
+      "a": [
+       26.9,
+       38.2
+      ],
+      "d": 1.4,
+      "color": "#3a3a3a",
+      "vela": "#f4efe3",
+      "curva": 0.2
+     }
+    ],
+    "pins": [
+     {
+      "en": "Egypt",
+      "lon": 29.92,
+      "lat": 31.2,
+      "nombre": "Alexandria"
+     },
+     {
+      "en": "Turkey",
+      "lon": 27.14,
+      "lat": 38.42,
+      "nombre": "Smyrna",
+      "izquierda": true
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "33",
+    "decorado": "puerto",
+    "actores": [
+     {
+      "q": "sarge",
+      "traje": "casaca_roja_xix",
+      "colores": {
+       "color": "#2c4a8a",
+       "sombreroColor": "#2c4a8a"
+      },
+      "x": 1140,
+      "mira": -1,
+      "lleva": "pergamino",
+      "acciones": [
+       {
+        "en": "camels",
+        "hace": "asiente"
+       },
+       {
+        "en": "34",
+        "hace": "susto"
+       },
+       {
+        "en": "born",
+        "hace": "rie"
+       }
+      ]
+     }
+    ],
+    "cosas": [
+     {
+      "en": 0,
+      "cosa": "camello",
+      "x": 830
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "landed",
+      "a": "sarge",
+      "texto": "Who ordered EXTRA?",
+      "ancho": 240
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "33",
+      "tipo": "titular",
+      "texto": "33 SAILED",
+      "x": 960,
+      "y": 200,
+      "tam": 84
+     },
+     {
+      "en": "34",
+      "tipo": "titular",
+      "texto": "34 LANDED",
+      "x": 960,
+      "y": 200,
+      "tam": 84
+     }
+    ],
+    "corte": 975
+   },
+   {
+    "tipo": "mapa",
+    "mapa": "ohd-sw",
+    "encuadre": false,
+    "guia": false,
+    "en": "In 1857",
+    "cam": {
+     "lon": -99.5,
+     "lat": 31.6,
+     "grados": 26
+    },
+    "hasta": {
+     "lon": -117.0,
+     "lat": 34.6,
+     "grados": 26
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "texas",
+      "color": "naranja",
+      "cara": "feliz",
+      "cara_en": 0.2,
+      "cara_lugar": [
+       -99.6,
+       31.2
+      ]
+     },
+     {
+      "en": 0,
+      "id": "california",
+      "color": "amarillo",
+      "cara": "susto",
+      "cara_en": "California",
+      "cara_lugar": [
+       -119.2,
+       36.4
+      ]
+     }
+    ],
+    "flechas": [
+     {
+      "en": "hauled",
+      "de": [
+       -98.5,
+       29.4
+      ],
+      "puntos": [
+       [
+        -106.4,
+        31.8
+       ],
+       [
+        -106.6,
+        35.1
+       ],
+       [
+        -109.1,
+        35.7
+       ],
+       [
+        -114.6,
+        34.85
+       ]
+      ],
+      "a": [
+       -118.6,
+       34.9
+      ],
+      "color": "amarillo"
+     }
+    ],
+    "iconos": [
+     {
+      "en": 0,
+      "lon": -98.2,
+      "lat": 30.3,
+      "cosa": "camello",
+      "tam": 1.0
+     },
+     {
+      "en": "California",
+      "lon": -116.4,
+      "lat": 35.4,
+      "cosa": "camello",
+      "tam": 1.0
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "1857",
+      "texto": "1857",
+      "x": 960,
+      "y": 960,
+      "tam": 84
+     }
+    ]
+   },
+   {
+    "tipo": "escena",
+    "camara": "general",
+    "en": "Each could",
+    "decorado": "desierto",
+    "actores": [
+     {
+      "q": "soldier",
+      "traje": "casaca_roja_xix",
+      "colores": {
+       "color": "#2c4a8a",
+       "sombreroColor": "#2c4a8a"
+      },
+      "x": 1150,
+      "mira": -1,
+      "acciones": [
+       {
+        "en": "carry",
+        "hace": "senala",
+        "lado": -1
+       },
+       {
+        "en": "mule",
+        "hace": "rie"
+       }
+      ]
+     }
+    ],
+    "cosas": [
+     {
+      "en": 0,
+      "cosa": "camello",
+      "x": 760
+     }
+    ],
+    "bocadillos": [
+     {
+      "en": "twice",
+      "a": "soldier",
+      "texto": "Mules, you're FIRED.",
+      "ancho": 240
+     }
+    ],
+    "corte": 985,
+    "rotulos": [
+     {
+      "en": "twice",
+      "texto": "2X A MULE",
+      "x": 960,
+      "y": 200,
+      "tam": 84
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "mapa": "ohd-sw",
+    "encuadre": false,
+    "guia": false,
+    "en": "Then the",
+    "cam": {
+     "lon": -99.3,
+     "lat": 30.4,
+     "grados": 20
+    },
+    "hasta": {
+     "lon": -99.2,
+     "lat": 30.3,
+     "grados": 17
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "texas",
+      "color": "gris",
+      "cara": "enfado",
+      "cara_en": "Civil",
+      "cara_lugar": [
+       -99.6,
+       31.0
+      ]
+     }
+    ],
+    "pins": [
+     {
+      "en": 0,
+      "lon": -99.12,
+      "lat": 29.89,
+      "nombre": "Camp Verde",
+      "aro": true
+     }
+    ],
+    "iconos": [
+     {
+      "en": "War",
+      "lon": -97.9,
+      "lat": 28.6,
+      "cosa": "canon",
+      "tam": 1.0
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "Civil",
+      "texto": "CIVIL WAR",
+      "x": 960,
+      "y": 980,
+      "tam": 80
+     }
+    ]
+   },
+   {
+    "tipo": "mapa",
+    "mapa": "ohd-sw",
+    "encuadre": false,
+    "guia": false,
+    "en": "Some camels",
+    "cam": {
+     "lon": -111.8,
+     "lat": 33.0,
+     "grados": 18
+    },
+    "hasta": {
+     "lon": -111.9,
+     "lat": 33.3,
+     "grados": 21
+    },
+    "capas": [
+     {
+      "en": 0,
+      "id": "arizona",
+      "color": "naranja",
+      "cara": "susto",
+      "cara_en": "roamed",
+      "cara_lugar": [
+       -111.7,
+       34.0
+      ]
+     }
+    ],
+    "iconos": [
+     {
+      "en": "set",
+      "lon": -113.2,
+      "lat": 32.3,
+      "cosa": "camello",
+      "tam": 0.9
+     },
+     {
+      "en": "loose",
+      "lon": -110.4,
+      "lat": 32.0,
+      "cosa": "camello",
+      "tam": 0.9
+     },
+     {
+      "en": "desert",
+      "lon": -110.0,
+      "lat": 33.1,
+      "cosa": "camello",
+      "tam": 0.9
+     }
+    ],
+    "rotulos": [
+     {
+      "en": "decades",
+      "texto": "FOR DECADES",
+      "x": 960,
+      "y": 900,
+      "tam": 76
+     }
+    ]
+   }
+  ]
+ },
+ "mapas": [
+  [
+   "--nombre",
+   "ohd-sw",
+   "--zona",
+   "-133",
+   "46",
+   "-84",
+   "20",
+   "--grados-min",
+   "7.5",
+   "--regiones",
+   "USA:Texas=texas,California=california,Arizona=arizona"
+  ],
+  [
+   "--nombre",
+   "ohd-med",
+   "--zona",
+   "4",
+   "52",
+   "56",
+   "16",
+   "--grados-min",
+   "15",
+   "--paises",
+   "EGY=egipto,TUR=turquia"
+  ]
+ ],
+ "youtube": {
+  "title": "The U.S. Army once bought camels for Texas",
+  "description": "In 1856, a Navy ship brought 34 camels to Texas so the U.S. Army could haul supplies across the desert. The Civil War ended the experiment, and some camels were set loose.\n\nSources: Britannica, Army.mil, HistoryNet\nMusic: \"Sneaky Snitch\" by Kevin MacLeod (incompetech.com), CC BY 4.0\n#history #shorts #texas",
+  "tags": [
+   "history",
+   "camel corps",
+   "us army",
+   "camels",
+   "texas",
+   "jefferson davis",
+   "american west",
+   "wild west",
+   "civil war",
+   "animated history",
+   "true story"
+  ],
+  "category": "EDUCATION"
+ }
+}
